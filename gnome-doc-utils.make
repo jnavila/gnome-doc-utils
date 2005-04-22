@@ -32,30 +32,36 @@ DOC_H_FILE ?=
 DOC_H_DOCS ?=
 
 $(DOC_H_FILE): $(DOC_H_DOCS);
-	@rm -f $@; touch $@;
-	echo 'const gchar* documentation_credits[] = {' >> $@
+	@rm -f $@.tmp; touch $@.tmp;
+	echo 'const gchar* documentation_credits[] = {' >> $@.tmp
 	for doc in $(DOC_H_DOCS); do \
-	  xsltproc $(_credits) $$doc; \
+	  xmlpath="`echo $$doc | sed -e 's/^\(.*\/\).*\|.*/\1/'`:$(srcdir)/`echo $$doc | sed -e 's/^\(.*\/\).*\|.*/\1/'`"; \
+	  if ! test -f "$$doc"; then doc="$(srcdir)/$$doc"; fi; \
+	  xsltproc --path "$$xmlpath" $(_credits) $$doc; \
 	done | sort | uniq \
 	  | awk 'BEGIN{s=""}{n=split($$0,w,"<");if(s!=""&&s!=substr(w[1],1,length(w[1])-1)){print s};if(n>1){print $$0;s=""}else{s=$$0}};END{if(s!=""){print s}}' \
-	  | sed -e 's/\\/\\\\/' -e 's/"/\\"/' -e 's/\(.*\)/\t"\1",/' >> $@
-	echo '	NULL' >> $@
-	echo '};' >> $@
-	echo >> $@
+	  | sed -e 's/\\/\\\\/' -e 's/"/\\"/' -e 's/\(.*\)/\t"\1",/' >> $@.tmp
+	echo '	NULL' >> $@.tmp
+	echo '};' >> $@.tmp
+	echo >> $@.tmp
 	for doc in $(DOC_H_DOCS); do \
-	  docid=`echo $$doc  | sed -e 's/.*\/\([^/]*\)\.xml/\1/' \
+	  xmlpath="`echo $$doc | sed -e 's/^\(.*\/\).*\|.*/\1/'`:$(srcdir)/`echo $$doc | sed -e 's/^\(.*\/\).*\|.*/\1/'`"; \
+	  if ! test -f "$$doc"; then doc="$(srcdir)/$$doc"; fi; \
+	  docid=`echo "$$doc" | sed -e 's/.*\/\([^/]*\)\.xml/\1/' \
 	    | sed -e 's/[^a-zA-Z_]/_/g' | tr 'a-z' 'A-Z'`; \
-	  ids=`xsltproc --xinclude $(_ids) $$doc`; \
+	  echo $$xmlpath; \
+	  ids=`xsltproc --xinclude --path "$$xmlpath" $(_ids) $$doc`; \
 	  for id in $$ids; do \
 	    echo '#define HELP_'`echo $$docid`'_'`echo $$id \
-	      | sed -e 's/[^a-zA-Z_]/_/g' | tr 'a-z' 'A-Z'`' "'$$id'"' >> $@; \
+	      | sed -e 's/[^a-zA-Z_]/_/g' | tr 'a-z' 'A-Z'`' "'$$id'"' >> $@.tmp; \
 	  done; \
-	  echo >> $@; \
+	  echo >> $@.tmp; \
 	done;
+	cp $@.tmp $@ && rm -f $@.tmp
 
 .PHONY: dist-header
 dist-doc-header: $(DOC_H_FILE)
-	$(INSTALL_DATA) $(srcdir)/$(DOC_H_FILE) $(distdir)/$(DOC_H_FILE)
+	$(INSTALL_DATA) $(DOC_H_FILE) $(distdir)/$(DOC_H_FILE)
 
 doc-dist-hook: $(if $(DOC_H_FILE),dist-doc-header)
 
@@ -134,17 +140,18 @@ rngdoc_args =									\
 
 ## @ _RNGDOC_RNGS
 ## The actual RNG files for which to generate documentation with rngdoc
-_RNGDOC_RNGS = $(foreach dir,$(RNGDOC_DIRS),				\
-	$(wildcard $(dir)/*.rng))
+_RNGDOC_RNGS = $(sort $(patsubst ./%, %, $(foreach dir,$(RNGDOC_DIRS),		\
+	$(wildcard $(dir)/*.rng) $(wildcard $(srcdir)/$(dir)/*.rng))))
 
 ## @ _RNGDOC_C_DOCS
 ## The generated rngdoc documentation in the C locale
-_RNGDOC_C_DOCS = $(foreach rng,$(_RNGDOC_RNGS),				\
-	C/$(basename $(notdir $(rng))).xml)
+_RNGDOC_C_DOCS = $(foreach rng,$(_RNGDOC_RNGS), C/$(basename $(notdir $(rng))).xml)
 
 # FIXME: Fix the dependancies
 $(_RNGDOC_C_DOCS) : $(_RNGDOC_RNGS)
-	xsltproc -o $@ $(call rngdoc_args,$@,$<)
+	if ! test -d $(dir $@); then mkdir $(dir $@); fi;
+	xsltproc $(call rngdoc_args,$@,$<) | xmllint --c14n - > $@.tmp && \
+	  cp $@.tmp $@ && rm -f $@.tmp
 
 .PHONY: rngdoc
 rngdoc: $(_RNGDOC_C_DOCS)
@@ -160,17 +167,18 @@ xsldoc_args =									\
 
 ## @ _XSLDOC_XSLS
 ## The actual XSLT files for which to generate documentation with xsldoc
-_XSLDOC_XSLS = $(foreach dir,$(XSLDOC_DIRS),				\
-	$(wildcard $(dir)/*.xsl))
+_XSLDOC_XSLS = $(sort $(patsubst ./%, %, $(foreach dir,$(XSLDOC_DIRS),		\
+	$(wildcard $(dir)/*.xsl) $(wildcard $(srcdir)/$(dir)/*.xsl))))
 
 ## @ _XSLDOC_C_DOCS
 ## The generated xsldoc documentation in the C locale
-_XSLDOC_C_DOCS = $(foreach xsl,$(_XSLDOC_XSLS),				\
-	C/$(basename $(notdir $(xsl))).xml)
+_XSLDOC_C_DOCS = $(foreach xsl,$(_XSLDOC_XSLS), C/$(basename $(notdir $(xsl))).xml)
 
 # FIXME: Fix the dependancies
 $(_XSLDOC_C_DOCS) : $(_XSLDOC_XSLS)
-	xsltproc $(call xsldoc_args,$@,$<) | xmllint --c14n - > $@
+	if ! test -d $(dir $@); then mkdir $(dir $@); fi;
+	xsltproc $(call xsldoc_args,$@,$<) | xmllint --c14n - > $@.tmp && \
+	  cp $@.tmp $@ && rm -f $@.tmp
 
 .PHONY: xsldoc
 xsldoc: $(_XSLDOC_C_DOCS)
@@ -355,6 +363,12 @@ _DOC_C_FIGURES = $(if $(DOC_FIGURES),					\
 	$(foreach fig,$(DOC_FIGURES),C/$(fig)),				\
 	$(patsubst $(srcdir)/%,%,$(wildcard $(srcdir)/C/figures/*.png)))
 
+_DOC_SRC_FIGURES =							\
+	$(_DOC_C_FIGURES)						\
+	$(foreach fig,$(_DOC_C_FIGURES), $(foreach lc,$(DOC_LINGUAS),	\
+		$(wildcard $(srcdir)/$(lc)/$(patsubst C/%,%,$(fig))) ))
+
+
 ## @ _DOC_C_HTML
 ## All HTML documentation in the C locale
 # FIXME: probably have to shell escape to determine the file names
@@ -468,30 +482,53 @@ clean-rngdoc: ; rm -f $(_RNGDOC_C_DOCS) $(_RNGDOC_LC_DOCS)
 clean-xsldoc: ; rm -f $(_XSLDOC_C_DOCS) $(_XSLDOC_LC_DOCS)
 clean-omf: ; rm -f $(_DOC_OMF_DB) $(_DOC_OMF_HTML)
 clean-dsk: ; rm -f $(_DOC_DSK_DB) $(_DOC_DSK_HTML)
-clean-lc:  ; rm -f $(_DOC_LC_DOCS)
+clean-lc:
+	rm -f $(_DOC_LC_DOCS)
+	@for po in $(_DOC_POFILES); do \
+	  if ! test "$$po" -ef "$(srcdir)/$$po"; then \
+	    echo "rm -f $$po"; \
+	    rm -f "$$po"; \
+	  fi; \
+	done
+	@for lc in C $(DOC_LINGUAS); do \
+	  if test -f "$$lc/.xml2po.mo"; then \
+	    echo "rm -f $$lc/.xml2po.mo"; \
+	    rm -f "$$lc/.xml2po.mo"; \
+	  fi; \
+	done
+clean-dir:
+	@for lc in C $(DOC_LINGUAS); do \
+	  for dir in `find $$lc -depth -type d`; do \
+	    if ! test $$dir -ef $(srcdir)/$$dir; then \
+	      echo "rmdir $$dir"; \
+	      rmdir "$$dir"; \
+	   fi; \
+	  done; \
+	done
 
 _clean_rngdoc = $(if $(RNGDOC_DIRS),clean-rngdoc)
 _clean_xsldoc = $(if $(XSLDOC_DIRS),clean-xsldoc)
 _clean_omf = $(if $(_DOC_OMF_IN),clean-omf)
 _clean_dsk = $(if $(_DOC_DSK_IN),clean-dsk)
 _clean_lc  = $(if $(DOC_LINGUAS),clean-lc)
+_clean_dir = $(if $(DOC_MODULE),clean-dir)
 
 clean:							\
 	$(_clean_rngdoc)	$(_clean_xsldoc)	\
 	$(_clean_omf)		$(_clean_dsk)		\
-	$(_clean_lc)
+	$(_clean_lc)		$(_clean_dir)
 distclean:						\
 	$(_clean_rngdoc)	$(_clean_xsldoc)	\
 	$(_clean_omf)		$(_clean_dsk)		\
-	$(_clean_lc)
+	$(_clean_lc)		$(_clean_dir)
 mostlyclean:						\
 	$(_clean_rngdoc)	$(_clean_xsldoc)	\
 	$(_clean_omf)		$(_clean_dsk)		\
-	$(_clean_lc)
+	$(_clean_lc)		$(_clean_dir)
 maintainer-clean:					\
 	$(_clean_rngdoc)	$(_clean_xsldoc)	\
 	$(_clean_omf)		$(_clean_dsk)		\
-	$(_clean_lc)
+	$(_clean_lc)		$(_clean_dir)
 
 
 .PHONY: dist-doc dist-fig dist-omf dist-dsk
@@ -512,14 +549,15 @@ dist-doc: $(_DOC_C_DOCS) $(_DOC_LC_DOCS) $(_DOC_POFILES)
 	  $(INSTALL_DATA) "$$d$$doc" "$(distdir)/$$doc"; \
 	done
 
-dist-fig: $(_DOC_C_FIGURES) $(_DOC_LC_FIGURES)
-	@for lc in C $(DOC_LINGUAS); do \
-	  echo " $(mkinstalldirs) $(distdir)/$$lc/figures"; \
-	  $(mkinstalldirs) "$(distdir)/$$lc/figures"; \
-	done;
+dist-fig: $(_DOC_SRC_FIGURES)
 	@for fig in $(_DOC_C_FIGURES) $(_DOC_LC_FIGURES); do \
 	  if test -f "$$fig"; then d=; else d="$(srcdir)/"; fi; \
-	  if test -f "$$dd$$fig"; then \
+	  if test -f "$$d$$fig"; then \
+	    figdir=`echo $$fig | sed -e 's/^\(.*\/\).*\|.*/\1/'`; \
+	    if ! test -d "$(distdir)/$$figdir"; then \
+	      echo "$(mkinstalldirs) $(distdir)/$$figdir"; \
+	      $(mkinstalldirs) "$(distdir)/$$figdir"; \
+	    fi; \
 	    echo "$(INSTALL_DATA) $$d$$fig $(distdir)/$$fig"; \
 	    $(INSTALL_DATA) "$$d$$fig" "$(distdir)/$$fig"; \
 	  fi; \
@@ -543,9 +581,15 @@ check:							\
 
 check-doc: $(_DOC_C_DOCS) $(_DOC_LC_DOCS)
 	@for lc in C $(DOC_LINGUAS); do \
-	  if test -f "$$lc"; then d=; else d="$(srcdir)/"; fi; \
-	  echo " (cd $$d$$lc && xmllint --noout --xinclude --postvalid $(DOC_MODULE).xml)"; \
-	  (cd $$d$$lc && xmllint --noout --xinclude --postvalid $(DOC_MODULE).xml); \
+	  if test -f "$$lc"; \
+	    then d=; \
+	    xmlpath="$$lc"; \
+	  else \
+	    d="$(srcdir)/"; \
+	    xmlpath="$$lc:$(srcdir)/$$lc"; \
+	  fi; \
+	  echo "xmllint --noout --path $$xmlpath --xinclude --postvalid $$d$$lc/$(DOC_MODULE).xml"; \
+	  xmllint --noout --path "$$xmlpath" --xinclude --postvalid "$$d$$lc/$(DOC_MODULE).xml"; \
 	done
 
 check-omf: $(_DOC_OMF_ALL)
@@ -575,17 +619,28 @@ install-doc:
 	done
 
 install-fig:
-	@for lc in C $(DOC_LINGUAS); do \
-	  echo " $(mkinstalldirs) $(DESTDIR)$(HELP_DIR)/$(DOC_MODULE)/$$lc/figures"; \
-	  $(mkinstalldirs) "$(DESTDIR)$(HELP_DIR)/$(DOC_MODULE)/$$lc/figures"; \
-	done;
-	@for fig in $(_DOC_C_FIGURES) $(_DOC_LC_FIGURES); do \
-	  if test -f "$$fig"; then d=; else d="$(srcdir)/"; fi; \
-	  if test -f "$$dd$$fig"; then \
-	    echo "$(INSTALL_DATA) $$d$$fig $(DESTDIR)$(HELP_DIR)/$(DOC_MODULE)/$$fig"; \
-	    $(INSTALL_DATA) "$$d$$fig $(DESTDIR)$(HELP_DIR)/$(DOC_MODULE)/$$fig"; \
-	  fi; \
-	done;
+	@for fig in $(patsubst C/%,%,$(_DOC_C_FIGURES)); do \
+	  for lc in C $(DOC_LINGUAS); do \
+	    if test -f "$$lc/$$fig"; then \
+	      figfile="$$lc/$$fig"; \
+	    elif test -f "$(srcdir)/$$lc/$$fig"; then \
+	      figfile="$(srcdir)/$$lc/$$fig"; \
+	    elif test -f "C/$$fig"; then \
+	      figfile="C/$$fig"; \
+	    else \
+	      figfile="$(srcdir)/C/$$fig"; \
+	    fi; \
+	    figdir="$$lc/"`echo $$fig | sed -e 's/^\(.*\/\).*\|.*/\1/'`; \
+	    figdir="$(DESTDIR)$(HELP_DIR)/$(DOC_MODULE)/$$figdir"; \
+	    if ! test -d "$$figdir"; then \
+	      echo "$(mkinstalldirs) $$figdir"; \
+	      $(mkinstalldirs) "$$figdir"; \
+	    fi; \
+	    figbase=`echo $$fig | sed -e 's/^.*\///'`; \
+	    echo "$(INSTALL_DATA) $$figfile $$figdir$$figbase"; \
+	    $(INSTALL_DATA) "$$figfile" "$$figdir$$figbase"; \
+	  done; \
+	done
 
 install-html:
 	echo install-html

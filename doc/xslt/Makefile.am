@@ -7,10 +7,10 @@ DOC_INCLUDES = legal.xml translating.xml
 
 DOC_LINGUAS =
 
-XSLDOC_DIRS = 					\
-	$(top_srcdir)/xslt/gettext		\
-	$(top_srcdir)/xslt/docbook/common	\
-	$(top_srcdir)/xslt/docbook/html		\
-	$(top_srcdir)/xslt/docbook/omf		\
-	$(top_srcdir)/xslt/rngdoc		\
-	$(top_srcdir)/xslt/xsldoc
+XSLDOC_DIRS = 				\
+	../../xslt/gettext		\
+	../../xslt/docbook/common	\
+	../../xslt/docbook/html		\
+	../../xslt/docbook/omf		\
+	../../xslt/rngdoc		\
+	../../xslt/xsldoc
