@@ -3,12 +3,13 @@
 # This file is distributed under the same license as the gnome-doc-utils package.
 # Phan Vĩnh Thịnh <teppi@vnlinux.org>, 2005.
 # Clytie Siddall <clytie@riverland.net.au>, 2005.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-doc-utils Gnome 2.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-02-05 05:47+0100\n"
-"PO-Revision-Date: 2005-05-02 16:08+0930\n"
+"POT-Creation-Date: 2005-05-07 04:45+0000\n"
+"PO-Revision-Date: 2005-05-07 18:53+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <gnomevi-list@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -16,283 +17,538 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
 
-#.Appendix %t{number}
-#:xslt/docbook/common/db-format.xml.in.h:2
+#.
+#. appendix - An appendix in a book or article
+#. http://docbook.org/tdg/en/html/appendix.html
+#.
+#. This template formats the label of an appendix.  This tmeplate uses
+#. roles to mark different uses of the label.  The standard label roles
+#. ('header', 'li', and 'xref') should be defined, as well as any extra
+#. roles you would like supported for your locale.
+#.
+#. A simple rendering might look like this: Appendix %t{number}
+#.
+#. Read this: ghelp:gnome-doc-xslt#translating
+#. Then this: ghelp:gnome-doc-xslt#format.appendix.label
+#.
+#: ../xslt/docbook/common/db-format.xml.in.h:15
 msgid "format.appendix.label"
-msgstr "định_dạng.phụ_lục.nhãn"
+msgstr "Phụ lục %t{number}"
 
-#.Chapter %t{number}
-#:xslt/docbook/common/db-format.xml.in.h:4
+#.
+#. chapter - A chapter, as of a book
+#. http://docbook.org/tdg/en/html/chapter.html
+#.
+#. This template formats the label of a chapter.  This tmeplate uses
+#. roles to mark different uses of the label.  The standard label roles
+#. ('header', 'li', and 'xref') should be defined, as well as any extra
+#. roles you would like supported for your locale.
+#.
+#. A simple rendering might look like this: Chapter %t{number}
+#.
+#. Read this: ghelp:gnome-doc-xslt#translating
+#. Then this: ghelp:gnome-doc-xslt#format.chapter.label
+#.
+#: ../xslt/docbook/common/db-format.xml.in.h:30
 msgid "format.chapter.label"
-msgstr "định_dạng.chương.nhãn"
+msgstr "Chương %t{number}"
 
-#:xslt/docbook/common/db-format.xml.in.h:5
+#.
+#. citetitle - The title of a cited work
+#. http://docbook.org/tdg/en/html/citetitle.html
+#.
+#. This template formats an inline title citation.  This template uses
+#. roles to specify the type of publication being cited, such as article
+#. or book.
+#.
+#. Read this: ghelp:gnome-doc-xslt#translating
+#. Then this: ghelp:gnome-doc-xslt#format.citetitle
+#.
+#: ../xslt/docbook/common/db-format.xml.in.h:42
 msgid "format.citetitle"
-msgstr "định_dạng.trích_dẫn_tên"
+msgstr "Trích dẫn tên"
 
-#.FIXME
-#:xslt/docbook/common/db-format.xml.in.h:7
+#: ../xslt/docbook/common/db-format.xml.in.h:43
 msgid "format.date"
-msgstr "định_dạng.ngày"
+msgstr "Ngày"
 
-#.Example %t{number}
-#:xslt/docbook/common/db-format.xml.in.h:9
+#.
+#. example - A formal example, with a title
+#. http://docbook.org/tdg/en/html/example.html
+#.
+#. This template formats the label of an example.  This tmeplate uses
+#. roles to mark different uses of the label.  The standard label roles
+#. ('header', 'li', and 'xref') should be defined, as well as any extra
+#. roles you would like supported for your locale.
+#.
+#. A simple rendering might look like this: Example %t{number}
+#.
+#. Read this: ghelp:gnome-doc-xslt#translating
+#. Then this: ghelp:gnome-doc-xslt#format.example.label
+#.
+#: ../xslt/docbook/common/db-format.xml.in.h:58
 msgid "format.example.label"
-msgstr "định_dang.thí_dụ.nhãn"
+msgstr "Lời thí dụ %t{number}"
 
-#.%t{parent}-%1{number}
-#:xslt/docbook/common/db-format.xml.in.h:11
+#.
+#. example - A formal example, with a title
+#. http://docbook.org/tdg/en/html/example.html
+#.
+#. This template formats the number portion of the label for an example.
+#. The parent argument calls the number formatter for the enclosing
+#. chapter, and the number argument formats the number of the element
+#. itself.
+#.
+#. A simple rendering might look like this: %t{parent}-%1{number}
+#.
+#. Read this: ghelp:gnome-doc-xslt#translating
+#. Then this: ghelp:gnome-doc-xslt#format.example.number
+#.
+#: ../xslt/docbook/common/db-format.xml.in.h:73
 msgid "format.example.number"
-msgstr "định_dang.thí_dụ.số"
+msgstr "%t{parent}-%1{number}"
 
-#.%1{number}
-#:xslt/docbook/common/db-format.xml.in.h:13
+#.
+#. example - A formal example, with a title
+#. http://docbook.org/tdg/en/html/example.html
+#.
+#. This template formats the number portion of the label for an example
+#. inside an article.  In articles, formal block elements use a flat
+#. numbering scheme, rather than being numbered by chapter.
+#.
+#. A simple rendering might look like this: %1{number}
+#.
+#. Read this: ghelp:gnome-doc-xslt#translating
+#. Then this: ghelp:gnome-doc-xslt#format.example.number.flat
+#.
+#: ../xslt/docbook/common/db-format.xml.in.h:87
 msgid "format.example.number.flat"
-msgstr "định_dang.thí_dụ.số.bằng"
+msgstr "%1{number}"
 
-#.Figure %t{number}
-#:xslt/docbook/common/db-format.xml.in.h:15
+#.
+#. figure - A formal figure, generally an illustration, with a title
+#. http://docbook.org/tdg/en/html/figure.html
+#.
+#. This template formats the label of a figure.  This tmeplate uses
+#. roles to mark different uses of the label.  The standard label roles
+#. ('header', 'li', and 'xref') should be defined, as well as any extra
+#. roles you would like supported for your locale.
+#.
+#. A simple rendering might look like this: Figure %t{number}
+#.
+#. Read this: ghelp:gnome-doc-xslt#translating
+#. Then this: ghelp:gnome-doc-xslt#format.figure.label
+#.
+#: ../xslt/docbook/common/db-format.xml.in.h:102
 msgid "format.figure.label"
-msgstr "định_dạng.hình.nhãn"
+msgstr "Hình %1{number}"
 
-#.%t{parent}-%1{number}
-#:xslt/docbook/common/db-format.xml.in.h:17
+#.
+#. figure - A formal figure, generally an illustration, with a title
+#. http://docbook.org/tdg/en/html/figure.html
+#.
+#. This template formats the number portion of the label for a figure.
+#. The parent argument calls the number formatter for the enclosing
+#. chapter, and the number argument formats the number of the element
+#. itself.
+#.
+#. A simple rendering might look like this: %t{parent}-%1{number}
+#.
+#. Read this: ghelp:gnome-doc-xslt#translating
+#. Then this: ghelp:gnome-doc-xslt#format.figure.number
+#.
+#: ../xslt/docbook/common/db-format.xml.in.h:117
 msgid "format.figure.number"
-msgstr "định_dạng.hình.số"
+msgstr "%t{parent}-%1{number}"
 
-#.%1{number}
-#:xslt/docbook/common/db-format.xml.in.h:19
+#.
+#. figure - A formal figure, generally an illustration, with a title
+#. http://docbook.org/tdg/en/html/figure.html
+#.
+#. This template formats the number portion of the label for a figure
+#. inside an article.  In articles, formal block elements use a flat
+#. numbering scheme, rather than being numbered by chapter.
+#.
+#. A simple rendering might look like this: %1{number}
+#.
+#. Read this: ghelp:gnome-doc-xslt#translating
+#. Then this: ghelp:gnome-doc-xslt#format.figure.number.flat
+#.
+#: ../xslt/docbook/common/db-format.xml.in.h:131
 msgid "format.figure.number.flat"
-msgstr "định_dạng.hình.số.bằng"
+msgstr "%1{number}"
 
-#.(%t{node})
-#:xslt/docbook/common/db-format.xml.in.h:21
+#.
+#. manvolnum - A reference volume number
+#. http://docbook.org/tdg/en/html/manvolnum.html
+#.
+#. This template formats the manvolnum element.  A manvolnum is typically
+#. a number or short string used to identify a sectionof man pages.  It
+#. is typically placed inside parenthesis, like so: (%t{node})
+#.
+#. Read this: ghelp:gnome-doc-xslt#translating
+#. Then this: ghelp:gnome-doc-xslt#format.manvolnum
+#.
+#: ../xslt/docbook/common/db-format.xml.in.h:143
 msgid "format.manvolnum"
-msgstr "định_dạng.số_tập_bản_đưa_in"
+msgstr "(%t{node})"
 
-#.Part %t{number}
-#:xslt/docbook/common/db-format.xml.in.h:23
+#.
+#. part - A division in a book
+#. http://docbook.org/tdg/en/html/part.html
+#.
+#. This template formats the label of a part.  This tmeplate uses
+#. roles to mark different uses of the label.  The standard label roles
+#. ('header', 'li', and 'xref') should be defined, as well as any extra
+#. roles you would like supported for your locale.
+#.
+#. A simple rendering might look like this: Part %t{number}
+#.
+#. Read this: ghelp:gnome-doc-xslt#translating
+#. Then this: ghelp:gnome-doc-xslt#format.part.label
+#.
+#: ../xslt/docbook/common/db-format.xml.in.h:158
 msgid "format.part.label"
-msgstr "định_dạng.phần.nhãn"
+msgstr "Phần %t{number}"
 
-#.%I{number}
-#:xslt/docbook/common/db-format.xml.in.h:25
+#.
+#. part - A division in a book
+#. http://docbook.org/tdg/en/html/part.html
+#.
+#. This template formats the number portion of the label for a part.
+#. A simple rendering might look like this: %I{number}
+#.
+#. Read this: ghelp:gnome-doc-xslt#translating
+#. Then this: ghelp:gnome-doc-xslt#format.part.number
+#.
+#: ../xslt/docbook/common/db-format.xml.in.h:169
 msgid "format.part.number"
-msgstr "định_dạng.phần.số"
+msgstr "%I{number}"
 
-#.‘%t{node}’
-#:xslt/docbook/common/db-format.xml.in.h:27
+#.
+#. quote - An inline quotation
+#. http://docbook.org/tdg/en/html/quote.html
+#.
+#. This template formats a nested inline quotation.  The default
+#. rendering in the C locale is this: ‘%t{node}’
+#.
+#. Read this: ghelp:gnome-doc-xslt#translating
+#. Then this: ghelp:gnome-doc-xslt#format.quote.inner
+#.
+#: ../xslt/docbook/common/db-format.xml.in.h:180
 msgid "format.quote.inner"
-msgstr "định_dạng.trích_dẫn.nội_bộ"
+msgstr "‹%t{node}›"
 
-#.“%t{node}”
-#:xslt/docbook/common/db-format.xml.in.h:29
+#.
+#. quote - An inline quotation
+#. http://docbook.org/tdg/en/html/quote.html
+#.
+#. This template formats an inline quotation.  The default
+#. rendering in the C locale is this: “%t{node}”
+#.
+#. Read this: ghelp:gnome-doc-xslt#translating
+#. Then this: ghelp:gnome-doc-xslt#format.quote.outer
+#.
+#: ../xslt/docbook/common/db-format.xml.in.h:191
 msgid "format.quote.outer"
-msgstr "định_dạng.trích_dẫn.ngoài"
+msgstr "«%t{node}»"
 
-#.%t{title}
-#:xslt/docbook/common/db-format.xml.in.h:31
+#.
+#. refentry - A reference page (originally a UNIX man-style reference page)
+#. http://docbook.org/tdg/en/html/refentry.html
+#.
+#. This template formats the label of a refentry.  This tmeplate uses
+#. roles to mark different uses of the label.  The standard label roles
+#. ('header', 'li', and 'xref') should be defined, as well as any extra
+#. roles you would like supported for your locale.
+#.
+#. A simple rendering might look like this: %t{title}
+#.
+#. Note that unlike most other labelled elements, refentry is not numbered
+#. by the stylesheets.  Consequently, the number argument is not supported.
+#.
+#. Read this: ghelp:gnome-doc-xslt#translating
+#. Then this: ghelp:gnome-doc-xslt#format.refentry.label
+#.
+#: ../xslt/docbook/common/db-format.xml.in.h:209
 msgid "format.refentry.label"
-msgstr "định_dạng.nhập_tham_khảo.nhãn"
+msgstr "%t{title}"
 
-#.Section %t{number}
-#:xslt/docbook/common/db-format.xml.in.h:33
+#.
+#. http://docbook.org/tdg/en/html/section.html
+#. http://docbook.org/tdg/en/html/sect1.html
+#. http://docbook.org/tdg/en/html/sect2.html
+#. http://docbook.org/tdg/en/html/sect3.html
+#. http://docbook.org/tdg/en/html/sect4.html
+#. http://docbook.org/tdg/en/html/sect5.html
+#. http://docbook.org/tdg/en/html/refsection.html
+#. http://docbook.org/tdg/en/html/refsect1.html
+#. http://docbook.org/tdg/en/html/refsect2.html
+#. http://docbook.org/tdg/en/html/refsect3.html
+#.
+#. This template formats the label of a section.  This tmeplate uses
+#. roles to mark different uses of the label.  The standard label roles
+#. ('header', 'li', and 'xref') should be defined, as well as any extra
+#. roles you would like supported for your locale.
+#.
+#. A simple rendering might look like this: Section %t{number}
+#.
+#. Read this: ghelp:gnome-doc-xslt#translating
+#. Then this: ghelp:gnome-doc-xslt#format.section.label
+#.
+#: ../xslt/docbook/common/db-format.xml.in.h:232
 msgid "format.section.label"
-msgstr "định_dạng.tiết_đoạn.nhãn"
+msgstr "Tiết đoạn %t{number}"
 
-#.Table %t{number}
-#:xslt/docbook/common/db-format.xml.in.h:35
+#.
+#. table - A formal table in a document
+#. http://docbook.org/tdg/en/html/table.html
+#.
+#. This template formats the label of a table.  This tmeplate uses
+#. roles to mark different uses of the label.  The standard label roles
+#. ('header', 'li', and 'xref') should be defined, as well as any extra
+#. roles you would like supported for your locale.
+#.
+#. A simple rendering might look like this: Table %t{number}
+#.
+#. Read this: ghelp:gnome-doc-xslt#translating
+#. Then this: ghelp:gnome-doc-xslt#format.table.label
+#.
+#: ../xslt/docbook/common/db-format.xml.in.h:247
 msgid "format.table.label"
-msgstr "định_dạng.bảng.nhãn"
+msgstr "Bảng %t{number}"
 
-#.%t{parent}-%1{number}
-#:xslt/docbook/common/db-format.xml.in.h:37
+#.
+#. table - A formal table in a document
+#. http://docbook.org/tdg/en/html/table.html
+#.
+#. This template formats the number portion of the label for a table.
+#. The parent argument calls the number formatter for the enclosing
+#. chapter, and the number argument formats the number of the element
+#. itself.
+#.
+#. A simple rendering might look like this: %t{parent}-%1{number}
+#.
+#. Read this: ghelp:gnome-doc-xslt#translating
+#. Then this: ghelp:gnome-doc-xslt#format.table.number
+#.
+#: ../xslt/docbook/common/db-format.xml.in.h:262
 msgid "format.table.number"
-msgstr "định_dạng.bảng.số"
+msgstr "%t{parent}-%1{number}"
 
-#.%1{number}
-#:xslt/docbook/common/db-format.xml.in.h:39
+#.
+#. table - A formal table in a document
+#. http://docbook.org/tdg/en/html/table.html
+#.
+#. This template formats the number portion of the label for a table
+#. inside an article.  In articles, formal block elements use a flat
+#. numbering scheme, rather than being numbered by chapter.
+#.
+#. A simple rendering might look like this: %1{number}
+#.
+#. Read this: ghelp:gnome-doc-xslt#translating
+#. Then this: ghelp:gnome-doc-xslt#format.table.number.flat
+#.
+#: ../xslt/docbook/common/db-format.xml.in.h:276
 msgid "format.table.number.flat"
-msgstr "định_dạng.bảng.bằng"
+msgstr "%1{number}"
 
-#.Read the definition for ‘%s{node}’
-#:xslt/docbook/common/db-format.xml.in.h:41
+#.
+#. glossentry - An entry in a glossary or glosslist
+#. http://docbook.org/tdg/en/html/glossentry.html
+#.
+#. This template formats a tooltip for links to glossentry elements.
+#. The default rendering is: Read the definition for ‘%s{node}’
+#.
+#. Read this: ghelp:gnome-doc-xslt#translating
+#. Then this: ghelp:gnome-doc-xslt#format.tooltip.glossentry
+#.
+#: ../xslt/docbook/common/db-format.xml.in.h:287
 msgid "format.tooltip.glossentry"
-msgstr "định_dạng.chú_giải_công_cụ.mục_ghi_từ_điển_thuật_ngữ"
+msgstr "Đọc lời định nghĩa cho ‘%s{node}’"
 
-#.Send email to ‘%s{address}’
-#:xslt/docbook/common/db-format.xml.in.h:43
+#.
+#. This template formats a tooltip for mailto: links.
+#. The default rendering is: Send email to ‘%s{address}’
+#.
+#. Read this: ghelp:gnome-doc-xslt#translating
+#. Then this: ghelp:gnome-doc-xslt#format.tooltip.mailto
+#.
+#: ../xslt/docbook/common/db-format.xml.in.h:295
 msgid "format.tooltip.mailto"
-msgstr "định_dạng.chú_giải_công_cụ.liên_kết_gửi_thư"
+msgstr "Gởi thư điện tử cho ‘%s{address}’"
 
-#.Used as a header before a list of authors.
-#:xslt/gettext/l10n.xml.in.h:2
+#. Used as a header before a list of authors.
+#: ../xslt/gettext/l10n.xml.in.h:2
 msgid "<msgstr form=\"0\">Author</msgstr> <msgstr form=\"1\">Authors</msgstr>"
 msgstr "<msgstr form=\"0\">Tác giả</msgstr>"
 
-#.Used as a header before a list of collaborators.
-#:xslt/gettext/l10n.xml.in.h:4
-msgid ">"
-msgstr "Người cộng tác"
+#. Used as a header before a list of collaborators.
+#: ../xslt/gettext/l10n.xml.in.h:4
+msgid ""
+"<msgstr form=\"0\">Collaborator</msgstr> <msgstr form=\"1\">Collaborators</"
+"msgstr>"
+msgstr "<msgstr form=\"0\">Cộng tác viên</msgstr>"
 
-#.Used as a header before a list of copyrights.
-#:xslt/gettext/l10n.xml.in.h:6
+#. Used as a header before a list of copyrights.
+#: ../xslt/gettext/l10n.xml.in.h:6
 msgid ""
 "<msgstr form=\"0\">Copyright</msgstr> <msgstr form=\"1\">Copyrights</msgstr>"
 msgstr "<msgstr form=\"0\">Bản quyền</msgstr>"
 
-#.Used as a header before a list of editors.
-#:xslt/gettext/l10n.xml.in.h:8
+#. Used as a header before a list of editors.
+#: ../xslt/gettext/l10n.xml.in.h:8
 msgid "<msgstr form=\"0\">Editor</msgstr> <msgstr form=\"1\">Editors</msgstr>"
 msgstr "<msgstr form=\"0\">Người biên soạn</msgstr>"
 
-#.Used as a header before a list of contributors.
-#:xslt/gettext/l10n.xml.in.h:10
+#. Used as a header before a list of contributors.
+#: ../xslt/gettext/l10n.xml.in.h:10
 msgid ""
 "<msgstr form=\"0\">Other Contributor</msgstr> <msgstr form=\"1\">Other "
 "Contributors</msgstr>"
-msgstr ""
-"<msgstr form=\"0\">Người đóng góp khác</msgstr>"
+msgstr "<msgstr form=\"0\">Người đóng góp khác</msgstr>"
 
-#.Used as a header before a list of publishers.
-#:xslt/gettext/l10n.xml.in.h:12
+#. Used as a header before a list of publishers.
+#: ../xslt/gettext/l10n.xml.in.h:12
 msgid ""
 "<msgstr form=\"0\">Publisher</msgstr> <msgstr form=\"1\">Publishers</msgstr>"
-msgstr ""
-"<msgstr form=\"0\">Nhà xuất bản</msgstr>"
+msgstr "<msgstr form=\"0\">Nhà xuất bản</msgstr>"
 
-#.Link to the titlepage
-#:xslt/gettext/l10n.xml.in.h:14
+#. Link to the titlepage
+#: ../xslt/gettext/l10n.xml.in.h:14
 msgid "About This Document"
-msgstr "Về tài liệu này"
+msgstr "Giới thiệu tài liệu này"
 
-#:xslt/gettext/l10n.xml.in.h:15
+#: ../xslt/gettext/l10n.xml.in.h:15
 msgid "Affiliation"
 msgstr "Sự xác định tư cách tác giả"
 
-#.This is an abbreviated form of 'Message Audience'.
-#.Feel free to use the same word/phrase for both.
-#:xslt/gettext/l10n.xml.in.h:18
+#. This is an abbreviated form of 'Message Audience'.
+#. Feel free to use the same word/phrase for both.
+#: ../xslt/gettext/l10n.xml.in.h:18
 msgid "Audience"
 msgstr "Độc giả"
 
-#:xslt/gettext/l10n.xml.in.h:19
+#: ../xslt/gettext/l10n.xml.in.h:19
 msgid "Caution"
 msgstr "Cảnh báo"
 
-#:xslt/gettext/l10n.xml.in.h:20
+#: ../xslt/gettext/l10n.xml.in.h:20
 msgid "Colophon"
 msgstr "Lời ghi cuối sách"
 
-#.This is an abbreviated form of 'Table of Contents'.
-#.Feel free to use the same word/phrase for both.
-#:xslt/gettext/l10n.xml.in.h:23
+#. This is an abbreviated form of 'Table of Contents'.
+#. Feel free to use the same word/phrase for both.
+#: ../xslt/gettext/l10n.xml.in.h:23
 msgid "Contents"
 msgstr "Mục lục"
 
-#.Used as a header for date column in the revision history.
-#:xslt/gettext/l10n.xml.in.h:25
+#. Used as a header for date column in the revision history.
+#: ../xslt/gettext/l10n.xml.in.h:25
 msgid "Date"
 msgstr "Ngày"
 
-#:xslt/gettext/l10n.xml.in.h:26
+#: ../xslt/gettext/l10n.xml.in.h:26
 msgid "Dedication"
 msgstr "Lời đề tặng"
 
-#:xslt/gettext/l10n.xml.in.h:27
+#: ../xslt/gettext/l10n.xml.in.h:27
 msgid "Email"
 msgstr "Thư điện tử"
 
-#:xslt/gettext/l10n.xml.in.h:28
+#: ../xslt/gettext/l10n.xml.in.h:28
 msgid "Important"
 msgstr "Quan trọng"
 
-#:xslt/gettext/l10n.xml.in.h:29
+#: ../xslt/gettext/l10n.xml.in.h:29
 msgid "Index"
 msgstr "Chỉ mục"
 
-#:xslt/gettext/l10n.xml.in.h:30
+#: ../xslt/gettext/l10n.xml.in.h:30
 msgid "Legal Notice"
 msgstr "Chú ý luật pháp"
 
-#.This is an abbreviated form of 'Message Level'.
-#.Feel free to use the same word/phrase for both.
-#:xslt/gettext/l10n.xml.in.h:33
+#. This is an abbreviated form of 'Message Level'.
+#. Feel free to use the same word/phrase for both.
+#: ../xslt/gettext/l10n.xml.in.h:33
 msgid "Level"
 msgstr "Cấp độ"
 
-#:xslt/gettext/l10n.xml.in.h:34
+#: ../xslt/gettext/l10n.xml.in.h:34
 msgid "Message Audience"
 msgstr "Tin nhắn độc giả"
 
-#:xslt/gettext/l10n.xml.in.h:35
+#: ../xslt/gettext/l10n.xml.in.h:35
 msgid "Message Level"
 msgstr "Cấp độ tin nhắn"
 
-#:xslt/gettext/l10n.xml.in.h:36
+#: ../xslt/gettext/l10n.xml.in.h:36
 msgid "Message Origin"
 msgstr "Gốc tin nhắn"
 
-#:xslt/gettext/l10n.xml.in.h:37
+#: ../xslt/gettext/l10n.xml.in.h:37
 msgid "Name"
 msgstr "Tên"
 
-#:xslt/gettext/l10n.xml.in.h:38
+#: ../xslt/gettext/l10n.xml.in.h:38
 msgid "Note"
 msgstr "Lời ghi"
 
-#.This is an abbreviated form of 'Message Origin'.
-#.Feel free to use the same word/phrase for both.
-#:xslt/gettext/l10n.xml.in.h:41
+#. This is an abbreviated form of 'Message Origin'.
+#. Feel free to use the same word/phrase for both.
+#: ../xslt/gettext/l10n.xml.in.h:41
 msgid "Origin"
 msgstr "Gốc"
 
-#:xslt/gettext/l10n.xml.in.h:42
+#: ../xslt/gettext/l10n.xml.in.h:42
 msgid "Preface"
 msgstr "Lời nói đầu"
 
-#:xslt/gettext/l10n.xml.in.h:43
+#: ../xslt/gettext/l10n.xml.in.h:43
 msgid "Reference"
 msgstr "Tham khảo"
 
-#:xslt/gettext/l10n.xml.in.h:44
+#: ../xslt/gettext/l10n.xml.in.h:44
 msgid "Release Information"
 msgstr "Thông tin phát hành"
 
-#:xslt/gettext/l10n.xml.in.h:45
+#: ../xslt/gettext/l10n.xml.in.h:45
 msgid "Revision History"
 msgstr "Lịch sử duyệt lại"
 
-#:xslt/gettext/l10n.xml.in.h:46
+#: ../xslt/gettext/l10n.xml.in.h:46
 msgid "See"
 msgstr "Xem"
 
-#:xslt/gettext/l10n.xml.in.h:47
+#: ../xslt/gettext/l10n.xml.in.h:47
 msgid "See Also"
 msgstr "Xem thêm"
 
-#:xslt/gettext/l10n.xml.in.h:48
+#: ../xslt/gettext/l10n.xml.in.h:48
 msgid "Set Index"
 msgstr "Đặt chỉ mục"
 
-#:xslt/gettext/l10n.xml.in.h:49
+#: ../xslt/gettext/l10n.xml.in.h:49
 msgid "Synopsis"
 msgstr "Bảng tóm tắt"
 
-#.Used for a link to a table of contents.
-#:xslt/gettext/l10n.xml.in.h:51
+#. Used for a link to a table of contents.
+#: ../xslt/gettext/l10n.xml.in.h:51
 msgid "Table of Contents"
 msgstr "Mục lục"
 
-#:xslt/gettext/l10n.xml.in.h:52
+#: ../xslt/gettext/l10n.xml.in.h:52
 msgid "Tip"
 msgstr "Lời khuyên"
 
-#.Used as a header for title column in the revision history.
-#:xslt/gettext/l10n.xml.in.h:54
+#. Used as a header for title column in the revision history.
+#: ../xslt/gettext/l10n.xml.in.h:54
 msgid "Title"
 msgstr "Tên"
 
-#:xslt/gettext/l10n.xml.in.h:55
+#: ../xslt/gettext/l10n.xml.in.h:55
 msgid "Warning"
 msgstr "Cảnh báo"
+
+#~ msgid ">"
+#~ msgstr ">"
