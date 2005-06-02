@@ -154,7 +154,7 @@ msgstr "<msgstr form=\"0\">Autor</msgstr> <msgstr form=\"1\">Autorid</msgstr>"
 #. Used as a header before a list of collaborators.
 #: xslt/gettext/l10n.xml.in.h:4
 msgid "<msgstr form=\"0\">Collaborator</msgstr> <msgstr form=\"1\">Collaborators</msgstr>"
-msgstr ""
+msgstr "<msgstr form=\"0\">Kaastöötaja</msgstr> <msgstr form=\"1\">Kaastöötajad</msgstr>"
 
 #. Used as a header before a list of copyrights.
 #: xslt/gettext/l10n.xml.in.h:6
@@ -169,9 +169,7 @@ msgstr "<msgstr form=\"0\">Toimetaja</msgstr> <msgstr form=\"1\">Toimetajad</msg
 #. Used as a header before a list of contributors.
 #: xslt/gettext/l10n.xml.in.h:10
 msgid "<msgstr form=\"0\">Other Contributor</msgstr> <msgstr form=\"1\">Other Contributors</msgstr>"
-msgstr ""
-"<msgstr form=\"0\">Teised kaastöötajad</msgstr> <msgstr form=\"1\">Teised "
-"kaastöötajad</msgstr>"
+msgstr "<msgstr form=\"0\">Teised kaastöötajad</msgstr> <msgstr form=\"1\">Teised kaastöötajad</msgstr>"
 
 #. Used as a header before a list of publishers.
 #: xslt/gettext/l10n.xml.in.h:12
@@ -290,7 +288,7 @@ msgstr "Vaata ka"
 
 #: xslt/gettext/l10n.xml.in.h:48
 msgid "Set Index"
-msgstr ""
+msgstr "Määra indeks"
 
 #: xslt/gettext/l10n.xml.in.h:49
 msgid "Synopsis"
