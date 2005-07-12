@@ -1,3 +1,12 @@
+Changes in 0.2.1:
+-----------------
+* Backported build fixed from HEAD
+* Updated translations:
+  et      (Ivar Smolin)
+  sr      (Danilo Šegan)
+  vi      (Clytie Siddall)
+  zh_TW   (Abel Cheung)
+
 Changes in 0.2.0:
 -----------------
 * Fixes for builddir != srcdir
