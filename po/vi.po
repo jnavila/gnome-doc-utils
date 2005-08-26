@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gnome-doc-utils Gnome 2.10\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2005-05-07 04:45+0000\n"
-"PO-Revision-Date: 2005-05-07 18:53+0930\n"
+"PO-Revision-Date: 2005-08-26 11:42-0500\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <gnomevi-list@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -141,7 +141,7 @@ msgstr "%1{number}"
 #.
 #: ../xslt/docbook/common/db-format.xml.in.h:102
 msgid "format.figure.label"
-msgstr "Hình %1{number}"
+msgstr "Hình %t{number}"
 
 #.
 #. figure - A formal figure, generally an illustration, with a title
