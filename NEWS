@@ -1,3 +1,12 @@
+Changes in 0.4.2:
+-----------------
+* Put figures in the tarball, VERY SERIOUS BUG              (Shaun McCance)
+* Line numbering fixes, #317270 #317204                     (Brent Smith)
+* Fixed bug which causes quote to be formatted as citetitle (Shaun McCance)
+* Added datarootdir variable                                (Stepan Kasal)
+* Updated translations:
+  gl      (Ignacio Casal Quinteiro)
+
 Changes in 0.4.1:
 -----------------
 * Fix Solaris portability issue, #315412                  (Shaun McCance)
