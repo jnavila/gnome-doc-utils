@@ -1,3 +1,12 @@
+Changes in 0.4.3:
+-----------------
+* Fix for loops on old bourne shells, #317308     (Shaun McCance)
+* Fix paths when $(srcdir) is absolute            (Shaun McCance)
+* Fix DESTDIR support #318007                     (Frederic Crozat)
+* Updated translations:
+  it      (Alessio Frusciante)
+  (32/46 languages with 100% translation)
+
 Changes in 0.4.2:
 -----------------
 * Put figures in the tarball, VERY SERIOUS BUG              (Shaun McCance)

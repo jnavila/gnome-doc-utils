@@ -1,5 +1,11 @@
 2005-10-11  Shaun McCance  <shaunm@gnome.org>
 
+	* NEWS:
+	* configure.in:
+	- Version 0.4.3
+
+2005-10-11  Shaun McCance  <shaunm@gnome.org>
+
 	* gnome-doc-utils.make
 	- Fix for loops on old bourne shells, #317308
 	- Fix paths when $(srcdir) is absolute
