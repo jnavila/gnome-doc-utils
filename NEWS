@@ -1,3 +1,12 @@
+Changes in 0.4.4:
+-----------------
+* Added missing GPL and LGPL texts              (Shaun McCance)
+* Added another fix for line numbering, #317270 (Brent Smith)
+* Updated translations:
+  bn      (Mahay Alam Khan)
+  et      (Ivar Smolin)
+  (33/47 languages with 100% translation)
+
 Changes in 0.4.3:
 -----------------
 * Fix for loops on old bourne shells, #317308     (Shaun McCance)

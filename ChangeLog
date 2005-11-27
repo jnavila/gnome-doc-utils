@@ -1,5 +1,11 @@
 2005-11-27  Shaun McCance  <shaunm@gnome.org>
 
+	* NEWS:
+	* configure.in:
+	- Version 0.4.4
+
+2005-11-27  Shaun McCance  <shaunm@gnome.org>
+
 	* Makefile.am:
 	* COPYING.GPL:
 	* COPYING.LGPL:
