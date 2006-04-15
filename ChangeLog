@@ -1,3 +1,8 @@
+2006-04-15  Shaun McCance  <shaunm@gnome.org>
+
+	* xslt/gettext/gettext.xsl:
+	- Fixed plurals for fr, wa, nso (bug #338641)
+
 2006-03-29  Rhys Jones <rhys@sucs.org>
 
 	* configure.in: Added Welsh (cy) to ALL_LINGUAS.
