@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-doc-utils-HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-03-05 13:04+0200\n"
+"POT-Creation-Date: 2006-04-17 11:40+0300\n"
 "PO-Revision-Date: 2006-03-05 13:04+0200\n"
 "Last-Translator: Alexander Shopov <ash@contact.bg>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
@@ -463,7 +463,7 @@ msgstr "<msgstr>„<node/>“</msgstr>"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:392
 msgid "<msgid>email.tooltip</msgid> <msgstr>Send email to ‘<node/>’.</msgstr>"
-msgstr "<msgstr>Пратете е-писмо до „<node/>“.</msgstr>"
+msgstr "<msgstr>Пращане на е-писмо до „<b><tt><node/></tt></b>“.</msgstr>"
 
 #.
 #. The number formatter used for example numbers.  This can be one of
