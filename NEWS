@@ -1,3 +1,19 @@
+Changes in 0.6.1:
+-----------------
+
+* Fixed plurals for fr, wa, nso; bug #338641
+* Updated translations:
+  bg      (Alexander Shopov)
+  cs      (Lukas Novotny)
+  cy      (Rhys Jones)
+  dz      (Pema Geyleg)
+  et      (Priit Laes)
+  fr      (Benoît Dejean)
+  id      (Ahmad Riza H Nst)
+  ka      (Vladimer Sichinava)
+  ne      (Pawan Chitrakar)
+  ro      (Dan Damian)
+
 Changes in 0.6.0:
 -----------------
 
