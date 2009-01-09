@@ -1,3 +1,8 @@
+Changes in 0.14.2:
+------------------
+* Updated translations:
+  et    (Priit Laes)
+
 Changes in 0.14.1:
 ------------------
 * Fixed some LTR issues, more remain on bug #563559 (Shaun McCance)
