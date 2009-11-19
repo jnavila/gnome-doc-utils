@@ -1,3 +1,14 @@
+Changes in 0.18.1:
+------------------
+* Fixed Makefile.am to byte-compile Python files, bug #596702 (Daniel Macks)
+* Updated translations:
+  ar    (Khaled Hosny)
+  ca    (Gil Forcada)
+  de    (Mario Blättermann)
+  ml    (Ani)
+  ro    (Lucian Grijincu)
+  ru    (Leonid Kanter)
+
 Changes in 0.18.0:
 ------------------
 * Replaced Mallard copyright element with credit (Shaun McCance)
