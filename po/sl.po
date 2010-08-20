@@ -1,4 +1,4 @@
-# Slovenian translation for gnome-doc-utils
+# Slovenian translation for gnome-doc-utils.
 # Copyright (C) 2005-2007 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnome-doc-utils package.
 #
@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: gnome-doc-utils\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-doc-utils&component=general\n"
 "POT-Creation-Date: 2010-01-25 22:10+0000\n"
-"PO-Revision-Date: 2010-01-26 08:40+0100\n"
+"PO-Revision-Date: 2010-08-20 08:14+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr ""
 #.
 #: ../xslt/gettext/l10n.xml.in.h:5
 msgid " and "
-msgstr "in"
+msgstr " in "
 
 #.
 #. This is used to offset an inline description from a title.  This is
@@ -56,7 +56,7 @@ msgstr ", "
 #.
 #: ../xslt/gettext/l10n.xml.in.h:25
 msgid ", and "
-msgstr "in"
+msgstr " in "
 
 #.
 #. The number formatter used for appendix numbers.  This can be one of
@@ -209,7 +209,7 @@ msgstr "<msgid>appendix.xref</msgid> <msgstr>Dodatek <number/> ― <title/></msg
 #.
 #: ../xslt/gettext/l10n.xml.in.h:163
 msgid "<msgid>biblioentry.tooltip</msgid> <msgstr>View the bibliography entry <label/>.</msgstr>"
-msgstr "<msgid>biblioentry.tooltip</msgid> <msgstr>Glej bibliografski vnos <label/>.</msgstr>"
+msgstr "<msgid>biblioentry.tooltip</msgid> <msgstr>Poglejte bibliografski vnos <label/>.</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -556,7 +556,7 @@ msgstr "<msgid>citetitle.format</msgid> <msgstr role='article'>“<node/>”</ms
 #.
 #: ../xslt/gettext/l10n.xml.in.h:477
 msgid "<msgid>email.tooltip</msgid> <msgstr>Send email to ‘<string/>’.</msgstr>"
-msgstr "<msgid>email.tooltip</msgid> <msgstr>Pošli e-pošto osebi ‘<string/>’.</msgstr>"
+msgstr "<msgid>email.tooltip</msgid> <msgstr>Pošlji elektronsko pošto osebi ‘<string/>’.</msgstr>"
 
 #.
 #. The number formatter used for example numbers.  This can be one of
@@ -979,7 +979,7 @@ msgstr "<msgid>glossentry.xref</msgid> <msgstr role='glosssee'><glossterm/></msg
 #.
 #: ../xslt/gettext/l10n.xml.in.h:861
 msgid "<msgid>glosssee.format</msgid> <msgstr>See <glosssee/>.</msgstr>"
-msgstr "<msgid>glosssee.format</msgid> <msgstr>Glej <glosssee/>.</msgstr>"
+msgstr "<msgid>glosssee.format</msgid> <msgstr>Oglejte si <glosssee/>.</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -1017,7 +1017,7 @@ msgstr "<msgid>glosssee.format</msgid> <msgstr>Glej <glosssee/>.</msgstr>"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:896
 msgid "<msgid>glossseealso.format</msgid> <msgstr>See also <glosssee/>.</msgstr>"
-msgstr "<msgid>glossseealso.format</msgid> <msgstr>Glej tudi <glosssee/>.</msgstr>"
+msgstr "<msgid>glossseealso.format</msgid> <msgstr>Oglejte si tudi <glosssee/>.</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -1614,7 +1614,7 @@ msgstr "<msgid>section.xref</msgid> <msgstr>Odsek <number/> ― <title/></msgstr
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1436
 msgid "<msgid>seealsoie.format</msgid> <msgstr>See also <seeie/>.</msgstr>"
-msgstr "<msgid>seealsoie.format</msgid> <msgstr>Poglejte tudi <seeie/>.</msgstr>"
+msgstr "<msgid>seealsoie.format</msgid> <msgstr>Oglejte si tudi <seeie/>.</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -1645,7 +1645,7 @@ msgstr "<msgid>seealsoie.format</msgid> <msgstr>Poglejte tudi <seeie/>.</msgstr>
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1464
 msgid "<msgid>seeie.format</msgid> <msgstr>See <seeie/>.</msgstr>"
-msgstr "<msgid>seeie.format</msgid> <msgstr>Poglejte <seeie/>.</msgstr>"
+msgstr "<msgid>seeie.format</msgid> <msgstr>Oglejte si <seeie/>.</msgstr>"
 
 #.
 #. The number formatter used for synopsis numbers.  This can be one of
@@ -1845,7 +1845,7 @@ msgstr "<msgstr form='0'>Urednik</msgstr> <msgstr form='1'>Uredniki</msgstr>"
 #. Used as a header before a list of contributors.
 #: ../xslt/gettext/l10n.xml.in.h:1631
 msgid "<msgstr form='0'>Other Contributor</msgstr> <msgstr form='1'>Other Contributors</msgstr>"
-msgstr "<msgstr form='0'>Zunanji sodelavec</msgstr> <msgstr form='1'>Zunanji sodelavci</msgstr>"
+msgstr "<msgstr form='0'>Drug sodelavec</msgstr> <msgstr form='1'>Drugi sodelavci</msgstr>"
 
 #. Used as a header before a list of publishers.
 #: ../xslt/gettext/l10n.xml.in.h:1633
@@ -1931,7 +1931,7 @@ msgstr "Posvetilo"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1684
 msgid "Draft"
-msgstr "Pripravljena različica"
+msgstr "Osnutek"
 
 #.
 #. http://www.docbook.org/tdg/en/html/affiliation.html
@@ -1944,7 +1944,7 @@ msgstr "Pripravljena različica"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1694
 msgid "Email"
-msgstr "E-pošta"
+msgstr "Elektronska pošta"
 
 #.
 #. This is used as a description for the status of the document.
@@ -1987,7 +1987,7 @@ msgstr "Pomembno"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1722
 msgid "Incomplete"
-msgstr "V pripravi"
+msgstr "Nedokončano"
 
 #.
 #. http://www.docbook.org/tdg/en/html/index.html
@@ -2029,7 +2029,7 @@ msgstr "Naslednji"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1746
 msgid "Note"
-msgstr "Opomba"
+msgstr "Sporočilce"
 
 #.
 #. http://www.docbook.org/tdg/en/html/preface.html
@@ -2081,12 +2081,12 @@ msgstr "Zgodovina sprememb"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1780
 msgid "See"
-msgstr "Glejte"
+msgstr "Poglejte"
 
 #. Automatic see also section and links
 #: ../xslt/gettext/l10n.xml.in.h:1782
 msgid "See Also"
-msgstr "Glejte tudi"
+msgstr "Poglejte tudi"
 
 #.
 #. This is used as a description for the status of the document.
@@ -2097,7 +2097,7 @@ msgstr "Glejte tudi"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1790
 msgid "Stub"
-msgstr "Osnutek"
+msgstr "Začetna različica"
 
 #.
 #. http://www.docbook.org/tdg/en/html/refsynopsisdiv.html
