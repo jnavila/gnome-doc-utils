@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-doc-utils master\n"
 "POT-Creation-Date: 2010-08-20 12:16+0000\n"
-"PO-Revision-Date: 2010-08-30 22:57+0200\n"
+"PO-Revision-Date: 2010-08-31 23:10+0200\n"
 "Last-Translator: Fran Dieguez <frandieguez@ubuntu.com>\n"
 "Language-Team: Galician <gnome-gl-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -62,7 +62,7 @@ msgstr ""
 #: C/i18n.page:11(name) C/explore.page:9(name) C/explore.page:22(cite)
 #: C/details.page:9(name)
 msgid "Shaun McCance"
-msgstr ""
+msgstr "Shaun McCance"
 
 #: C/tenminutes.page:11(email) C/spec.page:13(email)
 #: C/principles.page:10(email) C/mal_section.page:10(email)
@@ -93,7 +93,7 @@ msgstr ""
 #: C/index.page:16(email) C/i18n.page:12(email) C/explore.page:10(email)
 #: C/details.page:10(email)
 msgid "shaunm@gnome.org"
-msgstr ""
+msgstr "shaunm@gnome.org"
 
 #: C/tenminutes.page:12(years) C/principles.page:11(years)
 #: C/mal_section.page:11(years) C/mal_page.page:11(years)
@@ -112,11 +112,11 @@ msgstr ""
 #: C/mal_block_example.page:11(years) C/mal_block_code.page:13(years)
 #: C/explore.page:11(years)
 msgid "2008-2009"
-msgstr ""
+msgstr "2008-2009"
 
 #: C/tenminutes.page:17(desc)
 msgid "Create a multiple-page document in only ten minutes."
-msgstr ""
+msgstr "Crear un documento de múltiples páxinas en só dez minutos"
 
 #: C/tenminutes.page:20(title)
 msgid "Ten Minute Tour"
@@ -148,6 +148,13 @@ msgid ""
 "\">Guide pages</link> serve as the navigational glue between topics, helping "
 "readers find and explore content."
 msgstr ""
+"Un documento Mallard está composto de múltiples páxinas independentes. As "
+"<link xref=\"mal_page#topic\">páxinas de temas</link> fornecen anacos de "
+"información ao lector. Isto pode ser un titorial, unha vista xeral "
+"conceptual, material de referencia ou calquera outro tipo de información "
+"escrita. As <link xref=\"mal_page#guide\">páxinas de guía</link> serven como "
+"a unión entre os temas, para facilitar a navegación e axudar aos lectores a "
+"buscar e examinar o contido."
 
 #: C/tenminutes.page:38(p)
 msgid ""
@@ -156,6 +163,11 @@ msgid ""
 "its purpose is to help users navigate to other content. In Mallard, the "
 "front page of any document is named <file>index.page</file>."
 msgstr ""
+"Pódese comezar un documento Mallard escribindo unha páxina frontal para a "
+"documentación. Xeralmente a páxina frontal de calquera documento será unha "
+"páxina de guía, xa que o seu propósito é axudar aos usuarios a navegar por "
+"outros contidos. En Mallard, a páxina frontal de calquera documento chámase "
+"<file>index.page</file>."
 
 #: C/tenminutes.page:44(file) C/mal_block_listing.page:89(file)
 msgid "index.page"
@@ -167,6 +179,9 @@ msgid ""
 "valid Mallard document, although it's rather useless. We can add another "
 "page to the document by creating a new page file."
 msgstr ""
+"Este simple exemplo é unha páxina válida de guía Mallard. Por si soa, tamén "
+"é un documento Mallard válido, aínda que non serve para nada. Pódese engadir "
+"outra páxina ao documento creando un novo ficheiro de páxina."
 
 #: C/tenminutes.page:58(file) C/tenminutes.page:74(file)
 #: C/tenminutes.page:92(file)
@@ -185,11 +200,11 @@ msgstr ""
 
 #: C/tenminutes.page:88(p)
 msgid "Explain the linking and introduce the next example."
-msgstr ""
+msgstr "Explicar o enlazado e introducir o seguinte exemplo."
 
 #: C/tenminutes.page:114(p)
 msgid "Fill in more content."
-msgstr ""
+msgstr "Rechear con máis contido."
 
 #: C/spec.page:14(years) C/mal_inline.page:13(years)
 #: C/mal_info_years.page:13(years) C/mal_info_name.page:13(years)
@@ -201,7 +216,7 @@ msgstr "2009"
 
 #: C/spec.page:17(desc)
 msgid "Complete specification of the Mallard XML vocabulary."
-msgstr ""
+msgstr "Completar a especificación do vogabulario XML de Mallard."
 
 #: C/spec.page:20(title)
 msgid "Language Specification"
@@ -209,11 +224,11 @@ msgstr "Especificación da linguaxe"
 
 #: C/spec.page:24(p) C/index.page:27(p)
 msgid "Add some intro text"
-msgstr ""
+msgstr "Engadir algún texto introdutorio."
 
 #: C/principles.page:16(desc)
 msgid "The guiding principles behind the design of Mallard."
-msgstr ""
+msgstr "Os principios guía detrás do deseño de Mallard."
 
 #: C/principles.page:19(title)
 msgid "Design Principles"
@@ -221,7 +236,7 @@ msgstr "Principios do deseño"
 
 #: C/principles.page:23(p)
 msgid "Add intro content"
-msgstr ""
+msgstr "Engadir contido introdutorio."
 
 #: C/principles.page:24(p)
 msgid ""
@@ -230,11 +245,11 @@ msgstr ""
 
 #: C/principles.page:29(title)
 msgid "Principles for the Reader"
-msgstr ""
+msgstr "Principios para o lector"
 
 #: C/principles.page:32(title)
 msgid "For the Reader"
-msgstr ""
+msgstr "Para o lector"
 
 #: C/principles.page:34(p)
 msgid ""
@@ -246,7 +261,7 @@ msgstr ""
 
 #: C/principles.page:42(title)
 msgid "Principles for the Writer"
-msgstr ""
+msgstr "Principios para o escritor"
 
 #: C/principles.page:44(title)
 msgid "For the Writer"
@@ -266,7 +281,7 @@ msgstr "Para o Hacker"
 
 #: C/principle-redundancy.page:8(desc)
 msgid "Avoid forcing writers to write the same thing twice"
-msgstr ""
+msgstr "Evitar forzar aos escritores para que escriban o mesmo dúas veces"
 
 #: C/principle-redundancy.page:11(title)
 msgid "Reduce Redundancy"
@@ -274,27 +289,27 @@ msgstr "Reducir redundancia"
 
 #: C/principle-justenough.page:9(desc)
 msgid "Provide just enough markup to mark up what's important"
-msgstr ""
+msgstr "Fornecer suficiente marcado para marcar o importante"
 
 #: C/principle-justenough.page:12(title)
 msgid "Just Enough Markup"
-msgstr ""
+msgstr "Usar o marcado xusto"
 
 #: C/principle-guide.page:6(desc)
 msgid "Ensure the reader doesn't get lost in a link swarm"
-msgstr ""
+msgstr "Asegurarse de que o lector non se perde nunha maraña de ligazóns"
 
 #: C/principle-guide.page:13(title)
 msgid "Guide the Reader"
-msgstr ""
+msgstr "Guiar ao lector"
 
 #: C/mal_TODO.page:8(title)
 msgid "TODO"
-msgstr ""
+msgstr "TODO"
 
 #: C/mal_table_tr.page:9(title)
 msgid "Rows and Row Groups"
-msgstr ""
+msgstr "Filas e grupos en filas"
 
 #: C/mal_table_tr.page:11(code)
 #, no-wrap
@@ -325,10 +340,35 @@ msgid ""
 "  mal_table_tr +\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_table_tr = element tr {\n"
+"  attribute style { xsd:NMTOKENS } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  <link xref=\"mal_table_td\">mal_table_td</link> *\n"
+"}\n"
+"mal_table_thead = element thead {\n"
+"  attribute style { xsd:NMTOKENS } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  mal_table_tr +\n"
+"}\n"
+"mal_table_tbody = element tbody {\n"
+"  attribute style { xsd:NMTOKENS } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  mal_table_tr +\n"
+"}\n"
+"mal_table_tfoot = element tfoot {\n"
+"  attribute style { xsd:NMTOKENS } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  mal_table_tr +\n"
+"}\n"
 
 #: C/mal_table_td.page:9(title)
 msgid "Table Cells"
-msgstr ""
+msgstr "Celas de táboas"
 
 #: C/mal_table_td.page:11(code)
 #, no-wrap
@@ -343,10 +383,19 @@ msgid ""
 "  <link xref=\"mal_block\">mal_block</link> +\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_table_td = element td {\n"
+"  attribute style { xsd:NMTOKENS } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"  attribute rowspan { text } ?,\n"
+"  attribute colspan { text } ?,\n"
+"\n"
+"  <link xref=\"mal_block\">mal_block</link> +\n"
+"}\n"
 
 #: C/mal_table.page:8(title) C/mal_block.page:136(title)
 msgid "Tables"
-msgstr ""
+msgstr "Táboas"
 
 #: C/mal_table.page:10(code)
 #, no-wrap
@@ -797,6 +846,7 @@ msgstr ""
 #: C/mal_page.page:16(desc)
 msgid "Individual tutorials, overviews, references, and navigational guides."
 msgstr ""
+"Titoriais individuais, visións xerales, referencias e guías de navegación."
 
 #: C/mal_page.page:19(title)
 msgid "Pages"
@@ -987,7 +1037,7 @@ msgstr "2007-2009"
 
 #: C/mal_inline_var.page:20(desc)
 msgid "Mark up placeholder text that should be replaced by the user."
-msgstr ""
+msgstr "Marque o lugar do texto que debería ser reemprazado polo usuario"
 
 #: C/mal_inline_var.page:23(title)
 msgid "Variable Text"
@@ -1028,6 +1078,8 @@ msgid ""
 "The <code>var</code> element can contain a mixture of text and any <link "
 "xref=\"mal_inline\">general inline elements</link>."
 msgstr ""
+"O elemento <code>var</code> pode conter unha mistura de texto e calquera "
+"<link xref=\"mal_inline\">elemento xeral en liña</link>."
 
 #: C/mal_inline_var.page:49(p)
 msgid ""
@@ -1042,6 +1094,8 @@ msgid ""
 "The <code>var</code> element can link to other pages or documents. See <link "
 "xref=\"mal_attr_link\"/> for more information."
 msgstr ""
+"O elemento <code>var</code> pode ligar a outras páxinas ou documentos. Para "
+"obter máis información consulte a <link xref=\"mal_attr_link\"/>."
 
 #: C/mal_inline_var.page:62(p)
 msgid ""
@@ -1094,7 +1148,7 @@ msgstr ""
 
 #: C/mal_inline_sys.page:18(desc)
 msgid "Mark up general identifiers found on computer systems."
-msgstr ""
+msgstr "Marque identificadores xerais encontrados nos sistemas."
 
 #: C/mal_inline_sys.page:21(title)
 msgid "System Items"
@@ -1158,11 +1212,11 @@ msgstr ""
 
 #: C/mal_inline_sys.page:71(p)
 msgid "Use <code>sys</code> to mark up a domain name:"
-msgstr ""
+msgstr "Use <code>sys</code> para marcar un nome de dominio:"
 
 #: C/mal_inline_sys.page:75(p)
 msgid "The Linux kernel is hosted on <sys>git.kernel.org</sys>."
-msgstr ""
+msgstr "O núcleo de Linux está hospedado en <sys>git.kernel.org</sys>."
 
 #: C/mal_inline_sys.page:85(p)
 msgid ""
@@ -1277,7 +1331,7 @@ msgstr ""
 
 #: C/mal_inline.page:18(desc)
 msgid "Rich semantic elements for marking up inline content."
-msgstr ""
+msgstr "Elementos semánticos ricos para marcar o contido en liña."
 
 #: C/mal_inline.page:21(title) C/mal_inline.page:67(title)
 msgid "Inline Elements"
@@ -1438,6 +1492,8 @@ msgid ""
 "The <code>output</code> element can contain a mixture of text and any <link "
 "xref=\"mal_inline\">general inline elements</link>."
 msgstr ""
+"O elemento <code>output</code> pode conter unha mistura de texto e calquera "
+"<link xref=\"mal_inline\">elemento xeral en liña</link>"
 
 #: C/mal_inline_output.page:53(p)
 msgid ""
@@ -1452,10 +1508,12 @@ msgid ""
 "The <code>output</code> element can link to other pages or documents. See "
 "<link xref=\"mal_attr_link\"/> for more information."
 msgstr ""
+"O elemento <code>output</code> pode ligar a outras páxinas ou documentos. "
+"Para obter máis información consulte a <link xref=\"mal_attr_link\"/>."
 
 #: C/mal_inline_output.page:67(p)
 msgid "Typical values for the <code>style</code> attribute include:"
-msgstr ""
+msgstr "Os valores típicos para o atributo <code>style</code> inclúen:"
 
 #: C/mal_inline_output.page:69(code)
 #, no-wrap
@@ -1464,7 +1522,7 @@ msgstr "saída"
 
 #: C/mal_inline_output.page:70(p)
 msgid "Standard output from a running program"
-msgstr ""
+msgstr "Saída estándar dun programa en execución"
 
 #: C/mal_inline_output.page:72(code)
 #, no-wrap
@@ -1473,12 +1531,12 @@ msgstr "erro"
 
 #: C/mal_inline_output.page:73(p)
 msgid "Standard error from a running program"
-msgstr ""
+msgstr "Erro estándar dun programa en execución"
 
 #: C/mal_inline_output.page:75(code) C/docbook.page:1158(code)
 #, no-wrap
 msgid "prompt"
-msgstr ""
+msgstr "aviso"
 
 #: C/mal_inline_output.page:76(p)
 msgid "The command prompt for an interactive shell"
@@ -2099,7 +2157,7 @@ msgstr ""
 
 #: C/mal_inline_key.page:18(desc)
 msgid "Mark up a key to be pressed on the user's keyboard."
-msgstr ""
+msgstr "Marcar unha tecla para que se prema no teclado do usuario."
 
 #: C/mal_inline_key.page:21(title)
 msgid "Key Strokes"
@@ -2185,15 +2243,15 @@ msgstr ""
 
 #: C/mal_inline_key.page:87(p)
 msgid "Use <code>key</code> to mark up a letter key:"
-msgstr ""
+msgstr "Use <code>key</code> para marcar a letra dunha tecla:"
 
 #: C/mal_inline_key.page:93(p)
 msgid "Press <key>M</key> to mark the selected message as read."
-msgstr ""
+msgstr "Prema <key>M</key> para marcar a mensaxe seleccionado como lido."
 
 #: C/mal_inline_key.page:96(p)
 msgid "Use <code>key</code> to mark up a function key:"
-msgstr ""
+msgstr "Use <code>key</code> para marcar unha tecla de función:"
 
 #: C/mal_inline_key.page:102(p)
 msgid "Press <key>F9</key> to check for new messages."
@@ -2206,7 +2264,7 @@ msgstr ""
 
 #: C/mal_inline_key.page:112(p)
 msgid "Press the <key>Down</key> key to select the next item."
-msgstr ""
+msgstr "Prema a tecla <key>Abaixo</key> para seleccionar o seguinte elemento."
 
 #: C/mal_inline_key.page:122(p)
 msgid ""
@@ -2228,7 +2286,7 @@ msgstr ""
 
 #: C/mal_inline_input.page:19(desc)
 msgid "Mark up text the user should input into a computer program."
-msgstr ""
+msgstr "Marcar texto que o usuario debe introducir nun programa do equipo."
 
 #: C/mal_inline_input.page:22(title)
 msgid "User Input"
@@ -2621,11 +2679,11 @@ msgstr ""
 
 #: C/mal_inline_file.page:18(desc)
 msgid "Mark up the name of a file or directory."
-msgstr ""
+msgstr "Marcar o nome dun ficheiro ou cartafol."
 
 #: C/mal_inline_file.page:21(title)
 msgid "Filenames"
-msgstr ""
+msgstr "Nomes de ficheiro"
 
 #: C/mal_inline_file.page:23(code)
 #, no-wrap
@@ -2639,6 +2697,14 @@ msgid ""
 "  <link xref=\"mal_inline\">mal_inline</link>\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_inline_file = element file {\n"
+"  <link xref=\"mal_attr_link\">mal_attr_link</link> ?,\n"
+"  attribute style { xsd:NMTOKENS } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  <link xref=\"mal_inline\">mal_inline</link>\n"
+"}\n"
 
 #: C/mal_inline_file.page:33(p)
 msgid ""
@@ -2691,11 +2757,11 @@ msgstr ""
 
 #: C/mal_inline_em.page:18(desc)
 msgid "Emphasize important text."
-msgstr ""
+msgstr "Enfatizar texto importante."
 
 #: C/mal_inline_em.page:21(title)
 msgid "Emphasis"
-msgstr ""
+msgstr "Énfase"
 
 #: C/mal_inline_em.page:23(code)
 #, no-wrap
@@ -2709,6 +2775,14 @@ msgid ""
 "  <link xref=\"mal_inline\">mal_inline</link>\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_inline_em = element em {\n"
+"  <link xref=\"mal_attr_link\">mal_attr_link</link> ?,\n"
+"  attribute style { xsd:NMTOKENS } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  <link xref=\"mal_inline\">mal_inline</link>\n"
+"}\n"
 
 #: C/mal_inline_em.page:33(p)
 msgid ""
@@ -2747,15 +2821,16 @@ msgstr ""
 
 #: C/mal_inline_em.page:71(p)
 msgid "Use <code>em</code> to stress a word in a sentence:"
-msgstr ""
+msgstr "Use </code>em<code> para destacar unha palabra nunha oración:"
 
 #: C/mal_inline_em.page:77(p)
 msgid "You should <em>never</em> run a graphical application as root."
 msgstr ""
+"<em>Nunca</em> debería executar un aplicativo gráfico como superusuario."
 
 #: C/mal_inline_em.page:80(p)
 msgid "Use <code>em</code> to mark the first occurance of a term:"
-msgstr ""
+msgstr "Use <code>em</code> para marcar a primeira aparición dun termo:"
 
 #: C/mal_inline_em.page:86(p)
 msgid "Note that <em>accelerators</em> are different from <em>mnemonics</em>."
@@ -2796,7 +2871,7 @@ msgstr ""
 
 #: C/mal_inline_code.page:21(title)
 msgid "Code Snippets"
-msgstr ""
+msgstr "Fragmentos de código"
 
 #: C/mal_inline_code.page:23(code)
 #, no-wrap
@@ -2811,6 +2886,15 @@ msgid ""
 "  <link xref=\"mal_inline\">mal_inline</link>\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_inline_code = element code {\n"
+"  <link xref=\"mal_attr_link\">mal_attr_link</link> ?,\n"
+"  attribute style { xsd:NMTOKENS } ?,\n"
+"  attribute mime { text } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  <link xref=\"mal_inline\">mal_inline</link>\n"
+"}\n"
 
 #: C/mal_inline_code.page:34(p)
 msgid ""
@@ -2957,7 +3041,7 @@ msgstr ""
 
 #: C/mal_inline_cmd.page:22(title)
 msgid "Commands"
-msgstr ""
+msgstr "Ordes"
 
 #: C/mal_inline_cmd.page:24(code)
 #, no-wrap
@@ -2972,6 +3056,15 @@ msgid ""
 "  <link xref=\"mal_inline\">mal_inline</link>\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_inline_cmd = element cmd {\n"
+"  <link xref=\"mal_attr_link\">mal_attr_link</link> ?,\n"
+"  attribute style { xsd:NMTOKENS } ?,\n"
+"  attribute mime { text } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  <link xref=\"mal_inline\">mal_inline</link>\n"
+"}\n"
 
 #: C/mal_inline_cmd.page:35(p)
 msgid ""
@@ -3024,20 +3117,20 @@ msgstr ""
 #: C/mal_inline_cmd.page:78(code) C/mal_block_screen.page:74(code)
 #, no-wrap
 msgid "application/x-sh"
-msgstr ""
+msgstr "application/x-sh"
 
 #: C/mal_inline_cmd.page:79(p) C/mal_block_screen.page:75(p)
 msgid "Command to execute with the Bourne shell"
-msgstr ""
+msgstr "Orde para executar na shell Bourne"
 
 #: C/mal_inline_cmd.page:81(code) C/mal_block_screen.page:77(code)
 #, no-wrap
 msgid "application/x-csh"
-msgstr ""
+msgstr "application/x-csh"
 
 #: C/mal_inline_cmd.page:82(p) C/mal_block_screen.page:78(p)
 msgid "Command to execute with the C shell"
-msgstr ""
+msgstr "Orde para executar na shell C"
 
 #: C/mal_inline_cmd.page:86(p)
 msgid ""
@@ -3125,7 +3218,7 @@ msgstr ""
 
 #: C/mal_inline_app.page:22(title)
 msgid "Application Names"
-msgstr ""
+msgstr "Nomes de aplicativos"
 
 #: C/mal_inline_app.page:24(code)
 #, no-wrap
@@ -3139,6 +3232,14 @@ msgid ""
 "  <link xref=\"mal_inline\">mal_inline</link>\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_inline_app = element app {\n"
+"  <link xref=\"mal_attr_link\">mal_attr_link</link> ?,\n"
+"  attribute style { xsd:NMTOKENS } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  <link xref=\"mal_inline\">mal_inline</link>\n"
+"}\n"
 
 #: C/mal_inline_app.page:34(p)
 msgid ""
@@ -3225,11 +3326,11 @@ msgstr ""
 #: C/mal_info_years.page:18(desc) C/mal_info_name.page:18(desc)
 #: C/mal_info_email.page:18(desc)
 msgid "FIXME"
-msgstr ""
+msgstr "ARRANXAR"
 
 #: C/mal_info_years.page:21(title)
 msgid "Copyright Years"
-msgstr ""
+msgstr "Anos do «Copyright»"
 
 #: C/mal_info_years.page:23(code)
 #, no-wrap
@@ -3240,6 +3341,11 @@ msgid ""
 "  <link xref=\"mal_inline\">mal_inline</link>\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_info_years = element years {\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"  <link xref=\"mal_inline\">mal_inline</link>\n"
+"}\n"
 
 #: C/mal_info_years.page:30(p)
 msgid ""
@@ -3288,7 +3394,7 @@ msgstr ""
 
 #: C/mal_info_title.page:21(title)
 msgid "Informational Tiltes"
-msgstr ""
+msgstr "Títulos informativos"
 
 #: C/mal_info_title.page:23(code)
 #, no-wrap
@@ -3302,6 +3408,14 @@ msgid ""
 "  <link xref=\"mal_inline\">mal_inline</link>\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_info_title = element title {\n"
+"  attribute type { xsd:NMTOKEN },\n"
+"  attribute role { xsd:NMTOKEN } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  <link xref=\"mal_inline\">mal_inline</link>\n"
+"}\n"
 
 #: C/mal_info_title.page:33(p)
 msgid ""
@@ -3332,20 +3446,20 @@ msgstr ""
 #: C/mal_info_title.page:54(code)
 #, no-wrap
 msgid "\"link\""
-msgstr ""
+msgstr "\"link\""
 
 #: C/mal_info_title.page:55(p)
 msgid "specifies alternate link text; see <link xref=\"#link\"/>"
-msgstr ""
+msgstr "especifica a chave link; vexa <link xref=\"#link\"/>"
 
 #: C/mal_info_title.page:58(code)
 #, no-wrap
 msgid "\"sort\""
-msgstr ""
+msgstr "\"sort\""
 
 #: C/mal_info_title.page:59(p)
 msgid "specifies a sort key; see <link xref=\"#sort\"/>"
-msgstr ""
+msgstr "especifica a chave sort; vexa <link xref=\"#sort\"/>"
 
 #: C/mal_info_title.page:63(p)
 msgid ""
@@ -3362,7 +3476,7 @@ msgstr ""
 
 #: C/mal_info_title.page:76(title)
 msgid "Primary Titles"
-msgstr ""
+msgstr "Títulos primarios"
 
 #: C/mal_info_title.page:78(p)
 msgid ""
@@ -3374,7 +3488,7 @@ msgstr ""
 
 #: C/mal_info_title.page:88(title)
 msgid "Link Titles"
-msgstr ""
+msgstr "Títulos de ligazón"
 
 #: C/mal_info_title.page:90(p)
 msgid ""
@@ -3398,7 +3512,7 @@ msgstr ""
 
 #: C/mal_info_title.page:109(title)
 msgid "Sort Titles"
-msgstr ""
+msgstr "Títulos curtos"
 
 #: C/mal_info_title.page:111(p)
 msgid ""
@@ -3431,7 +3545,7 @@ msgstr ""
 
 #: C/mal_info_revision.page:21(title)
 msgid "Version Information"
-msgstr ""
+msgstr "Información da versión"
 
 #: C/mal_info_revision.page:23(code)
 #, no-wrap
@@ -3452,6 +3566,21 @@ msgid ""
 "  <link xref=\"mal_external\">mal_external</link> *\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_info_revision = element revision {\n"
+"  attribute version { text } ?,\n"
+"  attribute docversion { text } ?,\n"
+"  attribute pkgversion { text } ?,\n"
+"  attribute date { xsd:date } ?,\n"
+"  attribute status {\n"
+"    \"stub\"   | \"incomplete\" | \"draft\" | \"outdated\" |\n"
+"    \"review\" | \"candidate\"  | \"final\" } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  <link xref=\"mal_block_title\">mal_block_title</link> ?,\n"
+"  <link xref=\"mal_block_desc\">mal_block_desc</link> ?,\n"
+"  <link xref=\"mal_external\">mal_external</link> *\n"
+"}\n"
 
 #: C/mal_info_revision.page:40(p)
 msgid ""
@@ -3539,7 +3668,7 @@ msgstr ""
 
 #: C/mal_info_revision.page:89(p)
 msgid "all content available, but unpolished"
-msgstr ""
+msgstr "todo o contido dispoñíbel pero desordenado"
 
 #: C/mal_info_revision.page:92(code)
 #, no-wrap
@@ -3551,6 +3680,8 @@ msgid ""
 "was once complete or nearly complete, but needs to be revised to reflect "
 "changes"
 msgstr ""
+"cando está completo ou case completo pero precisa revisarse para reflectir "
+"os cambios"
 
 #: C/mal_info_revision.page:97(code)
 #, no-wrap
@@ -3559,7 +3690,7 @@ msgstr ""
 
 #: C/mal_info_revision.page:98(p)
 msgid "ready to be reviewed by editors"
-msgstr ""
+msgstr "listo para a revisión polos editores"
 
 #: C/mal_info_revision.page:101(code)
 #, no-wrap
@@ -3568,7 +3699,7 @@ msgstr ""
 
 #: C/mal_info_revision.page:102(p)
 msgid "reviewed and awaiting a final approval"
-msgstr ""
+msgstr "revisado e agardando a aprobación final"
 
 #: C/mal_info_revision.page:105(code)
 #, no-wrap
@@ -3577,7 +3708,7 @@ msgstr ""
 
 #: C/mal_info_revision.page:106(p)
 msgid "approved and ready for publication or distribution"
-msgstr ""
+msgstr "aprobado e listo para a publicación ou distribución"
 
 #: C/mal_info_revision.page:111(p)
 msgid ""
@@ -3616,7 +3747,7 @@ msgstr ""
 
 #: C/mal_info.page:11(title) C/mal_info.page:45(title)
 msgid "Informational Elements"
-msgstr ""
+msgstr "Elementos informativos"
 
 #: C/mal_info.page:13(code)
 #, no-wrap
@@ -3636,18 +3767,32 @@ msgid ""
 "  )\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_info = element info {\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  (\n"
+"    <link xref=\"mal_info_desc\">mal_info_desc</link> ? &amp;\n"
+"    <link xref=\"mal_info_credit\">mal_info_credit</link> * &amp;\n"
+"    <link xref=\"mal_info_license\">mal_info_license</link> * &amp;\n"
+"    <link xref=\"mal_info_link\">mal_info_link</link> * &amp;\n"
+"    <link xref=\"mal_info_title\">mal_info_title</link> * &amp;\n"
+"    <link xref=\"mal_info_revision\">mal_info_revision</link> * &amp;\n"
+"    <link xref=\"mal_external\">mal_external</link> *\n"
+"  )\n"
+"}\n"
 
 #: C/mal_info.page:52(title)
 msgid "Additional Informational Elements"
-msgstr ""
+msgstr "Elementos informativos adicinais"
 
 #: C/mal_info.page:54(title)
 msgid "Additional Elements"
-msgstr ""
+msgstr "Elementos adicionais"
 
 #: C/mal_info_name.page:21(title)
 msgid "Names"
-msgstr ""
+msgstr "Nomes"
 
 #: C/mal_info_name.page:23(code)
 #, no-wrap
@@ -3658,6 +3803,11 @@ msgid ""
 "  <link xref=\"mal_inline\">mal_inline</link>\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_info_name = element name {\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"  <link xref=\"mal_inline\">mal_inline</link>\n"
+"}\n"
 
 #: C/mal_info_name.page:30(p)
 msgid ""
@@ -3707,14 +3857,20 @@ msgid ""
 "  attribute weight { text } ?\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_info_link = element link {\n"
+"  attribute type { \"guide\" | \"topic\" | \"seealso\" },\n"
+"  attribute xref { text },\n"
+"  attribute weight { text } ?\n"
+"}\n"
 
 #: C/mal_info_license.page:18(desc)
 msgid "Provide information about the licensing terms of the material."
-msgstr ""
+msgstr "Fornece información sobre os termos da licenza do material."
 
 #: C/mal_info_license.page:21(title)
 msgid "License Information"
-msgstr ""
+msgstr "Información da licenza"
 
 #: C/mal_info_license.page:23(code)
 #, no-wrap
@@ -3727,6 +3883,13 @@ msgid ""
 "  <link xref=\"mal_block\">mal_block</link> +\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_info_license = element license {\n"
+"  attribute href { text } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  <link xref=\"mal_block\">mal_block</link> +\n"
+"}\n"
 
 #: C/mal_info_license.page:32(p)
 msgid ""
@@ -3792,7 +3955,7 @@ msgstr ""
 
 #: C/mal_info_email.page:21(title)
 msgid "Email Addresses"
-msgstr ""
+msgstr "Enderezos de correo electrónico"
 
 #: C/mal_info_email.page:23(code)
 #, no-wrap
@@ -3803,6 +3966,11 @@ msgid ""
 "  <link xref=\"mal_inline\">mal_inline</link>\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_info_email = element email {\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"  <link xref=\"mal_inline\">mal_inline</link>\n"
+"}\n"
 
 #: C/mal_info_email.page:30(p)
 msgid ""
@@ -3839,11 +4007,11 @@ msgstr ""
 
 #: C/mal_info_desc.page:18(desc)
 msgid "Provide a short description of a page or section."
-msgstr ""
+msgstr "Fornece unha descrición curta da páxina ou da sección"
 
 #: C/mal_info_desc.page:21(title)
 msgid "Page Descriptions"
-msgstr ""
+msgstr "Descricións de páxina"
 
 #: C/mal_info_desc.page:23(code)
 #, no-wrap
@@ -3855,6 +4023,12 @@ msgid ""
 "  <link xref=\"mal_inline\">mal_inline</link>\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_info_desc = element desc {\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  <link xref=\"mal_inline\">mal_inline</link>\n"
+"}\n"
 
 #: C/mal_info_desc.page:31(p)
 msgid ""
@@ -3902,7 +4076,7 @@ msgstr ""
 #: C/mal_block_cite.page:12(years) C/mal_attr_link.page:11(years)
 #: C/details.page:11(years)
 msgid "2008"
-msgstr ""
+msgstr "2008"
 
 #: C/mal_info_credit.page:18(desc)
 msgid "Give credit where credit is due."
@@ -3910,7 +4084,7 @@ msgstr ""
 
 #: C/mal_info_credit.page:21(title)
 msgid "Credits"
-msgstr ""
+msgstr "Créditos"
 
 #: C/mal_info_credit.page:23(code)
 #, no-wrap
@@ -3928,6 +4102,18 @@ msgid ""
 "  )\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_info_credit = element credit {\n"
+"  attribute type { xsd:NMTOKENS } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  (\n"
+"    <link xref=\"mal_info_name\">mal_info_name</link> &amp;\n"
+"    <link xref=\"mal_info_email\">mal_info_email</link> ? &amp;\n"
+"    <link xref=\"mal_info_years\">mal_info_years</link> ? &amp;\n"
+"    <link xref=\"mal_external\">mal_external</link> *\n"
+"  )\n"
+"}\n"
 
 #: C/mal_info_credit.page:37(p)
 msgid ""
@@ -3967,7 +4153,7 @@ msgstr ""
 
 #: C/mal_info_credit.page:67(p)
 msgid "somebody responsible for writing content"
-msgstr ""
+msgstr "alguén responsábel de escribir contido"
 
 #: C/mal_info_credit.page:70(code)
 #, no-wrap
@@ -3976,7 +4162,7 @@ msgstr ""
 
 #: C/mal_info_credit.page:71(p)
 msgid "somebody who has provided reviews or editorial corrections"
-msgstr ""
+msgstr "alguén que fornece revisións e correccións editoriais"
 
 #: C/mal_info_credit.page:74(code)
 #, no-wrap
@@ -3985,7 +4171,7 @@ msgstr ""
 
 #: C/mal_info_credit.page:75(p)
 msgid "a person or entity which holds copyright on the work"
-msgstr ""
+msgstr "unha persoa ou entidade que mantén o copyright do traballo"
 
 #: C/mal_info_credit.page:78(code)
 #, no-wrap
@@ -3994,7 +4180,7 @@ msgstr ""
 
 #: C/mal_info_credit.page:79(p)
 msgid "the person or entity currently responsible for the work"
-msgstr ""
+msgstr "a persoa ou entidade responsabel actual do traballo"
 
 #: C/mal_info_credit.page:82(code)
 #, no-wrap
@@ -4003,7 +4189,7 @@ msgstr ""
 
 #: C/mal_info_credit.page:83(p)
 msgid "somebody who has provided extensive rough information"
-msgstr ""
+msgstr "alguén que forneceu información extensiva"
 
 #: C/mal_info_credit.page:86(code)
 #, no-wrap
@@ -4012,7 +4198,7 @@ msgstr ""
 
 #: C/mal_info_credit.page:87(p)
 msgid "somebody who has translated the work into another language"
-msgstr ""
+msgstr "alguén que traduciu o traballo a outro idioma"
 
 #: C/mal_info_credit.page:90(code)
 #, no-wrap
@@ -4021,7 +4207,7 @@ msgstr ""
 
 #: C/mal_info_credit.page:91(p)
 msgid "a person or entity who distributes formatted copies"
-msgstr ""
+msgstr "unha persoa ou entidade que distribúe copias formatadas"
 
 #: C/mal_info_credit.page:96(p)
 msgid ""
@@ -4079,11 +4265,11 @@ msgstr ""
 
 #: C/mal_external.page:20(title)
 msgid "External Namespaces"
-msgstr ""
+msgstr "Espazos de nomes externos"
 
 #: C/mal_external.page:24(p) C/explore.page:23(p) C/details.page:23(p)
 msgid "Add content"
-msgstr ""
+msgstr "Engadir contido"
 
 #: C/mal_external.page:27(code)
 #, no-wrap
@@ -4098,10 +4284,19 @@ msgid ""
 "  mal_anything *\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_external = element * - (mal:* | local:*) {\n"
+"  attribute * { text } *,\n"
+"  mal_anything *\n"
+"}\n"
+"mal_anything = element * {\n"
+"  attribute * { text } *,\n"
+"  mal_anything *\n"
+"}\n"
 
 #: C/mal_external.page:42(title)
 msgid "External Namespace Attributes"
-msgstr ""
+msgstr "Atributos de espazos de nomes externos."
 
 #: C/mal_external.page:46(p)
 msgid ""
@@ -4138,7 +4333,7 @@ msgstr ""
 
 #: C/mal_block_tree.page:19(title)
 msgid "Tree Lists"
-msgstr ""
+msgstr "Listas en árbore"
 
 #: C/mal_block_tree.page:21(code)
 #, no-wrap
@@ -4159,6 +4354,21 @@ msgid ""
 "  mal_tree_item *\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_block_tree = element tree {\n"
+"  attribute style { xsd:NMTOKENS } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  <link xref=\"mal_block_title\">mal_block_title</link> ?,\n"
+"  mal_tree_item +\n"
+"}\n"
+"mal_tree_item = element item {\n"
+"  attribute style { xsd:NMTOKENS } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  <link xref=\"mal_inline\">mal_inline</link>,\n"
+"  mal_tree_item *\n"
+"}\n"
 
 #: C/mal_block_tree.page:38(p)
 msgid ""
@@ -4193,11 +4403,11 @@ msgstr ""
 #: C/mal_block_tree.page:68(code)
 #, no-wrap
 msgid "lines"
-msgstr ""
+msgstr "lilñas"
 
 #: C/mal_block_tree.page:69(p)
 msgid "draw lines to show the hierarchy"
-msgstr ""
+msgstr "debuxar liñas para mostrar a xerarquía"
 
 #: C/mal_block_tree.page:74(p)
 msgid ""
@@ -4215,42 +4425,42 @@ msgstr ""
 #: C/mal_block_tree.page:110(code)
 #, no-wrap
 msgid "GtkBin"
-msgstr ""
+msgstr "GtkBin"
 
 #: C/mal_block_tree.page:112(code)
 #, no-wrap
 msgid "GtkButton"
-msgstr ""
+msgstr "GtkButton"
 
 #: C/mal_block_tree.page:113(code)
 #, no-wrap
 msgid "GtkToggleButton"
-msgstr ""
+msgstr "GtkToggleButton "
 
 #: C/mal_block_tree.page:114(code)
 #, no-wrap
 msgid "GtkColorButton"
-msgstr ""
+msgstr "GtkColorButton"
 
 #: C/mal_block_tree.page:115(code)
 #, no-wrap
 msgid "GtkFontButton"
-msgstr ""
+msgstr "GtkFontButton"
 
 #: C/mal_block_tree.page:116(code)
 #, no-wrap
 msgid "GtkLinkButton"
-msgstr ""
+msgstr "GtkLinkButton"
 
 #: C/mal_block_tree.page:117(code)
 #, no-wrap
 msgid "GtkOptionMenu"
-msgstr ""
+msgstr "GtkOptionMenu"
 
 #: C/mal_block_tree.page:118(code)
 #, no-wrap
 msgid "GtkScaleButton"
-msgstr ""
+msgstr "GtkScaleButton"
 
 #: C/mal_block_tree.page:125(p)
 msgid ""
@@ -4267,7 +4477,7 @@ msgstr ""
 
 #: C/mal_block_tree.page:151(item)
 msgid "Anas <placeholder-1/><placeholder-2/><placeholder-3/>"
-msgstr ""
+msgstr "Anas <placeholder-1/><placeholder-2/><placeholder-3/>"
 
 #: C/mal_block_tree.page:157(item)
 msgid "Lophonetta"
@@ -4311,7 +4521,7 @@ msgstr ""
 
 #: C/mal_block_title.page:9(title)
 msgid "Titles"
-msgstr ""
+msgstr "Títulos"
 
 #: C/mal_block_title.page:11(code)
 #, no-wrap
@@ -4321,14 +4531,18 @@ msgid ""
 "  <link xref=\"mal_inline\">mal_inline</link>\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_block_title = element title {\n"
+"  <link xref=\"mal_inline\">mal_inline</link>\n"
+"}\n"
 
 #: C/mal_block_terms.page:16(desc)
 msgid "Create a list of terms and associated descriptions."
-msgstr ""
+msgstr "Crear unha lista de termos e as descricións asociadas."
 
 #: C/mal_block_terms.page:19(title)
 msgid "Definition Lists"
-msgstr ""
+msgstr "Listas de definición"
 
 #: C/mal_block_terms.page:21(code)
 #, no-wrap
@@ -4349,6 +4563,21 @@ msgid ""
 "  } +\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_block_terms = element terms {\n"
+"  attribute style { xsd:NMTOKENS } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  <link xref=\"mal_block_title\">mal_block_title</link> ?,\n"
+"\n"
+"  element item {\n"
+"    attribute style { xsd:NMTOKENS } ?,\n"
+"    attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"    <link xref=\"mal_block_title\">mal_block_title</link> +,\n"
+"    <link xref=\"mal_block\">mal_block</link> +\n"
+"  } +\n"
+"}\n"
 
 #: C/mal_block_terms.page:38(p)
 msgid ""
@@ -4392,16 +4621,16 @@ msgstr ""
 #: C/mal_block_terms.page:96(code) C/docbook.page:286(code)
 #, no-wrap
 msgid "code"
-msgstr ""
+msgstr "código"
 
 #: C/mal_block_terms.page:97(p) C/mal_block_code.page:18(desc)
 msgid "Mark up a block of code or the contents of a file."
-msgstr ""
+msgstr "Marcar un bloque de código ou os contidos dun ficheiro."
 
 #: C/mal_block_terms.page:100(code) C/docbook.page:488(code)
 #, no-wrap
 msgid "example"
-msgstr ""
+msgstr "exemplo"
 
 #: C/mal_block_terms.page:101(p)
 msgid "Mark up a group of block elements as being part of a single example."
@@ -4410,7 +4639,7 @@ msgstr ""
 #: C/mal_block_terms.page:104(code)
 #, no-wrap
 msgid "screen"
-msgstr ""
+msgstr "pantalla"
 
 #: C/mal_block_terms.page:105(p) C/mal_block_screen.page:18(desc)
 msgid "Mark up a textual user interface or an interactive shell session."
@@ -4423,12 +4652,12 @@ msgstr ""
 #: C/mal_block_terms.page:133(code)
 #, no-wrap
 msgid "comment"
-msgstr ""
+msgstr "comentario"
 
 #: C/mal_block_terms.page:134(code)
 #, no-wrap
 msgid "quote"
-msgstr ""
+msgstr "cita"
 
 #: C/mal_block_terms.page:135(p)
 msgid "Formal elements which allow a <code>cite</code> element."
@@ -4437,17 +4666,17 @@ msgstr ""
 #: C/mal_block_terms.page:138(code) C/docbook.page:509(code)
 #, no-wrap
 msgid "figure"
-msgstr ""
+msgstr "figura"
 
 #: C/mal_block_terms.page:139(code)
 #, no-wrap
 msgid "listing"
-msgstr ""
+msgstr "listado"
 
 #: C/mal_block_terms.page:140(code)
 #, no-wrap
 msgid "synopsis"
-msgstr ""
+msgstr "sinopse"
 
 #: C/mal_block_terms.page:141(p)
 msgid "Formal elements which allow a <code>desc</code> element."
@@ -4456,7 +4685,7 @@ msgstr ""
 #: C/mal_block_terms.page:144(code) C/docbook.page:969(code)
 #, no-wrap
 msgid "note"
-msgstr ""
+msgstr "nota"
 
 #: C/mal_block_terms.page:145(p)
 msgid "Formal elements which only allow a <code>title</code> element."
@@ -4492,7 +4721,7 @@ msgstr ""
 
 #: C/mal_block_synopsis.page:21(title)
 msgid "Synopses"
-msgstr ""
+msgstr "Sinopses"
 
 #: C/mal_block_synopsis.page:23(code)
 #, no-wrap
@@ -4507,6 +4736,15 @@ msgid ""
 "  <link xref=\"mal_block\">mal_block</link> +\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_block_synopsis = element synopsis {\n"
+"  attribute style { xsd:NMTOKENS } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  <link xref=\"mal_block_title\">mal_block_title</link> ?,\n"
+"  <link xref=\"mal_block_desc\">mal_block_desc</link> ?,\n"
+"  <link xref=\"mal_block\">mal_block</link> +\n"
+"}\n"
 
 #: C/mal_block_synopsis.page:34(p)
 msgid ""
@@ -4562,6 +4800,9 @@ msgid ""
 "void add_bean    (Bean bean);\n"
 "int  count_beans ();\n"
 msgstr ""
+"\n"
+"void add_bean    (Bean bean);\n"
+"int  count_beans ();\n"
 
 #: C/mal_block_synopsis.page:105(p)
 msgid ""
@@ -4592,7 +4833,7 @@ msgstr ""
 
 #: C/mal_block_subtitle.page:9(title)
 msgid "Subtitles"
-msgstr ""
+msgstr "Subtítulos"
 
 #: C/mal_block_subtitle.page:11(code)
 #, no-wrap
@@ -4602,6 +4843,10 @@ msgid ""
 "  <link xref=\"mal_inline\">mal_inline</link>\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_block_subtitle = element subtitle {\n"
+"  <link xref=\"mal_inline\">mal_inline</link>\n"
+"}\n"
 
 #: C/mal_block_steps.page:16(desc)
 msgid "Create a list of steps the reader should perform to accomplish a task."
@@ -4609,7 +4854,7 @@ msgstr ""
 
 #: C/mal_block_steps.page:19(title)
 msgid "Procedures"
-msgstr ""
+msgstr "Procedementos"
 
 #: C/mal_block_steps.page:21(code)
 #, no-wrap
@@ -4629,6 +4874,20 @@ msgid ""
 "  } +\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_block_steps = element steps {\n"
+"  attribute style { xsd:NMTOKENS } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  <link xref=\"mal_block_title\">mal_block_title</link> ?,\n"
+"\n"
+"  element item {\n"
+"    attribute style { xsd:NMTOKENS } ?,\n"
+"    attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"    <link xref=\"mal_block\">mal_block</link> +\n"
+"  } +\n"
+"}\n"
 
 #: C/mal_block_steps.page:37(p)
 msgid ""
@@ -4670,47 +4929,47 @@ msgstr ""
 
 #: C/mal_block_steps.page:89(title) C/mal_block_steps.page:122(title)
 msgid "Planting Magic Beans"
-msgstr ""
+msgstr "Plantar feixóns máxicos"
 
 #: C/mal_block_steps.page:90(p)
 msgid "Dig a hole 10cm deep."
-msgstr ""
+msgstr "Escavar un buraco de 10cm de profundidade."
 
 #: C/mal_block_steps.page:91(p) C/mal_block_steps.page:130(p)
 msgid "Place magic beans in the hole."
-msgstr ""
+msgstr "Poñer un feixón máxico no buraco."
 
 #: C/mal_block_steps.page:92(p) C/mal_block_steps.page:131(p)
 msgid "Fill hole with fertilized soil."
-msgstr ""
+msgstr "Rechear o buraco con terra fertilizada"
 
 #: C/mal_block_steps.page:93(p)
 msgid "Water frequently."
-msgstr ""
+msgstr "Regar con frecuencia."
 
 #: C/mal_block_steps.page:97(p)
 msgid "Create a procedure with a nested list and a nested procedure:"
-msgstr ""
+msgstr "Crear un procedemento cunha lista aniñada e un procedemento aniñado:"
 
 #: C/mal_block_steps.page:124(p)
 msgid "Perform one of the following:"
-msgstr ""
+msgstr "Levar unha das seguintes accións a cabo:"
 
 #: C/mal_block_steps.page:126(p)
 msgid "Dig a whole 10cm deep."
-msgstr ""
+msgstr "Escavar un buraco de 10cm de profundidade."
 
 #: C/mal_block_steps.page:127(p)
 msgid "Find a whole 10cm deep."
-msgstr ""
+msgstr "Encontrar un buraco de 10cm de profundidade."
 
 #: C/mal_block_steps.page:133(p)
 msgid "Water frequently with the following steps:"
-msgstr ""
+msgstr "Regar con frecuencia realizando un dos seguintes pasos:"
 
 #: C/mal_block_steps.page:135(p)
 msgid "Fill watering can with water."
-msgstr ""
+msgstr "Encher unha regadeira con agua."
 
 #: C/mal_block_steps.page:136(p)
 msgid "Pour water onto spot where beans were planted."
@@ -4771,7 +5030,7 @@ msgstr ""
 
 #: C/mal_block_screen.page:21(title)
 msgid "Screens"
-msgstr ""
+msgstr "Pantallas"
 
 #: C/mal_block_screen.page:23(code)
 #, no-wrap
@@ -4785,6 +5044,14 @@ msgid ""
 "  <link xref=\"mal_inline\">mal_inline</link>\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_block_screen = element screen {\n"
+"  attribute style { xsd:NMTOKENS } ?,\n"
+"  attribute mime { text } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  <link xref=\"mal_inline\">mal_inline</link>\n"
+"}\n"
 
 #: C/mal_block_screen.page:33(p)
 msgid ""
@@ -4870,6 +5137,10 @@ msgid ""
 "  --stringparam mal.cache.file `pwd`/mallard.cache \\\n"
 "  `pkg-config --variable mal2html gnome-doc-utils` mal_block_screen.html\n"
 msgstr ""
+"\n"
+"xsltproc -o mal_block_screen.html \\\n"
+"  --stringparam mal.cache.file `pwd`/mallard.cache \\\n"
+"  `pkg-config --variable mal2html gnome-doc-utils` mal_block_screen.html\n"
 
 #: C/mal_block_screen.page:133(p)
 msgid ""
@@ -4880,7 +5151,7 @@ msgstr ""
 
 #: C/mal_block_screen.page:144(output)
 msgid "[rupert@gnome]"
-msgstr ""
+msgstr "[rupert@gnome]"
 
 #: C/mal_block_screen.page:144(input)
 msgid "ls foo bar"
@@ -4929,7 +5200,7 @@ msgstr ""
 
 #: C/mal_block_quote.page:19(title)
 msgid "Block Quotes"
-msgstr ""
+msgstr "Bloques de citas"
 
 #: C/mal_block_quote.page:21(code)
 #, no-wrap
@@ -4944,6 +5215,15 @@ msgid ""
 "  <link xref=\"mal_block\">mal_block</link> +\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_block_quote = element quote {\n"
+"  attribute style { xsd:NMTOKENS } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  <link xref=\"mal_block_title\">mal_block_title</link> ?,\n"
+"  <link xref=\"mal_block_cite\">mal_block_cite</link>,\n"
+"  <link xref=\"mal_block\">mal_block</link> +\n"
+"}\n"
 
 #: C/mal_block_quote.page:32(p)
 msgid ""
@@ -4973,7 +5253,7 @@ msgstr ""
 #: C/mal_block_quote.page:60(code)
 #, no-wrap
 msgid "epigraph"
-msgstr ""
+msgstr "epígrafe"
 
 #: C/mal_block_quote.page:61(p)
 msgid ""
@@ -4995,7 +5275,7 @@ msgstr ""
 #: C/mal_block_quote.page:89(cite) C/mal_block_quote.page:106(cite)
 #: C/mal_block_quote.page:121(cite)
 msgid "Henry David Thoreau"
-msgstr ""
+msgstr "Henry David Thoreau"
 
 #: C/mal_block_quote.page:90(p) C/mal_block_quote.page:107(p)
 #: C/mal_block_quote.page:122(p)
@@ -5004,15 +5284,15 @@ msgstr ""
 
 #: C/mal_block_quote.page:94(p)
 msgid "Add a title to the quote:"
-msgstr ""
+msgstr "Engadir un título á cita:"
 
 #: C/mal_block_quote.page:105(title)
 msgid "Simplify"
-msgstr ""
+msgstr "Simplificar"
 
 #: C/mal_block_quote.page:111(p)
 msgid "Add a date to the attribution:"
-msgstr ""
+msgstr "Engadir unha data á atribución:"
 
 #: C/mal_block_quote.page:133(p)
 msgid ""
@@ -5035,11 +5315,11 @@ msgstr ""
 
 #: C/mal_block_p.page:16(desc)
 msgid "Create a simple paragraph of text."
-msgstr ""
+msgstr "Crear un parágrafo de texto simple."
 
 #: C/mal_block_p.page:19(title)
 msgid "Paragraphs"
-msgstr ""
+msgstr "Parágrafos"
 
 #: C/mal_block_p.page:21(code)
 #, no-wrap
@@ -5052,6 +5332,13 @@ msgid ""
 "  <link xref=\"mal_inline\">mal_inline</link>\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_block_p = element p {\n"
+"  attribute style { xsd:NMTOKENS } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  <link xref=\"mal_inline\">mal_inline</link>\n"
+"}\n"
 
 #: C/mal_block_p.page:30(p) C/mal_block_p.page:70(p)
 msgid ""
@@ -5082,7 +5369,7 @@ msgstr ""
 
 #: C/mal_block_p.page:63(p)
 msgid "Create a simple paragraph:"
-msgstr ""
+msgstr "Crear un parágrafo simple:"
 
 #: C/mal_block_p.page:81(p)
 msgid ""
@@ -5112,7 +5399,7 @@ msgstr ""
 
 #: C/mal_block.page:22(title)
 msgid "Block Elements"
-msgstr ""
+msgstr "Elementos de bloques"
 
 #: C/mal_block.page:24(code)
 #, no-wrap
@@ -5125,6 +5412,13 @@ msgid ""
 "  <link xref=\"mal_table\">mal_table</link>\n"
 ")\n"
 msgstr ""
+"\n"
+"mal_block = (\n"
+"  <link xref=\"#basic\">mal_block_basic</link> |\n"
+"  <link xref=\"#formal\">mal_block_formal</link> |\n"
+"  <link xref=\"#lists\">mal_block_lists</link> |\n"
+"  <link xref=\"mal_table\">mal_table</link>\n"
+")\n"
 
 #: C/mal_block.page:33(p)
 msgid ""
@@ -5141,7 +5435,7 @@ msgstr ""
 
 #: C/mal_block.page:57(title)
 msgid "Basic Elements"
-msgstr ""
+msgstr "Elementos básicos"
 
 #: C/mal_block.page:58(code)
 #, no-wrap
@@ -5155,6 +5449,14 @@ msgid ""
 "  <link xref=\"mal_block_screen\">mal_block_screen</link>\n"
 ")"
 msgstr ""
+"\n"
+"mal_block_basic = (\n"
+"  <link xref=\"mal_block_code\">mal_block_code</link> |\n"
+"  <link xref=\"mal_block_example\">mal_block_example</link> |\n"
+"  <link xref=\"mal_block_media\">mal_block_media</link> |\n"
+"  <link xref=\"mal_block_p\">mal_block_p</link> |\n"
+"  <link xref=\"mal_block_screen\">mal_block_screen</link>\n"
+")"
 
 #: C/mal_block.page:67(p)
 msgid ""
@@ -5170,7 +5472,7 @@ msgstr ""
 
 #: C/mal_block.page:86(title)
 msgid "Formal Elements"
-msgstr ""
+msgstr "Elementos formais"
 
 #: C/mal_block.page:87(code)
 #, no-wrap
@@ -5185,6 +5487,15 @@ msgid ""
 "  <link xref=\"mal_block_synopsis\">mal_block_synopsis</link>\n"
 ")"
 msgstr ""
+"\n"
+"mal_block_formal = (\n"
+"  <link xref=\"mal_block_comment\">mal_block_comment</link> |\n"
+"  <link xref=\"mal_block_figure\">mal_block_figure</link> |\n"
+"  <link xref=\"mal_block_listing\">mal_block_listing</link> |\n"
+"  <link xref=\"mal_block_note\">mal_block_note</link> |\n"
+"  <link xref=\"mal_block_quote\">mal_block_quote</link> |\n"
+"  <link xref=\"mal_block_synopsis\">mal_block_synopsis</link>\n"
+")"
 
 #: C/mal_block.page:97(p)
 msgid ""
@@ -5195,7 +5506,7 @@ msgstr ""
 
 #: C/mal_block.page:112(title)
 msgid "List Elements"
-msgstr ""
+msgstr "Elementos de lista"
 
 #: C/mal_block.page:113(code)
 #, no-wrap
@@ -5208,6 +5519,13 @@ msgid ""
 "  <link xref=\"mal_block_tree\">mal_block_tree</link>\n"
 ")"
 msgstr ""
+"\n"
+"mal_block_lists = (\n"
+"  <link xref=\"mal_block_list\">mal_block_list</link> |\n"
+"  <link xref=\"mal_block_steps\">mal_block_steps</link> |\n"
+"  <link xref=\"mal_block_terms\">mal_block_terms</link> |\n"
+"  <link xref=\"mal_block_tree\">mal_block_tree</link>\n"
+")"
 
 #: C/mal_block.page:121(p)
 msgid ""
@@ -5229,7 +5547,7 @@ msgstr ""
 
 #: C/mal_block.page:154(title)
 msgid "Other Block-like Elements"
-msgstr ""
+msgstr "Outros elementos de tipo bloque"
 
 #: C/mal_block.page:156(p)
 msgid ""
@@ -5272,6 +5590,14 @@ msgid ""
 "  <link xref=\"mal_block\">mal_block</link> +\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_block_note = element note {\n"
+"  attribute style { xsd:NMTOKENS } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  <link xref=\"mal_block_title\">mal_block_title</link> ?,\n"
+"  <link xref=\"mal_block\">mal_block</link> +\n"
+"}\n"
 
 #: C/mal_block_note.page:31(p)
 msgid ""
@@ -5301,7 +5627,7 @@ msgstr ""
 #: C/mal_block_note.page:60(code)
 #, no-wrap
 msgid "advanced"
-msgstr ""
+msgstr "avanzado"
 
 #: C/mal_block_note.page:61(p)
 msgid "information that advanced users may find useful"
@@ -5310,7 +5636,7 @@ msgstr ""
 #: C/mal_block_note.page:64(code)
 #, no-wrap
 msgid "bug"
-msgstr ""
+msgstr "erro"
 
 #: C/mal_block_note.page:65(p)
 msgid "a note about a known bug in the software"
@@ -5319,7 +5645,7 @@ msgstr ""
 #: C/mal_block_note.page:68(code) C/docbook.page:680(code)
 #, no-wrap
 msgid "important"
-msgstr ""
+msgstr "importante"
 
 #: C/mal_block_note.page:69(p)
 msgid "important information highlighted in a note"
@@ -5328,7 +5654,7 @@ msgstr ""
 #: C/mal_block_note.page:72(code)
 #, no-wrap
 msgid "tip"
-msgstr ""
+msgstr "consello"
 
 #: C/mal_block_note.page:73(p)
 msgid "a general tip that may help the reader perform an operation better"
@@ -5337,7 +5663,7 @@ msgstr ""
 #: C/mal_block_note.page:76(code)
 #, no-wrap
 msgid "warning"
-msgstr ""
+msgstr "aviso"
 
 #: C/mal_block_note.page:77(p)
 msgid "a warning to the reader about a potentially dangerous operation"
@@ -5352,7 +5678,7 @@ msgstr ""
 
 #: C/mal_block_note.page:94(p)
 msgid "Insert a basic note into your document:"
-msgstr ""
+msgstr "Inserir unha nota básica no seu documento:"
 
 #: C/mal_block_note.page:103(p)
 msgid "Information in this section is non-normative."
@@ -5391,7 +5717,7 @@ msgstr ""
 
 #: C/mal_block_note.page:157(title)
 msgid "Supply Your Name and Email Address"
-msgstr ""
+msgstr "Forneza o seu nome e o seu enderezo de correo electrónico"
 
 #: C/mal_block_note.page:158(p)
 msgid ""
@@ -5454,7 +5780,7 @@ msgstr ""
 
 #: C/mal_block_media.page:21(title)
 msgid "Multimedia Objects"
-msgstr ""
+msgstr "Obxectos multimedia"
 
 #: C/mal_block_media.page:23(code)
 #, no-wrap
@@ -5472,6 +5798,18 @@ msgid ""
 "  <link xref=\"mal_block\">mal_block</link> *\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_block_media = element media {\n"
+"  attribute type { \"image\" | \"video\" | \"audio\" | \"application\" } ?,\n"
+"  attribute mime { text } ?,\n"
+"  attribute src { text },\n"
+"  attribute height { text } ?,\n"
+"  attribute width { text } ?,\n"
+"  attribute style { xsd:NMTOKENS } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  <link xref=\"mal_block\">mal_block</link> *\n"
+"}\n"
 
 #: C/mal_block_media.page:48(p)
 msgid ""
@@ -5539,7 +5877,7 @@ msgstr ""
 
 #: C/mal_block_list.page:19(title)
 msgid "Basic Lists"
-msgstr ""
+msgstr "Listas básicas"
 
 #: C/mal_block_list.page:21(code)
 #, no-wrap
@@ -5560,6 +5898,21 @@ msgid ""
 "  } +\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_block_list = element list {\n"
+"  attribute type { xsd:NMTOKEN } ?,\n"
+"  attribute style { xsd:NMTOKENS } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  <link xref=\"mal_block_title\">mal_block_title</link> ?,\n"
+"\n"
+"  element item {\n"
+"    attribute style { xsd:NMTOKENS } ?,\n"
+"    attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"    <link xref=\"mal_block\">mal_block</link> +\n"
+"  } +\n"
+"}\n"
 
 #: C/mal_block_list.page:38(p)
 msgid ""
@@ -5619,55 +5972,55 @@ msgstr ""
 #: C/mal_block_list.page:102(code) C/mal_block_list.page:125(code)
 #, no-wrap
 msgid "GTK_MESSAGE_INFO"
-msgstr ""
+msgstr "GTK_MESSAGE_INFO"
 
 #: C/mal_block_list.page:103(code) C/mal_block_list.page:126(code)
 #, no-wrap
 msgid "GTK_MESSAGE_WARNING"
-msgstr ""
+msgstr "GTK_MESSAGE_WARNING"
 
 #: C/mal_block_list.page:104(code) C/mal_block_list.page:127(code)
 #, no-wrap
 msgid "GTK_MESSAGE_QUESTION"
-msgstr ""
+msgstr "GTK_MESSAGE_QUESTION"
 
 #: C/mal_block_list.page:105(code) C/mal_block_list.page:128(code)
 #, no-wrap
 msgid "GTK_MESSAGE_ERROR"
-msgstr ""
+msgstr "GTK_MESSAGE_ERROR"
 
 #: C/mal_block_list.page:106(code) C/mal_block_list.page:129(code)
 #, no-wrap
 msgid "GTK_MESSAGE_OTHER"
-msgstr ""
+msgstr "GTK_MESSAGE_OTHER"
 
 #: C/mal_block_list.page:110(p)
 msgid "Create an unordered list with a title:"
-msgstr ""
+msgstr "Crear unha lista sen ordenar con título:"
 
 #: C/mal_block_list.page:124(title)
 msgid "Message Types"
-msgstr ""
+msgstr "Tipos de mensaxes"
 
 #: C/mal_block_list.page:133(p)
 msgid "Create a simple numbered list:"
-msgstr ""
+msgstr "Crear unha simple lista numerada:"
 
 #: C/mal_block_list.page:144(p) C/mal_block_list.page:161(p)
 msgid "First"
-msgstr ""
+msgstr "Primeiro"
 
 #: C/mal_block_list.page:145(p) C/mal_block_list.page:162(p)
 msgid "Second"
-msgstr ""
+msgstr "Segundo"
 
 #: C/mal_block_list.page:146(p) C/mal_block_list.page:163(p)
 msgid "Third"
-msgstr ""
+msgstr "Terceiro"
 
 #: C/mal_block_list.page:150(p)
 msgid "Create a numbered list with Roman numerals:"
-msgstr ""
+msgstr "Crear listas numeradas con numerais romanos:"
 
 #: C/mal_block_list.page:174(p)
 msgid ""
@@ -5707,7 +6060,7 @@ msgstr ""
 
 #: C/mal_block_listing.page:22(title)
 msgid "Listings"
-msgstr ""
+msgstr "Listados"
 
 #: C/mal_block_listing.page:24(code)
 #, no-wrap
@@ -5722,6 +6075,15 @@ msgid ""
 "  <link xref=\"mal_block\">mal_block</link> +\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_block_listing = element listing {\n"
+"  attribute style { xsd:NMTOKENS } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  <link xref=\"mal_block_title\">mal_block_title</link> ?,\n"
+"  <link xref=\"mal_block_desc\">mal_block_desc</link> ?,\n"
+"  <link xref=\"mal_block\">mal_block</link> +\n"
+"}\n"
 
 #: C/mal_block_listing.page:35(p)
 msgid ""
@@ -5778,10 +6140,21 @@ msgid ""
 "</page>]]]>]&gt;<![CDATA[</code>\n"
 "</listing>]]>"
 msgstr ""
+"<![CDATA[\n"
+"<listing>\n"
+"  <title><file>index.page</file></title>\n"
+"  <desc>A first Mallard page</desc>\n"
+"  <code><![CDATA[\n"
+"<page xmlns=\"http://projectmallard.org/1.0/\"\n"
+"      type=\"guide\"\n"
+"      id=\"index\">\n"
+"  <!-- O contido vai aquí -->\n"
+"</page>]]]>]&gt;<![CDATA[</code>\n"
+"</listing>]]>"
 
 #: C/mal_block_listing.page:90(desc) C/mal_block_desc.page:102(desc)
 msgid "A first Mallard page"
-msgstr ""
+msgstr "Unha primeira páxina en Mallard"
 
 #: C/mal_block_listing.page:107(p)
 msgid ""
@@ -5796,7 +6169,7 @@ msgstr ""
 
 #: C/mal_block_figure.page:22(title)
 msgid "Figures"
-msgstr ""
+msgstr "Figuras"
 
 #: C/mal_block_figure.page:24(code)
 #, no-wrap
@@ -5811,6 +6184,15 @@ msgid ""
 "  <link xref=\"mal_block\">mal_block</link> +\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_block_figure = element figure {\n"
+"  attribute style { xsd:NMTOKENS } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  <link xref=\"mal_block_title\">mal_block_title</link> ?,\n"
+"  <link xref=\"mal_block_desc\">mal_block_desc</link> ?,\n"
+"  <link xref=\"mal_block\">mal_block</link> +\n"
+"}\n"
 
 #: C/mal_block_figure.page:35(p)
 msgid ""
@@ -5851,11 +6233,11 @@ msgstr ""
 #: C/mal_block_figure.page:81(title) C/mal_block_comment.page:91(cite)
 #: C/mal_block_comment.page:120(cite) C/mal_block_comment.page:129(cite)
 msgid "Drake"
-msgstr ""
+msgstr "Drake"
 
 #: C/mal_block_figure.page:82(desc)
 msgid "Drake is the Mallard mascot."
-msgstr ""
+msgstr "Drake é a mascota de Mallard."
 
 #: C/mal_block_figure.page:94(p)
 msgid ""
@@ -5887,6 +6269,13 @@ msgid ""
 "  <link xref=\"mal_block\">mal_block</link> +\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_block_example = element example {\n"
+"  attribute style { xsd:NMTOKENS } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  <link xref=\"mal_block\">mal_block</link> +\n"
+"}\n"
 
 #: C/mal_block_example.page:30(p)
 msgid ""
@@ -5946,6 +6335,24 @@ msgid ""
 "</example>\n"
 "]]>"
 msgstr ""
+"<![CDATA[\n"
+"<example>\n"
+"<code><![CDATA[\n"
+"<screen>\n"
+"xsltproc -o mal_block_screen.html \\\n"
+"  --stringparam mal.cache.file `pwd`/mallard.cache \\\n"
+"  `pkg-config --variable mal2html gnome-doc-utils` \\\n"
+"  mal_block_screen.html\n"
+"</screen>\n"
+"]]>]<![CDATA[]></code>\n"
+"<screen>\n"
+"xsltproc -o mal_block_screen.html \\\n"
+"  --stringparam mal.cache.file `pwd`/mallard.cache \\\n"
+"  `pkg-config --variable mal2html gnome-doc-utils` \\\n"
+"  mal_block_screen.html\n"
+"</screen>\n"
+"</example>\n"
+"]]>"
 
 #: C/mal_block_example.page:96(screen)
 #, no-wrap
@@ -5956,6 +6363,11 @@ msgid ""
 "  `pkg-config --variable mal2html gnome-doc-utils` \\\n"
 "  mal_block_screen.html\n"
 msgstr ""
+"\n"
+"xsltproc -o mal_block_screen.html \\\n"
+"  --stringparam mal.cache.file `pwd`/mallard.cache \\\n"
+"  `pkg-config --variable mal2html gnome-doc-utils` \\\n"
+"  mal_block_screen.html\n"
 
 #: C/mal_block_example.page:111(p)
 msgid ""
@@ -5992,6 +6404,13 @@ msgid ""
 "  <link xref=\"mal_inline\">mal_inline</link>\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_block_desc = element desc {\n"
+"  attribute style { xsd:NMTOKENS } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  <link xref=\"mal_inline\">mal_inline</link>\n"
+"}\n"
 
 #: C/mal_block_desc.page:34(p)
 msgid ""
@@ -6040,6 +6459,16 @@ msgid ""
 "</page>]]]>]&gt;<![CDATA[</code>\n"
 "</listing>]]>"
 msgstr ""
+"<![CDATA[\n"
+"<listing>\n"
+"  <desc>A first Mallard page</desc>\n"
+"  <code><![CDATA[\n"
+"<page xmlns=\"http://projectmallard.org/1.0/\"\n"
+"      type=\"guide\"\n"
+"      id=\"index\">\n"
+"  <!-- Content goes here -->\n"
+"</page>]]]>]&gt;<![CDATA[</code>\n"
+"</listing>]]>"
 
 #: C/mal_block_desc.page:112(p)
 msgid ""
@@ -6082,6 +6511,15 @@ msgid ""
 "  <link xref=\"mal_block\">mal_block</link> +\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_block_comment = element comment {\n"
+"  attribute style { xsd:NMTOKENS } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  <link xref=\"mal_block_title\">mal_block_title</link> ?,\n"
+"  <link xref=\"mal_block_cite\">mal_block_cite</link>,\n"
+"  <link xref=\"mal_block\">mal_block</link> +\n"
+"}\n"
 
 #: C/mal_block_comment.page:32(p)
 msgid ""
@@ -6133,11 +6571,11 @@ msgstr ""
 
 #: C/mal_block_comment.page:78(p)
 msgid "Provide a comment:"
-msgstr ""
+msgstr "Forneza un comentario:"
 
 #: C/mal_block_comment.page:90(title) C/mal_block_comment.page:119(title)
 msgid "Mallards Are Dabbling Ducks"
-msgstr ""
+msgstr "Os ánades reais son patos anatinos"
 
 #: C/mal_block_comment.page:92(p) C/mal_block_comment.page:121(p)
 msgid ""
@@ -6151,11 +6589,11 @@ msgstr ""
 
 #: C/mal_block_comment.page:125(cite)
 msgid "Rupert"
-msgstr ""
+msgstr "Roberto"
 
 #: C/mal_block_comment.page:126(p)
 msgid "But I saw a mallard dive just the other day."
-msgstr ""
+msgstr "Pero o outro día vin un ánade real aytino."
 
 #: C/mal_block_comment.page:130(p)
 msgid ""
@@ -6198,7 +6636,7 @@ msgstr ""
 
 #: C/mal_block_code.page:21(title)
 msgid "Code Blocks"
-msgstr ""
+msgstr "Bloques de código"
 
 #: C/mal_block_code.page:23(code)
 #, no-wrap
@@ -6212,6 +6650,14 @@ msgid ""
 "  <link xref=\"mal_inline\">mal_inline</link>\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_block_code = element code {\n"
+"  attribute style { xsd:NMTOKENS } ?,\n"
+"  attribute mime { text } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  <link xref=\"mal_inline\">mal_inline</link>\n"
+"}\n"
 
 #: C/mal_block_code.page:33(p)
 msgid ""
@@ -6264,6 +6710,12 @@ msgid ""
 "  int count_beans();\n"
 "}"
 msgstr ""
+"\n"
+"class BeanStalk {\n"
+"public:\n"
+"  void add_bean(Bean bean);\n"
+"  int count_beans();\n"
+"}"
 
 #: C/mal_block_code.page:107(p)
 msgid ""
@@ -6302,7 +6754,7 @@ msgstr ""
 
 #: C/mal_block_cite.page:19(title)
 msgid "Citations"
-msgstr ""
+msgstr "Citas"
 
 #: C/mal_block_cite.page:21(code)
 #, no-wrap
@@ -6317,6 +6769,15 @@ msgid ""
 "  <link xref=\"mal_inline\">mal_inline</link>\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_block_cite = element cite {\n"
+"  attribute style { xsd:NMTOKENS } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"  attribute date { text } ?,\n"
+"  attribute href { text } ?,\n"
+"\n"
+"  <link xref=\"mal_inline\">mal_inline</link>\n"
+"}\n"
 
 #: C/mal_block_cite.page:34(p)
 msgid "Possibly add source for block quote citations."
@@ -6353,7 +6814,7 @@ msgstr ""
 
 #: C/mal_attr_link.page:19(title)
 msgid "Ubiquitous Linking"
-msgstr ""
+msgstr "Ligado ubicuo"
 
 #: C/mal_attr_link.page:21(code)
 #, no-wrap
@@ -6364,6 +6825,11 @@ msgid ""
 "  | { attribute dref { text } ?, attribute href { text } ? }\n"
 "  )\n"
 msgstr ""
+"\n"
+"mal_attr_link =\n"
+"  ( attribute xref { text } ?\n"
+"  | { attribute dref { text } ?, attribute href { text } ? }\n"
+"  )\n"
 
 #: C/mal_attr_link.page:30(p)
 msgid ""
@@ -6375,23 +6841,23 @@ msgstr ""
 
 #: C/links.page:19(title)
 msgid "Automatic Links"
-msgstr ""
+msgstr "Ligazóns automáticas"
 
 #: C/links.page:24(title)
 msgid "Topic Links"
-msgstr ""
+msgstr "Ligazóns de temas"
 
 #: C/links.page:30(title)
 msgid "Guide Links"
-msgstr ""
+msgstr "Ligazóns de guía"
 
 #: C/links.page:36(title)
 msgid "See Also Links"
-msgstr ""
+msgstr "Ligazóns «Ver tamén»"
 
 #: C/l10n.page:17(title)
 msgid "Translation Notes"
-msgstr ""
+msgstr "Notas de tradución"
 
 #: C/its.page:16(desc)
 msgid ""
@@ -6401,7 +6867,7 @@ msgstr ""
 
 #: C/its.page:20(title)
 msgid "ITS Conformance"
-msgstr ""
+msgstr "Requirimentos do ITS"
 
 #: C/its.page:22(p)
 msgid ""
@@ -6957,7 +7423,7 @@ msgstr ""
 #: C/docbook.page:385(p) C/docbook.page:613(p) C/docbook.page:677(p)
 #: C/docbook.page:883(p) C/docbook.page:1155(p)
 msgid "Mallard does not support callouts."
-msgstr ""
+msgstr "Mallard non admite «callout»."
 
 #: C/docbook.page:86(code)
 #, no-wrap
@@ -8741,4 +9207,4 @@ msgstr ""
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: C/index.page:0(None)
 msgid "translator-credits"
-msgstr ""
+msgstr "Fran Diéguez <frandieguez@ubuntu.com>"
