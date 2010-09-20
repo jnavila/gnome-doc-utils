@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: gnome-doc-utils master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "doc-utils&component=general\n"
-"POT-Creation-Date: 2010-03-29 15:44+0000\n"
+"POT-Creation-Date: 2010-09-19 11:00+0000\n"
 "PO-Revision-Date: 2010-02-06 18:20+0900\n"
 "Last-Translator: Hideki Yamane (Debian-JP) <henrich@debian.or.jp>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
@@ -1692,7 +1692,7 @@ msgstr ""
 #: ../xslt/gettext/l10n.xml.in.h:1436
 msgid "<msgid>seealsoie.format</msgid> <msgstr>See also <seeie/>.</msgstr>"
 msgstr ""
-"<msgid>seealsoie.format</msgid> <msgstr><seeie/> も参照してみて下さい。</"
+"<msgid>seealsoie.format</msgid> <msgstr><seeie/> も参照してみてください。</"
 "msgstr>"
 
 #.
