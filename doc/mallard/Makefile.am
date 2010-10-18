@@ -10,7 +10,7 @@ DOC_INCLUDES = legal.xml
 
 DOC_FIGURES = figures/mallard.png
 
-DOC_LINGUAS = de el es fr gl
+DOC_LINGUAS = de el es fr gl sl
 
 DOC_PAGES =				\
 	details.page			\
