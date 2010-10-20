@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-doc-utils.mallard.master\n"
-"POT-Creation-Date: 2010-10-01 10:30+0000\n"
-"PO-Revision-Date: 2010-10-20 08:26+0200\n"
+"POT-Creation-Date: 2010-10-20 06:33+0000\n"
+"PO-Revision-Date: 2010-10-20 22:47+0200\n"
 "Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -5061,11 +5061,11 @@ msgstr ""
 
 #: C/mal_block_steps.page:89(title) C/mal_block_steps.page:122(title)
 msgid "Planting Magic Beans"
-msgstr ""
+msgstr "Plantar judías mágicas"
 
 #: C/mal_block_steps.page:90(p)
 msgid "Dig a hole 10cm deep."
-msgstr ""
+msgstr "Excavar un agujero de 10cm de profundidad."
 
 #: C/mal_block_steps.page:91(p) C/mal_block_steps.page:130(p)
 msgid "Place magic beans in the hole."
@@ -5292,15 +5292,15 @@ msgstr "[rupert@gnome]"
 
 #: C/mal_block_screen.page:144(input)
 msgid "ls foo bar"
-msgstr ""
+msgstr "Es foo bar"
 
 #: C/mal_block_screen.page:145(output)
 msgid "foo: cannot access file: No such file or directory"
-msgstr ""
+msgstr "foo: no se puede acceder al archivo: no existe el archivo o directorio"
 
 #: C/mal_block_screen.page:146(output)
 msgid "bar"
-msgstr "barra"
+msgstr "bar"
 
 #: C/mal_block_screen.page:156(p)
 msgid ""
@@ -5326,6 +5326,8 @@ msgid ""
 "The <code>screen</code> element is similar to the <code href=\"http://www."
 "docbook.org/tdg/en/html/screen.html\">screen</code> element in DocBook."
 msgstr ""
+"El elemento <code>screen</code> es similar al elemento <code href=\"http://"
+"www.docbook.org/tdg/en/html/screen.html\">screen</code> en DocBook."
 
 #: C/mal_block_screen.page:176(p)
 msgid ""
@@ -5333,6 +5335,9 @@ msgid ""
 "oasis-open.org/dita/v1.1/CS01/langspec/langref/screen.html\">screen</code> "
 "element in DITA."
 msgstr ""
+"El elemento <code>screen</code> es similar al elemento <code href=\"http://"
+"docs.oasis-open.org/dita/v1.1/CS01/langspec/langref/screen.html\">screen</"
+"code> en DITA."
 
 #: C/mal_block_quote.page:16(desc)
 msgid "Create a block-level quotation with an attribution."
@@ -5419,6 +5424,8 @@ msgstr "Henry David Thoreau"
 #: C/mal_block_quote.page:122(p)
 msgid "Our life is frittered away by detail.... Simplify, simplify."
 msgstr ""
+"Nuestra vida siempre es malgastada por el detalle... simplificar, "
+"simplificar."
 
 #: C/mal_block_quote.page:94(p)
 msgid "Add a title to the quote:"
@@ -6293,6 +6300,10 @@ msgid ""
 "\"mal_block_desc\">desc</link> element, and any <link xref=\"mal_block"
 "\">general block content</link>."
 msgstr ""
+"El elemento <code>listing</code> contiene un elemento opcional <link xref="
+"\"mal_block_title\">title</link>, un elemento opcional <link xref="
+"\"mal_block_desc\">desc</link> y cualquier <link xref=\"mal_block\">bloque "
+"de contenido general</link>."
 
 #: C/mal_block_listing.page:52(p)
 msgid ""
@@ -6782,6 +6793,11 @@ msgid ""
 "the subject of the comment. Titles are encouraged in top-level comments, "
 "although they are usually unnecessary in replies."
 msgstr ""
+"Opcionalmente un elemento <code>comment</code> puede contener un elemento "
+"<code xref=\"mal_block_title\">title</code> para proporcionar una breve "
+"descripción del asunto del comentario. Se sugieren los títulos para los "
+"comentarios de nivel superior, aunque generalmente son innecesarios en las "
+"respuestas."
 
 #: C/mal_block_comment.page:43(p)
 msgid ""
@@ -6882,6 +6898,10 @@ msgid ""
 "background color, or other stylistic effect should be used to clearly set "
 "distinguish comments from the surrounding content."
 msgstr ""
+"Cuando se muestra, se renderiza un elemento <code>comment</code> como un "
+"bloque, con cada uno de sus elementos hijos interpretados como elementos de "
+"bloque. Se podrá usar un borde, un color de fondo u otro efecto estilístico "
+"para distinguir los comentarios del contenido alrededor."
 
 #: C/mal_block_comment.page:154(p)
 msgid ""
