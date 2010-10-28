@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-doc-utils.mallard.master\n"
 "POT-Creation-Date: 2010-10-20 06:33+0000\n"
-"PO-Revision-Date: 2010-10-26 14:04+0200\n"
+"PO-Revision-Date: 2010-10-28 16:01+0200\n"
 "Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -1062,6 +1062,15 @@ msgid ""
 "only in that their primary purpose is to convey information, whereas guides "
 "serve as navigational aids."
 msgstr ""
+"Las páginas de temas tienen el atributo <code>type</code> establecido a "
+"<code>\"topic\"</code> o no tienen ningún atributo <code>type</code>. Los "
+"temas contienen el grueso del material de la documentación. Un tema puede "
+"ser un tutorial, una vista conceptual, material de referencia o cualquier "
+"otro tipo de contenido. Mallard no distingue entre los diferentes tipos de "
+"contenido, aunque las herramientas pueden introducir tipos de estilos "
+"especiales basados en sugerencias de estilo. Los temas se distinguen de las "
+"guías sólo en que su propósito primario es transmitir información, mientras "
+"que las guías son ayudas para la navegación."
 
 #: C/mal_page.page:120(p)
 msgid ""
@@ -1071,6 +1080,12 @@ msgid ""
 "page has automatic guide links inserted as well. See <link xref=\"links#guide"
 "\"/> for details on automatic guide links."
 msgstr ""
+"Las páginas de temas tienen enlaces automáticamente insertados a todas las "
+"guías que los enlazan. Las páginas de temas contienen secciones para ayudar "
+"a organizar el material y presentar pedazos de información depurados al "
+"lector. Cada sección en una página de temas tiene una guía de enlaces "
+"automáticamente insertada. Para obtener más detalles acerca de los enlaces "
+"automáticos de guía, consulte la <link xref=\"links#guide\"/>."
 
 #: C/mal_page.page:126(p)
 msgid ""
@@ -1366,6 +1381,13 @@ msgid ""
 "does, the <code>sys</code> element should be used in place of these and "
 "various other elements."
 msgstr ""
+"El elemento <code>sys</code> es similar al elemento <code href=\"http://www."
+"docbook.org/tdg/en/html/systemitem.html\">systemitem</code> de DocBook. "
+"DocBook ha obtenido numerosos elementos que en algún momento se marcaban "
+"usando el atributo <code>class</code> en el elemento <code>systemitem</"
+"code>. Ya que Mallard no proporciona el nivel de marcado tan especifico de "
+"DocBook, se debería usar el elemento <code>sys</code> en lugar de este y "
+"otros elementos."
 
 #: C/mal_inline_span.page:19(desc)
 msgid ""
@@ -1565,6 +1587,12 @@ msgid ""
 "Mallard allows elements to be extended with attributes from external "
 "namespaces. See <link xref=\"mal_external\"/> for more information."
 msgstr ""
+"A veces los autores, editores u otros productores de contenido necesitan "
+"proporcionar más información en sus documentos. Ya que esta información "
+"puede no estar cubierta por las herramientas de mostrado, se puede usar para "
+"varios propósitos de seguimiento interno. Mallard permite que los elementos "
+"se extiendan con atributos de espacios de nombres externos. Para obtener más "
+"información consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_inline.page:59(p)
 msgid ""
@@ -1865,6 +1893,12 @@ msgid ""
 "the contents of a <code>media</code> element. See <link xref=\"#processing\"/"
 "> for details on how fallback elements are handled."
 msgstr ""
+"Use el elemento <code>media</code> para insertar una imagen, un vídeo u otro "
+"objeto multimedia en su documento. Ya que no todas las herramientas de "
+"mostrado son capaces de mostrar todos los tipos de objetos, puede "
+"proporcionar elementos alternativos en el contenido de un elemento "
+"<code>media</code>. Para obtener más detalles acerca de cómo se gestionan "
+"los elementos alternativos, consulte la <link xref=\"#processing\"/>."
 
 #: C/mal_inline_media.page:49(p)
 msgid ""
@@ -2429,7 +2463,7 @@ msgstr "Marcar una tecla para que se pulse en el teclado del usuario."
 
 #: C/mal_inline_key.page:21(title)
 msgid "Key Strokes"
-msgstr ""
+msgstr "Pulsaciones de teclas"
 
 #: C/mal_inline_key.page:23(code)
 #, no-wrap
@@ -2884,6 +2918,9 @@ msgid ""
 "The <code>gui</code> element can also occur inside the <code xref="
 "\"mal_inline_guiseq\">guiseq</code> element, where it has special meaning."
 msgstr ""
+"El elemento <code>gui</code> también puede encontrarse dentro de un elemento "
+"<code xref=\"mal_inline_guiseq\">guiseq</code>, donde tiene un significado "
+"especial."
 
 #: C/mal_inline_gui.page:57(p)
 msgid ""
@@ -2963,7 +3000,7 @@ msgstr "La etiqueta para un botón de radio"
 #: C/mal_inline_gui.page:95(code)
 #, no-wrap
 msgid "tab"
-msgstr ""
+msgstr "solapa"
 
 #: C/mal_inline_gui.page:96(p)
 msgid "The label on a tab"
@@ -3006,6 +3043,9 @@ msgid ""
 "Interface labels may be rendered with lightened text or other sublte styling "
 "effects to distinguish them from the surrounding text."
 msgstr ""
+"No se requiere ningún renderizado especial para los elementos <code>gui</"
+"code>. Las etiquetas de interfaz se pueden renderizar con texto aligerado u "
+"otro sutil efecto de estilo para distinguirlas del texto alrededor."
 
 #: C/mal_inline_gui.page:144(p)
 msgid ""
@@ -3257,6 +3297,8 @@ msgstr ""
 msgid ""
 "Mark up code from a programming, markup, or other machine-readable format."
 msgstr ""
+"Código marcado por programación, marcado especial o cualquier otro formato "
+"legible por una máquina."
 
 #: C/mal_inline_code.page:21(title)
 msgid "Code Snippets"
