@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-doc-utils.mallard.master\n"
 "POT-Creation-Date: 2010-10-20 06:33+0000\n"
-"PO-Revision-Date: 2010-10-28 16:01+0200\n"
+"PO-Revision-Date: 2010-10-29 00:11+0200\n"
 "Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -1972,6 +1972,10 @@ msgid ""
 "depend on the <code>type</code> and <code>mime</code> attributes. It may be "
 "necessary to add controls for audio and video objects."
 msgstr ""
+"Cuando un elemento <code>media</code> se encuentra en un contexto en línea, "
+"se muestra en línea. El renderizado exacto de un elemento <code>media</code> "
+"depende de los atributos <code>type</code> y <code>mime</code>. Puede ser "
+"necesario añadir controles para los objetos de sonido y vídeo."
 
 #: C/mal_inline_media.page:108(p) C/mal_block_media.page:105(p)
 msgid ""
@@ -1992,6 +1996,11 @@ msgid ""
 "audio. Even when a display tool can display the type of object, it may not "
 "be able to work with the given MIME type for technical or other reasons."
 msgstr ""
+"Algunas herramientas de mostrado no serán capaces de mostrar todos los tipos "
+"de objetos. Por ejemplo, un documento imprimido no podrá mostrar una "
+"reproducción de vídeo o sonido. Incluso cuando una herramienta de mostrado "
+"puede mostrar el tipo de objeto, quizá pueda no funcionar con el tipo MIME "
+"proporcionado debido a otros motivos."
 
 #: C/mal_inline_media.page:119(p)
 msgid ""
@@ -2190,6 +2199,11 @@ msgid ""
 "make links activatable. In these cases, the target of the link may be "
 "displayed in the rendered output."
 msgstr ""
+"Se muestra un elemento <code>link</code> como un hiperenlace en el que se "
+"puede pulsar o activar para llevar al usuario a otra página, documento o "
+"recurso. En algunos entornos, tales como en un impreso, puede que no sea "
+"posible hacer los enlaces que los enlaces se puedan activar. En estos casos, "
+"puede que el destino del enlace se muestre en la salida renderizada."
 
 #: C/mal_inline_link.page:138(p)
 msgid ""
@@ -2237,6 +2251,10 @@ msgid ""
 "<code>\"link\"</code> and without a <code>role</code> attribute, the "
 "contents of that <code>title</code> element are used."
 msgstr ""
+"De otra forma, si esa página o sección tiene un <link xref=\"mal_info_title"
+"\">título de información</link> con el atributo <code>type</code> "
+"establecido a <code>\"link\"</code> y sin un atributo <code>role</code>, se "
+"usa el contenido de ese elemento <code>title</code>."
 
 #: C/mal_inline_link.page:166(p)
 msgid ""
@@ -2281,6 +2299,12 @@ msgid ""
 "to specify exact alternative link contents. Alternative link contents are "
 "important in languages with case declensions."
 msgstr ""
+"DocBook proporciona el atributo <code>xrefstyle</code> para controlar cómo "
+"se genera el texto del enlazado automático. El comportamiento de este "
+"atributo no está especificado. En lugar de intentar usar consejos de estilo, "
+"Mallard permite a los escritores especificar contenidos de enlaces "
+"alternativos. Los contenidos de los enlaces alternativos son importantes en "
+"idiomas con declinaciones."
 
 #: C/mal_inline_keyseq.page:14(years)
 msgid "&gt;2008-2009"
@@ -2494,6 +2518,12 @@ msgid ""
 "should be what is printed on the physical key, although it may be a textual "
 "description for keys with symbols printed on them."
 msgstr ""
+"Use el elemento <code>key</code> para marcar una tecla en el teclado. Puede "
+"usarlo para teclas de letras, tales como <key>Q</key>, o para teclas con "
+"nombres, como <key>Ctrl</key>. Generalmente el contenido del elemento "
+"<code>key</code> debería ser lo que está imprimido en la tecla física, "
+"aunque puede ser una descripción textual para teclas con símbolos dibujados "
+"en ellas."
 
 #: C/mal_inline_key.page:40(p)
 msgid ""
@@ -3940,20 +3970,21 @@ msgstr ""
 #: C/mal_info_title.page:54(code)
 #, no-wrap
 msgid "\"link\""
-msgstr ""
+msgstr "\"link\""
 
 #: C/mal_info_title.page:55(p)
 msgid "specifies alternate link text; see <link xref=\"#link\"/>"
 msgstr ""
+"especifica un enlace de texto alternativo; consulte la <link xref=\"#link\"/>"
 
 #: C/mal_info_title.page:58(code)
 #, no-wrap
 msgid "\"sort\""
-msgstr ""
+msgstr "\"sort\""
 
 #: C/mal_info_title.page:59(p)
 msgid "specifies a sort key; see <link xref=\"#sort\"/>"
-msgstr ""
+msgstr "especifica una clave de ordenación; consulte la <link xref=\"#sort\"/>"
 
 #: C/mal_info_title.page:63(p)
 msgid ""
