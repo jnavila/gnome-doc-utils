@@ -1,7 +1,7 @@
 # Persian translation of gnome-doc-utils.
 # Copyright (C) 2008 Amir Hedayaty
 # Copyright (C) 2008 Sharif FarsiWeb, Inc.
-# Copyright (C) Iranian Free Software Users Group (IFSUG.org)translation team, 2010.
+# Copyright (C) 2010 Iranian Free Software Users Group (IFSUG.org)translation team.
 # This file is distributed under the same license as the gnome-doc-utils package.
 # Amir Hedayaty <hedayaty@gmail.com>, 2008.
 # Roozbeh Pournader <roozbeh@gmail.com>, 2008.
