@@ -3,12 +3,12 @@
 # This file is distributed under the same license as the gnome-doc-utils package.
 # Gheyret T.Kenji <gheyret@yahoo.com>, 2005.
 # Sahran <sahran@live.com>, 2010.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-doc-utils\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-doc-utils&component=general\n"
-"POT-Creation-Date: 2010-10-16 18:24+0000\n"
+"POT-Creation-Date: 2010-11-13 21:15+0000\n"
 "PO-Revision-Date: 2005-07-17 01:10+0900\n"
 "Last-Translator: Sahran <sahran@live.com>\n"
 "Language-Team: GNOME Uighur Translation Project <gnome-uighur@yahoogroups.com>\n"
@@ -562,8 +562,6 @@ msgstr "<msgid>citetitle.format</msgid> <msgstr role='article'>“<node/>”</ms
 #. to mark text as italic, bold, and monospace.
 #.
 #: ../xslt/gettext/l10n.xml.in.h:477
-#| msgid ""
-#| "<msgid>email.tooltip</msgid> <msgstr>Send email to ‘<string/>ئ.</msgstr>"
 msgid ""
 "<msgid>email.tooltip</msgid> <msgstr>Send email to ‘<string/>’.</msgstr>"
 msgstr ""
@@ -922,9 +920,6 @@ msgstr "<msgid>glossentry.abbrev.format</msgid> <msgstr>(<node/>)</msgstr>"
 #. to mark text as italic, bold, and monospace.
 #.
 #: ../xslt/gettext/l10n.xml.in.h:795
-#| msgid ""
-#| "<msgid>glossentry.tooltip</msgid> <msgstr>Read the definition for "
-#| "‘<glossterm/>ئ.</msgstr>"
 msgid ""
 "<msgid>glossentry.tooltip</msgid> <msgstr>Read the definition for "
 "‘<glossterm/>’.</msgstr>"
@@ -962,9 +957,6 @@ msgstr ""
 #. to mark text as italic, bold, and monospace.
 #.
 #: ../xslt/gettext/l10n.xml.in.h:827
-#| msgid ""
-#| "<msgid>glossentry.xref</msgid> <msgstr role='glosssee'><glossterm/></"
-#| "msgstr> <msgstr>‘<glossterm/>ئ</msgstr>"
 msgid ""
 "<msgid>glossentry.xref</msgid> <msgstr role='glosssee'><glossterm/></msgstr> "
 "<msgstr>‘<glossterm/>’</msgstr>"
@@ -1329,13 +1321,10 @@ msgstr "<msgid>question.xref</msgid> <msgstr>سوئال <number/></msgstr>"
 #. to mark text as italic, bold, and monospace.
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1150
-#| msgid ""
-#| "<msgid>quote.format</msgid> <msgstr role='inner'>‘<node/>ئ</msgstr> "
-#| "<msgstr>“<node/>”</msgstr>"
 msgid ""
 "<msgid>quote.format</msgid> <msgstr role='inner'>‘<node/>’</msgstr> "
 "<msgstr>“<node/>”</msgstr>"
-msgstr ""
+msgstr "<msgid>quote.format</msgid> <msgstr role='inner'>‘<node/>’</msgstr> <msgstr>“<node/>”</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
