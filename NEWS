@@ -1,3 +1,19 @@
+Changes in 0.20.3:
+------------------
+* Fixed nested command substitution in gnome-doc-utils.make (Chris Coleman)
+* Updated translations:
+  ca@valencia  (Carles Ferrando)
+  de           (Christian Kirbach)
+  de           (Mario Blättermann)
+  el           (Michael Kotsarinis)
+  es           (Jorge González)
+  et           (Ivar Smolin)
+  fa           (Mahyar Moghimi)
+  fr           (Bruno Brouard)
+  gl           (Fran Diéguez)
+  sl           (Matej Urbančič)
+  ug           (Gheyret T.Kenji)
+
 Changes in 0.20.2:
 ------------------
 * Updated translations:
