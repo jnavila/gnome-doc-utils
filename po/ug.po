@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-doc-utils\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-doc-utils&component=general\n"
-"POT-Creation-Date: 2010-11-13 21:15+0000\n"
+"POT-Creation-Date: 2010-11-20 10:35+0000\n"
 "PO-Revision-Date: 2005-07-17 01:10+0900\n"
 "Last-Translator: Sahran <sahran@live.com>\n"
 "Language-Team: GNOME Uighur Translation Project <gnome-uighur@yahoogroups.com>\n"
@@ -564,7 +564,7 @@ msgstr "<msgid>citetitle.format</msgid> <msgstr role='article'>“<node/>”</ms
 #: ../xslt/gettext/l10n.xml.in.h:477
 msgid ""
 "<msgid>email.tooltip</msgid> <msgstr>Send email to ‘<string/>’.</msgstr>"
-msgstr ""
+msgstr "<msgid>email.tooltip</msgid> <msgstr> ‘<string/>’غا ئېلخەت يوللاڭ.</msgstr>"
 
 #.
 #. The number formatter used for example numbers.  This can be one of
@@ -923,7 +923,7 @@ msgstr "<msgid>glossentry.abbrev.format</msgid> <msgstr>(<node/>)</msgstr>"
 msgid ""
 "<msgid>glossentry.tooltip</msgid> <msgstr>Read the definition for "
 "‘<glossterm/>’.</msgstr>"
-msgstr ""
+msgstr "<msgid>glossentry.tooltip</msgid> <msgstr>‘<glossterm/>’مەزمۇنىغا قاراپ چىقىڭ</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -960,7 +960,7 @@ msgstr ""
 msgid ""
 "<msgid>glossentry.xref</msgid> <msgstr role='glosssee'><glossterm/></msgstr> "
 "<msgstr>‘<glossterm/>’</msgstr>"
-msgstr ""
+msgstr "<msgid>glossentry.xref</msgid> <msgstr role='glosssee'><glossterm/></msgstr> <msgstr>‘<glossterm/>’</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
