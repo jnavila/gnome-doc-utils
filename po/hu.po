@@ -2102,7 +2102,7 @@ msgstr "Jogi megjegyzés"
 #. Automatic more about section and links
 #: ../xslt/gettext/l10n.xml.in.h:1734
 msgid "More About"
-msgstr "Lásd még"
+msgstr "Még a témában"
 
 #.
 #. http://www.docbook.org/tdg/en/html/refnamediv.html
