@@ -169,6 +169,7 @@ REMARK: Describe this module
         <xsl:text> first-child</xsl:text>
       </xsl:if>
     </xsl:attribute>
+    <xsl:apply-templates mode="mal2html.block.mode" select="mal:title | mal:desc"/>
     <table class="table">
       <xsl:if test="$style != ''">
         <xsl:attribute name="style">
