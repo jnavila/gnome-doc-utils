@@ -1,3 +1,12 @@
+Changes in 0.20.4:
+------------------
+* Use /bin/bash in gnome-doc-tool
+* Add xml:lang attribute to translated Mallard pages
+* Handle title and desc elements in Mallard tables
+* Updated translations:
+  hu    (Gabor Kelemen)
+  ug    (Gheyret T.Kenji)
+
 Changes in 0.20.3:
 ------------------
 * Fixed nested command substitution in gnome-doc-utils.make (Chris Coleman)
