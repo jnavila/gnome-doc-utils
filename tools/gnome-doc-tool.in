@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # gnome-doc-html - Convert documentation to HTML
 # gnome-doc-html.  Generated from gnome-doc-html.in by configure.
 # Copyright (C) 2006 Shaun McCance <shaunm@gnome.org>
