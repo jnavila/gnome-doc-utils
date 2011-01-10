@@ -130,5 +130,7 @@ class mallardXmlMode(basicXmlMode):
         self._output_images(root,msg)
 
     def postProcessXmlTranslation(self, doc, language, translators):
-        # FIXME: add translator credits
-        return
+        """Sets a language and translators in "doc" tree."""
+        root = doc.getRootElement()
+        if root and root.name == 'page':
+            root.setProp('xml:lang', language)
