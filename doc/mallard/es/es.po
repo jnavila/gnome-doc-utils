@@ -2,13 +2,13 @@
 # Spanish translation for gnome-doc-utils.
 # Copyright (C) 2009 gnome-doc-utils's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-doc-utils package.
-# Jorge González <jorgegonz@svn.gnome.org>, 2009, 2010.
+# Jorge González <jorgegonz@svn.gnome.org>, 2009, 2010, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-doc-utils.mallard.master\n"
 "POT-Creation-Date: 2010-10-20 06:33+0000\n"
-"PO-Revision-Date: 2010-11-04 22:56+0100\n"
+"PO-Revision-Date: 2011-02-20 15:33+0100\n"
 "Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -2763,6 +2763,13 @@ msgid ""
 "code>. In most cases, these should be marked simply with the <code xref="
 "\"mal_inline_sys\">sys</code> element."
 msgstr ""
+"El elemento <code>key</code> es similar al elemento <code href=\"http://www."
+"docbook.org/tdg/en/html/keycap.html\">keycap</code> de DocBook. Mallard no "
+"proporciona elementos análogos a los elementos <code href=\"http://www."
+"docbook.org/tdg/en/html/keysym.html\">keysym</code> y <code href=\"http://"
+"www.docbook.org/tdg/en/html/keycode.html\">keycode</code> de DocBook. En la "
+"mayoría de los casos, se pueden marcar simplemente con el elemento <code "
+"xref=\"mal_inline_sys\">sys</code>."
 
 #: C/mal_inline_input.page:19(desc)
 msgid "Mark up text the user should input into a computer program."
@@ -2980,6 +2987,12 @@ msgid ""
 "language and style preferences, but it will typically be some sort of right-"
 "pointing arrow or triangle, or left-pointing for right-to-left languages."
 msgstr ""
+"Cada uno de los elementos <code>key</code> y nodos de texto hijos, excepto "
+"los nodos de texto de espacios en blanco exclusivamente, se muestra como se "
+"describe debajo, añadiendo un separador entre ellos. El separador exacto "
+"puede variar según el idioma y las preferencias de estilos, pero "
+"generalmente será un tipo de flecha o triángulo hacia la derecha, o "
+"izquierda para los idiomas de derecha-a-izquierda."
 
 #: C/mal_inline_guiseq.page:92(p)
 msgid ""
@@ -3041,6 +3054,11 @@ msgid ""
 "can use the <code>style</code> attribute to indicate what kind of control is "
 "being marked up."
 msgstr ""
+"Use el elemento <code>gui</code> para marcar la etiqueta de un control en "
+"una interfaz gráfica de usuario. Puede usar <code>gui</code> para todo tipo "
+"de controles, incluyendo botones, cajas de verificación y elementos de menú. "
+"Si es necesario, puede usar el atributo <code>style</code> para indicar qué "
+"tipo de control se está marcando."
 
 #: C/mal_inline_gui.page:44(p)
 msgid ""
@@ -3087,7 +3105,7 @@ msgstr "Los estilos típicos de sugerencias incluyen:"
 #: C/mal_inline_gui.page:67(code)
 #, no-wrap
 msgid "button"
-msgstr ""
+msgstr "button"
 
 #: C/mal_inline_gui.page:68(p)
 msgid "The text of a button"
@@ -3096,7 +3114,7 @@ msgstr "El texto de un botón"
 #: C/mal_inline_gui.page:71(code)
 #, no-wrap
 msgid "checkbox"
-msgstr ""
+msgstr "checkbox"
 
 #: C/mal_inline_gui.page:72(p)
 msgid "The label for a check box"
@@ -3105,7 +3123,7 @@ msgstr "La etiqueta para una caja de verificación"
 #: C/mal_inline_gui.page:75(code) C/docbook.page:616(code)
 #, no-wrap
 msgid "group"
-msgstr ""
+msgstr "group"
 
 #: C/mal_inline_gui.page:76(p)
 msgid "The label for a group of controls"
@@ -3114,7 +3132,7 @@ msgstr "La etiqueta para un grupo de controles"
 #: C/mal_inline_gui.page:79(code)
 #, no-wrap
 msgid "input"
-msgstr ""
+msgstr "input"
 
 #: C/mal_inline_gui.page:80(p)
 msgid "The label for any text entry control"
@@ -3123,7 +3141,7 @@ msgstr "La etiqueta para cualquier control de entrada de texto"
 #: C/mal_inline_gui.page:83(code)
 #, no-wrap
 msgid "menu"
-msgstr ""
+msgstr "menu"
 
 #: C/mal_inline_gui.page:84(p)
 msgid "The name of a menu"
@@ -3132,7 +3150,7 @@ msgstr "El nombre de un menú"
 #: C/mal_inline_gui.page:87(code)
 #, no-wrap
 msgid "menuitem"
-msgstr ""
+msgstr "menuitem"
 
 #: C/mal_inline_gui.page:88(p)
 msgid "The name of an item in a menu"
@@ -3141,7 +3159,7 @@ msgstr "El nombre de un elemento en un menú"
 #: C/mal_inline_gui.page:91(code)
 #, no-wrap
 msgid "radiobutton"
-msgstr ""
+msgstr "radiobutton"
 
 #: C/mal_inline_gui.page:92(p)
 msgid "The label for a radio button"
@@ -3150,11 +3168,11 @@ msgstr "La etiqueta para un botón de radio"
 #: C/mal_inline_gui.page:95(code)
 #, no-wrap
 msgid "tab"
-msgstr "solapa"
+msgstr "pestaña"
 
 #: C/mal_inline_gui.page:96(p)
 msgid "The label on a tab"
-msgstr "La etiqueta en una solapa"
+msgstr "La etiqueta en una pestaña"
 
 #: C/mal_inline_gui.page:100(p)
 msgid ""
@@ -3176,14 +3194,14 @@ msgstr "Pulse el botón <gui>Cerrar</gui> para cerrar la ventana."
 
 #: C/mal_inline_gui.page:121(p)
 msgid "Use <code>gui</code> to mark up the label on a tab:"
-msgstr "Use <code>gui</code> para marcar la etiqueta en una solapa:"
+msgstr "Use <code>gui</code> para marcar la etiqueta en una pestaña:"
 
 #: C/mal_inline_gui.page:128(p)
 msgid ""
 "The <gui>Filters</gui> tab contains options to change the behavior of your "
 "keyboard to meet certain accessibility needs."
 msgstr ""
-"La solapa <gui>Filtros</gui> contiene opciones para cambiar el "
+"La pestaña <gui>Filtros</gui> contiene opciones para cambiar el "
 "comportamiento de su teclado para cumplir con ciertas necesidades de "
 "accesibilidad."
 
