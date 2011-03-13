@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-doc-utils.mallard.master\n"
-"POT-Creation-Date: 2010-10-20 06:33+0000\n"
-"PO-Revision-Date: 2011-02-20 15:33+0100\n"
+"POT-Creation-Date: 2011-02-20 14:37+0000\n"
+"PO-Revision-Date: 2011-03-13 14:28+0100\n"
 "Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -7069,6 +7069,11 @@ msgid ""
 "different types of block elements, or simply to group some paragraphs "
 "together."
 msgstr ""
+"Use el elemento <code>example</code> para agrupar elementos de bloque, "
+"indicando que son parte de un ejemplo simple. Esto se puede usar para "
+"agrupar entradas de ejemplo con sus resultados, para mostrar diferentes "
+"pasos con diferentes tipos de elementos de bloques o simplemente para "
+"agrupar algunos párrafos de forma conjunta."
 
 #: C/mal_block_example.page:41(p)
 msgid ""
@@ -7170,6 +7175,10 @@ msgid ""
 "block elements as normal. Example should use margins, borders, or other "
 "stylistic effects to provide a clear visual indication of the grouping."
 msgstr ""
+"El contenido de un elemento <code>example</code> se debería renderizar como "
+"bloques de elementos normales. Los ejemplos pueden ser márgenes, bordes u "
+"otros efectos de estilo para proporcionar una indicación visual limpia del "
+"agrupado."
 
 #: C/mal_block_example.page:122(p)
 msgid ""
@@ -7179,6 +7188,11 @@ msgid ""
 "<code>example</code> is a simple container element, and does not allow a "
 "<code xref=\"mal_block_title\">title</code> element."
 msgstr ""
+"El elemento <code>example</code> es similar al elemento <code href=\"http://"
+"www.docbook.org/tdg/en/html/example.html\">example</code> en DocBook. En "
+"DocBook, el elemento <code>example</code> es un elemento formal. En Mallard, "
+"<code>example</code> es simplemente un elemento contenedor y no permite un "
+"elemento <code xref=\"mal_block_title\">title</code>."
 
 #: C/mal_block_desc.page:20(desc)
 msgid "Provide a caption for a formal block element."
@@ -7793,6 +7807,9 @@ msgid ""
 "them are complete. This page discusses a selection of the requirements. "
 "Future versions may discuss more requirements."
 msgstr ""
+"En el momento de escribir este documento, existen 26 requerimientos, aunque "
+"no todos ellos están completos. Esta página discute una selección de los "
+"requerimientos. Las futuras versiones pueden discutir más requerimientos."
 
 #: C/its.page:33(title)
 msgid "R002: Span-Like Element"
@@ -7904,7 +7921,7 @@ msgstr ""
 
 #: C/its.page:121(title)
 msgid "R008: Purpose Specification/Mapping"
-msgstr ""
+msgstr "R008: Intención de la especificación y/o mapeado"
 
 #: C/its.page:126(p)
 msgid ""
