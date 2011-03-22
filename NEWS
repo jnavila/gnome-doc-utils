@@ -1,3 +1,14 @@
+Changes in 0.20.5:
+------------------
+* Updated Mallard RNG files
+* Updated translations:
+  as    (Amitakhya Phukan)
+  bn_IN (Runa Bhattacharjee)
+  eo    (Kristjan SCHMIDT)
+  es    (Jorge González)
+  gu    (Sweta Kothari)
+  or    (Manoj Kumar Giri)
+
 Changes in 0.20.4:
 ------------------
 * Use /bin/bash in gnome-doc-tool
