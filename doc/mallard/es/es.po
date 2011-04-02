@@ -3,13 +3,14 @@
 # Copyright (C) 2009 gnome-doc-utils's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-doc-utils package.
 # Jorge González <jorgegonz@svn.gnome.org>, 2009, 2010, 2011.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-doc-utils.mallard.master\n"
-"POT-Creation-Date: 2011-02-20 14:37+0000\n"
-"PO-Revision-Date: 2011-03-13 14:28+0100\n"
-"Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
+"POT-Creation-Date: 2011-03-13 13:43+0000\n"
+"PO-Revision-Date: 2011-04-02 14:06+0200\n"
+"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5914,7 +5915,7 @@ msgstr ""
 "El elemento <code>quote</code> contiene un elemento opcional <link xref="
 "\"mal_block_title\">title</link>, un elemento obligatorio <link xref="
 "\"mal_block_cite\">cite</link> y cualquier <link xref=\"mal_block\">bloque "
-"de contenido general<code>."
+"de contenido general</link>."
 
 #: C/mal_block_quote.page:47(p)
 msgid ""
