@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: gnome-doc-utils\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-03-13 16:27+0100\n"
-"PO-Revision-Date: 2010-03-13 16:38+0100\n"
+"PO-Revision-Date: 2011-04-04 00:11+0200\n"
 "Last-Translator: Gil Forcada <gilforcada@guifi.net>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
 "MIME-Version: 1.0\n"
@@ -2160,7 +2160,7 @@ msgstr "P:&#x2003;"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1770
 msgid "Ready for review"
-msgstr "Preparat per a revisar"
+msgstr "Preparat per revisar"
 
 #.
 #. http://www.docbook.org/tdg/en/html/revhistory.html
