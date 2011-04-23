@@ -1,167 +1,4 @@
 
-namespace local = ""
-default namespace mal = "http://projectmallard.org/1.0/"
-start = mal_page
-mal_page = element page {
-  mal_page_attr,
-
-  mal_info ?,
-  mal_block_title,
-  mal_block_subtitle ?,
-  ( mal_block | mal_links ) *,
-  mal_section *,
-  mal_links *
-}
-mal_page_attr = (
-  attribute id { xsd:NMTOKEN },
-  attribute type { xsd:NMTOKEN } ?,
-  attribute style { xsd:NMTOKENS } ?,
-  attribute version { text } ?,
-  mal_attr_external *
-)
-
-mal_section = element section {
-  mal_section_attr,
-
-  mal_info ?,
-  mal_block_title,
-  mal_block_subtitle ?,
-  ( mal_block | mal_links ) *,
-  mal_section *,
-  mal_links *
-}
-mal_section_attr = (
-  attribute id { xsd:ID },
-  attribute style { xsd:NMTOKENS } ?,
-  mal_attr_external *
-)
-
-mal_info = element info {
-  mal_info_attr,
-  mal_info_content
-}
-mal_info_attr = (
-  mal_attr_external *
-)
-mal_info_content = (
-  mal_info_desc ? &
-  mal_info_credit * &
-  mal_info_license * &
-  mal_info_link * &
-  mal_info_title * &
-  mal_info_revision * &
-  mal_external *
-)
-
-mal_info_credit = element credit {
-  mal_info_credit_attr,
-  mal_info_credit_content
-}
-mal_info_credit_attr = (
-  attribute type { xsd:NMTOKENS } ?,
-  attribute style { xsd:NMTOKENS } ?,
-  mal_attr_external *
-)
-mal_info_credit_content = (
-  mal_info_name &
-  mal_info_email * &
-  mal_info_years ? &
-  mal_external *
-)
-
-mal_info_link = element link {
-  mal_info_link_attr,
-  mal_info_link_content *
-}
-mal_info_link_attr = (
-  attribute type { xsd:NMTOKEN },
-  attribute style { xsd:NMTOKENS } ?,
-  mal_attr_link +,
-  attribute group { text } ?,
-  mal_attr_external *
-)
-mal_info_link_content = mal_external
-
-mal_info_title = element title {
-  mal_info_title_attr,
-  mal_info_title_inline
-}
-mal_info_title_attr = (
-  attribute type { xsd:NMTOKEN },
-  attribute style { xsd:NMTOKENS } ?,
-  attribute role { xsd:NMTOKEN } ?,
-  mal_attr_external *
-)
-mal_info_title_inline = mal_inline
-
-mal_info_license = element license {
-  mal_info_license_attr,
-  mal_info_license_content +
-}
-mal_info_license_attr = (
-  attribute style { xsd:NMTOKENS } ?,
-  attribute href { text } ?,
-  mal_attr_external *
-)
-mal_info_license_content = mal_block
-
-mal_info_desc = element desc {
-  mal_info_desc_attr,
-  mal_info_desc_inline
-}
-mal_info_desc_attr = (
-  attribute style { xsd:NMTOKENS } ?,
-  mal_attr_external *
-)
-mal_info_desc_inline = mal_inline
-
-mal_info_revision = element revision {
-  mal_info_revision_attr,
-  mal_block_title ?,
-  mal_block_desc ?,
-  mal_info_revision_content *
-}
-mal_info_revision_attr = (
-  attribute style { xsd:NMTOKENS } ?,
-  attribute version { text } ?,
-  attribute docversion { text } ?,
-  attribute pkgversion { text } ?,
-  attribute date { xsd:date } ?,
-  attribute status { xsd:NMTOKEN } ?,
-  mal_attr_external *
-)
-mal_info_revision_content = mal_external
-
-mal_info_years = element years {
-  mal_info_years_attr,
-  mal_info_years_inline
-}
-mal_info_years_attr = (
-  attribute style { xsd:NMTOKENS } ?,
-  mal_attr_external *
-)
-mal_info_years_inline = mal_inline
-
-mal_info_email = element email {
-  mal_info_email_attr,
-  mal_info_email_inline
-}
-mal_info_email_attr = (
-  attribute style { xsd:NMTOKENS } ?,
-  mal_attr_external *
-)
-mal_info_email_inline = mal_inline
-
-mal_info_name = element name {
-  mal_info_name_attr,
-  mal_info_name_inline
-}
-mal_info_name_attr = (
-  attribute style { xsd:NMTOKENS } ?,
-  mal_attr_external *
-)
-mal_info_name_inline = mal_inline
-
 mal_links = element links {
   mal_links_attr,
   mal_block_title ?,
@@ -170,7 +7,7 @@ mal_links = element links {
 mal_links_attr = (
   attribute type { xsd:NMTOKEN },
   attribute style { xsd:NMTOKENS } ?,
-  attribute groups { xsd:NMTOKENS } ?,
+  attribute groups { text } ?,
   mal_attr_external *
 )
 mal_links_content = mal_external
@@ -495,7 +332,7 @@ mal_table_tfoot_attr = (
 
 mal_table_td = element td {
   mal_table_td_attr,
-  mal_table_td_content +
+  mal_table_td_content *
 }
 mal_table_td_attr = (
   attribute style { xsd:NMTOKENS } ?,
@@ -504,26 +341,6 @@ mal_table_td_attr = (
   mal_attr_external *
 )
 mal_table_td_content = mal_block
-
-mal_block_title = element title {
-  mal_block_title_attr,
-  mal_block_title_inline
-}
-mal_block_title_attr = (
-  attribute style { xsd:NMTOKENS } ?,
-  mal_attr_external *
-)
-mal_block_title_inline = mal_inline
-
-mal_block_subtitle = element subtitle {
-  mal_block_subtitle_attr,
-  mal_block_subtitle_inline
-}
-mal_block_subtitle_attr = (
-  attribute style { xsd:NMTOKENS } ?,
-  mal_attr_external *
-)
-mal_block_subtitle_inline = mal_inline
 
 mal_block_desc = element desc {
   mal_block_desc_attr,
@@ -547,7 +364,153 @@ mal_block_cite_attr = (
 )
 mal_block_cite_inline = mal_inline
 
-mal_inline = {
+mal_block_subtitle = element subtitle {
+  mal_block_subtitle_attr,
+  mal_block_subtitle_inline
+}
+mal_block_subtitle_attr = (
+  attribute style { xsd:NMTOKENS } ?,
+  mal_attr_external *
+)
+mal_block_subtitle_inline = mal_inline
+
+mal_block_title = element title {
+  mal_block_title_attr,
+  mal_block_title_inline
+}
+mal_block_title_attr = (
+  attribute style { xsd:NMTOKENS } ?,
+  mal_attr_external *
+)
+mal_block_title_inline = mal_inline
+
+mal_info = element info {
+  mal_info_attr,
+  mal_info_content
+}
+mal_info_attr = (
+  mal_attr_external *
+)
+mal_info_content = (
+  mal_info_desc ? &
+  mal_info_credit * &
+  mal_info_license * &
+  mal_info_link * &
+  mal_info_title * &
+  mal_info_revision * &
+  mal_external *
+)
+
+mal_info_credit = element credit {
+  mal_info_credit_attr,
+  mal_info_credit_content
+}
+mal_info_credit_attr = (
+  attribute type { xsd:NMTOKENS } ?,
+  attribute style { xsd:NMTOKENS } ?,
+  mal_attr_external *
+)
+mal_info_credit_content = (
+  mal_info_name &
+  mal_info_email * &
+  mal_info_years ? &
+  mal_external *
+)
+
+mal_info_link = element link {
+  mal_info_link_attr,
+  mal_info_link_content *
+}
+mal_info_link_attr = (
+  attribute type { xsd:NMTOKEN },
+  attribute style { xsd:NMTOKENS } ?,
+  mal_attr_link +,
+  attribute group { text } ?,
+  mal_attr_external *
+)
+mal_info_link_content = mal_external
+
+mal_info_title = element title {
+  mal_info_title_attr,
+  mal_info_title_inline
+}
+mal_info_title_attr = (
+  attribute type { xsd:NMTOKEN },
+  attribute style { xsd:NMTOKENS } ?,
+  attribute role { xsd:NMTOKEN } ?,
+  mal_attr_external *
+)
+mal_info_title_inline = mal_inline
+
+mal_info_license = element license {
+  mal_info_license_attr,
+  mal_info_license_content +
+}
+mal_info_license_attr = (
+  attribute style { xsd:NMTOKENS } ?,
+  attribute href { text } ?,
+  mal_attr_external *
+)
+mal_info_license_content = mal_block
+
+mal_info_desc = element desc {
+  mal_info_desc_attr,
+  mal_info_desc_inline
+}
+mal_info_desc_attr = (
+  attribute style { xsd:NMTOKENS } ?,
+  mal_attr_external *
+)
+mal_info_desc_inline = mal_inline
+
+mal_info_revision = element revision {
+  mal_info_revision_attr,
+  mal_block_title ?,
+  mal_block_desc ?,
+  mal_info_revision_content *
+}
+mal_info_revision_attr = (
+  attribute style { xsd:NMTOKENS } ?,
+  attribute version { text } ?,
+  attribute docversion { text } ?,
+  attribute pkgversion { text } ?,
+  attribute date { xsd:date } ?,
+  attribute status { xsd:NMTOKEN } ?,
+  mal_attr_external *
+)
+mal_info_revision_content = mal_external
+
+mal_info_years = element years {
+  mal_info_years_attr,
+  mal_info_years_inline
+}
+mal_info_years_attr = (
+  attribute style { xsd:NMTOKENS } ?,
+  mal_attr_external *
+)
+mal_info_years_inline = mal_inline
+
+mal_info_email = element email {
+  mal_info_email_attr,
+  mal_info_email_inline
+}
+mal_info_email_attr = (
+  attribute style { xsd:NMTOKENS } ?,
+  mal_attr_external *
+)
+mal_info_email_inline = mal_inline
+
+mal_info_name = element name {
+  mal_info_name_attr,
+  mal_info_name_inline
+}
+mal_info_name_attr = (
+  attribute style { xsd:NMTOKENS } ?,
+  mal_attr_external *
+)
+mal_info_name_inline = mal_inline
+
+mal_inline = (
   mal_inline_app * &
   mal_inline_cmd * &
   mal_inline_code * &
@@ -569,7 +532,7 @@ mal_inline = {
     mal_inline
   } * &
   text ?
-}
+)
 
 mal_inline_app = element app {
   mal_inline_app_attr,
@@ -760,6 +723,27 @@ mal_inline_var_attr = (
 )
 mal_inline_var_inline = mal_inline
 
+namespace local = ""
+default namespace mal = "http://projectmallard.org/1.0/"
+start = mal_page
+mal_page = element page {
+  mal_page_attr,
+
+  mal_info ?,
+  mal_block_title,
+  mal_block_subtitle ?,
+  ( mal_block | mal_links ) *,
+  mal_section *,
+  mal_links *
+}
+mal_page_attr = (
+  attribute id { xsd:NMTOKEN },
+  attribute type { xsd:NMTOKEN } ?,
+  attribute style { xsd:NMTOKENS } ?,
+  attribute version { text } ?,
+  mal_attr_external *
+)
+
 mal_external = element * - (mal:* | local:*) {
   attribute * { text } *,
   ( mal_anything * &
@@ -782,4 +766,20 @@ mal_attr_link = (
 mal_attr_mal_link = (
   attribute mal:xref { text } ?,
   attribute mal:action { text } ?
+)
+
+mal_section = element section {
+  mal_section_attr,
+
+  mal_info ?,
+  mal_block_title,
+  mal_block_subtitle ?,
+  ( mal_block | mal_links ) *,
+  mal_section *,
+  mal_links *
+}
+mal_section_attr = (
+  attribute id { xsd:ID },
+  attribute style { xsd:NMTOKENS } ?,
+  mal_attr_external *
 )
