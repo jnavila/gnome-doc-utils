@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-doc-utils.mallard.master\n"
 "POT-Creation-Date: 2011-04-17 15:50+0000\n"
-"PO-Revision-Date: 2011-04-23 15:10+0200\n"
+"PO-Revision-Date: 2011-04-24 12:07+0200\n"
 "Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -3458,6 +3458,13 @@ msgid ""
 "roman and italic type styles, it may still be possible to use an oblique "
 "font or some other font variation. Bold text may be used if necessary."
 msgstr ""
+"El texto enfatizado generalmente se presenta en una tipografía cursiva u "
+"oblicua. Las tipografías cursivas y oblicuas marcan una parte del texto sin "
+"resaltarlo. Por el contrario, el texto en negrita suele llamar la atención "
+"del ojo, que puede distraer al leer grandes trozos de texto. En «scripts» "
+"sin distinción entre tipos de estilo romano y cursivo, aún puede ser posible "
+"usar una tipografía oblicua u otra variación de tipografía. Se puede usar "
+"texto en negrita si es necesario."
 
 #: C/mal_inline_em.page:101(p)
 msgid ""
@@ -3632,16 +3639,23 @@ msgid ""
 "(<var>label</var>)</code>, replacing <var>label</var> with the text of the "
 "label."
 msgstr ""
+"Para crear un botón nuevo con una etiqueta, use "
+"<code>gtk_button_new_with_label(<var>etiqueta</var>)</code>, reemplazando "
+"<var>etiqueta</var> con el texto de la etiqueta."
 
 #: C/mal_inline_code.page:113(p)
 msgid "Link to a web page directly with a <code>code</code> element:"
 msgstr ""
+"Enlace a una página web directamente con el elemento <code>code</code>:"
 
 #: C/mal_inline_code.page:120(p)
 msgid ""
 "Use <code>code</code> with <code xref=\"mal_inline_var\">var</code> to mark "
 "up code with a placeholder for an argument the user should supply."
 msgstr ""
+"Use <code>code</code> con <code xref=\"mal_inline_var\">var</code> para "
+"marcar código con un lugar para un argumento que el usuario debe "
+"proporcionar."
 
 #: C/mal_inline_code.page:130(p)
 msgid ""
@@ -3685,7 +3699,7 @@ msgstr ""
 
 #: C/mal_inline_cmd.page:19(desc)
 msgid "Mark up a command to be entered at an interactive shell."
-msgstr ""
+msgstr "Marque un comando para que sea introducido en una «shell» interactiva."
 
 #: C/mal_inline_cmd.page:22(title)
 msgid "Commands"
@@ -3737,6 +3751,9 @@ msgid ""
 "Use the <code xref=\"mal_inline_var\">var</code> element inside a <code>cmd</"
 "code> element to indicate text that should be replaced by the user."
 msgstr ""
+"Use el elemento <code xref=\"mal_inline_var\">var</code> dentro de un "
+"elemento <code>cmd</code> para indicar texto que debería reemplazar el "
+"usuario."
 
 #: C/mal_inline_cmd.page:56(p)
 msgid ""
@@ -3801,19 +3818,24 @@ msgstr ""
 
 #: C/mal_inline_cmd.page:98(p)
 msgid "Use <code>cmd</code> to mark up a simple command to run:"
-msgstr ""
+msgstr "Use <code>cmd</code> para marcar un simple comando que ejecutar:"
 
 #: C/mal_inline_cmd.page:105(p) C/mal_inline_app.page:79(p)
 msgid ""
 "To start <app>Totem Movie Player</app>, enter <cmd>totem</cmd> at the "
 "command line."
 msgstr ""
+"Para iniciar el <app>Reproductor de películas Totem</app> introduzca "
+"<cmd>totem</cmd> en la línea de comandos."
 
 #: C/mal_inline_cmd.page:109(p)
 msgid ""
 "Use <code>cmd</code> with <code xref=\"mal_inline_var\">var</code> to mark "
 "up a command with a placeholder for an argument the user should supply:"
 msgstr ""
+"Use <code>cmd</code> con <code xref=\"mal_inline_var\">var</code> para "
+"marcar un comando con un lugar para un argumento que el usuario debe "
+"proporcionar:"
 
 #: C/mal_inline_cmd.page:118(p)
 msgid ""
@@ -3821,6 +3843,9 @@ msgid ""
 "var></cmd> at the command line, replacing <var>file</var> with the name of "
 "the file."
 msgstr ""
+"Para ver un archivo en el <app>Reproductor de películas Totem</app> "
+"introduzca <cmd>totem <var>archivo</var></cmd> en la línea de comandos, "
+"reemplazando <var>archivo</var> por el nombre del archivo."
 
 #: C/mal_inline_cmd.page:122(p)
 msgid "Use <code>cmd</code> to mark up command names and options:"
