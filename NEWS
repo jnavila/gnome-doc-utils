@@ -1,3 +1,12 @@
+Changes in 0.20.6:
+------------------
+* Updated Mallard schema
+* Fixed 'make pot' rule for Mallard
+* Updated translations:
+  ca    (Jordi Serratosa)
+  es    (Jorge González, Daniel Mustieles)
+  ug    (Abduxukur Abdurixit)
+
 Changes in 0.20.5:
 ------------------
 * Updated Mallard RNG files
