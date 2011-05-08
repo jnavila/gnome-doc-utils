@@ -2,15 +2,15 @@
 # Spanish translation for gnome-doc-utils.
 # Copyright (C) 2009 gnome-doc-utils's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-doc-utils package.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011.
 # Jorge González <jorgegonz@svn.gnome.org>, 2009, 2010, 2011.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-doc-utils.mallard.master\n"
-"POT-Creation-Date: 2011-04-17 15:50+0000\n"
-"PO-Revision-Date: 2011-04-24 12:07+0200\n"
-"Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
+"POT-Creation-Date: 2011-04-24 10:09+0000\n"
+"PO-Revision-Date: 2011-05-08 17:18+0200\n"
+"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5484,11 +5484,11 @@ msgstr ""
 
 #: C/mal_block_synopsis.page:18(desc)
 msgid "Create an overview of concepts."
-msgstr ""
+msgstr "Crear una vista general de conceptos."
 
 #: C/mal_block_synopsis.page:21(title)
 msgid "Synopses"
-msgstr ""
+msgstr "Resumen"
 
 #: C/mal_block_synopsis.page:23(code)
 #, no-wrap
@@ -5523,7 +5523,7 @@ msgstr ""
 
 #: C/mal_block_synopsis.page:42(p)
 msgid "Add explanation, examples"
-msgstr ""
+msgstr "Añadir explicación, ejemplos"
 
 #: C/mal_block_synopsis.page:50(p)
 msgid ""
@@ -5540,6 +5540,10 @@ msgid ""
 "\"mal_section\">sections</link>, and certain <link xref=\"mal_block\">block "
 "elements</link>."
 msgstr ""
+"El elemento <code>synopsis</code> puede encontrarse en cualquier contexto "
+"general en bloque, incluyendo dentro de <link xref=\"mal_page\">páginas</"
+"link>, <link xref=\"mal_section\">secciones</link> y algunos <link xref="
+"\"mal_block\">elementos de bloque</link>."
 
 #: C/mal_block_synopsis.page:64(p)
 msgid ""
@@ -5554,7 +5558,7 @@ msgstr ""
 
 #: C/mal_block_synopsis.page:89(title)
 msgid "Beanstalk Functions"
-msgstr ""
+msgstr "Funciones de la charla de las judías"
 
 #: C/mal_block_synopsis.page:90(desc)
 msgid "Use these methods on a <code>beanstalk</code> object."
@@ -5682,6 +5686,10 @@ msgid ""
 "\"mal_section\">sections</link>, and certain <link xref=\"mal_block\">block "
 "elements</link>."
 msgstr ""
+"El elemento <code>steps</code> puede encontrarse en cualquier bloque de "
+"contexto general, incluyendo dentro de <link xref=\"mal_page\">páginas</"
+"link>, <link xref=\"mal_section\">secciones</link> y algunos <link xref="
+"\"mal_block\">elementos de bloque</link>."
 
 #: C/mal_block_steps.page:64(p)
 msgid ""
@@ -5689,10 +5697,13 @@ msgid ""
 "See <link xref=\"mal_external\"/> for more information on external-namespace "
 "attributes."
 msgstr ""
+"El elemento <code>steps</code> puede tener atributos de espacios de nombres "
+"externos. Para obtener más información acerca de atributos de espacios de "
+"nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_block_steps.page:76(p)
 msgid "Create a simple procedure of steps for the reader to follow:"
-msgstr ""
+msgstr "Crear un procedimiento sencillo con pasos que el lector debe seguir:"
 
 #: C/mal_block_steps.page:89(title) C/mal_block_steps.page:122(title)
 msgid "Planting Magic Beans"
@@ -6060,7 +6071,7 @@ msgstr ""
 "El elemento <code>quote</code> contiene un elemento opcional <link xref="
 "\"mal_block_title\">title</link>, un elemento obligatorio <link xref="
 "\"mal_block_cite\">cite</link> y cualquier <link xref=\"mal_block\">bloque "
-"de contenido general<code>."
+"de contenido general</link>."
 
 #: C/mal_block_quote.page:47(p)
 msgid ""
@@ -6406,6 +6417,10 @@ msgid ""
 "contexts, and are not allowed in general block content. These elements allow "
 "for richer content models for the elements they appear in."
 msgstr ""
+"Mallard contiene varios elementos de tipo bloque que sólo se usan en "
+"contextos específicos, y no están permitidos en bloques de contenido "
+"general. Estos elementos permiten modelos de contenidos más ricos para los "
+"elementos en los que aparecen."
 
 #: C/mal_block.page:168(p)
 msgid ""
@@ -6672,6 +6687,19 @@ msgid ""
 "does not recommend separate <code>caution</code> and <code>warning</code> "
 "types, as there is rarely a useful distinction in practice."
 msgstr ""
+"El elemento <code>note</code> es similar a los elementos <code href=\"http://"
+"www.docbook.org/tdg/en/html/caution.html\">caution</code>, <code href="
+"\"http://www.docbook.org/tdg/en/html/important.html\">important</code>, "
+"<code href=\"http://www.docbook.org/tdg/en/html/note.html\">note</code>, "
+"<code href=\"http://www.docbook.org/tdg/en/html/tip.html\">tip</code>, y "
+"<code href=\"http://www.docbook.org/tdg/en/html/warning.html\">warning</"
+"code> en DocBook. En lugar de usar elementos separados, Mallard usa un único "
+"elemento <code>note</code> que se puede especializar y extender mediante "
+"sugerencias de estilo. Este documento recomienda las sugerencias de estilo "
+"<code>advanced</code> y <code>bug</code>, que no tienen equivalente en "
+"DocBook. Este documento no recomienda los tipos <code>caution</code> y "
+"<code>warning</code> separados, ya que rara vez se hace una distinción útil "
+"en la práctica."
 
 #: C/mal_block_media.page:21(title)
 msgid "Multimedia Objects"
@@ -6755,6 +6783,13 @@ msgid ""
 "content. When processing any child <code>media</code> elements, display "
 "tools may need to fall back further to their child elements."
 msgstr ""
+"Cuando una herramienta de mostrado no puede mostrar un elemento <code>media</"
+"code>, debe mostrar los elementos hijos del elemento, como si el elemento "
+"<code>media</code> se reemplazase por sus hijos. Los elementos hijos pueden "
+"ser cualquier otro elemento <code>media</code> referenciando un tipo "
+"diferente de contenido. Al procesar cualquier elemento <code>media</code> "
+"hijo, las herramientas de mostrado pueden necesitar una alternativa para los "
+"elementos hijos."
 
 #: C/mal_block_media.page:123(p)
 msgid ""
@@ -6775,6 +6810,15 @@ msgid ""
 "\">mediaobject</code> element to provide alternative objects. In Mallard, "
 "alternative objects are nested, obviating the need for a container element."
 msgstr ""
+"El elemento <code>media</code> se puede usar en lugar los elementos de "
+"DocBook <code xref=\"http://www.docbook.org/tdg/en/html/audiooobject.html"
+"\">audioobject</code>, <code xref=\"http://www.docbook.org/tdg/en/html/"
+"imageobject.html\">imageobject</code>, y <code xref=\"http://www.docbook.org/"
+"tdg/en/html/videoobject.html\">videoobject</code>. DocBook usa el elemento "
+"<code xref=\"http://www.docbook.org/tdg/en/html/mediaobject.html"
+"\">mediaobject</code> para proporcionar objetos alternativos. En Mallard, "
+"los objetos alternativos están anidados, obviando la necesidad de un "
+"elemento contenedor."
 
 #: C/mal_block_list.page:16(desc)
 msgid "Create a basic bulleted or numbered list."
@@ -6828,6 +6872,13 @@ msgid ""
 "the reader should perform, use the <code xref=\"mal_block_steps\">steps</"
 "code> element."
 msgstr ""
+"Use el elemento <code>list</code> para crear una lista básica numerada o con "
+"topos. De manera predeterminada, las listas no están ordenadas, y los "
+"elementos de la lista se marcar con un topo o con otro glifo. Puede "
+"seleccionar varios sistemas de numeración usando el atributo <code>type</"
+"code>. Si necesita una lista numerada para enumerar los pasos que debe "
+"realizar el lector, use el elemento <code xref=\"mal_block_steps\">steps</"
+"code>."
 
 #: C/mal_block_list.page:50(p)
 msgid ""
@@ -6836,6 +6887,11 @@ msgid ""
 "code> elements. Each child <code>item</code> element can contain a mixture "
 "of text and any <link xref=\"mal_inline\">general inline elements</link>."
 msgstr ""
+"El elemento <code>list</code> puede contener un elemento <code xref="
+"\"mal_block_title\">title</code> opcional seguido de uno o más elementos "
+"<code>item</code>. Cada elemento <code>item</code> hijo puede contener una "
+"mezcla de texto y cualquiera de los <link xref=\"mal_inline\">elementos "
+"generales en línea</link>."
 
 #: C/mal_block_list.page:56(p)
 msgid ""
@@ -6858,6 +6914,12 @@ msgid ""
 "code> can be used to select a numbered list type appropriate for the page's "
 "language."
 msgstr ""
+"El atributo <code>type</code> le permite seleccionar el tipo de lista, que "
+"afecta a los marcadores usados para cada elemento de la lista. Los valores "
+"permitidos son los de la <link href=\"http://www.w3.org/TR/css3-lists/"
+"\">propiedad <code>list-style-type</code> de CSS</link>. Además, el valor de "
+"<code>\"numbered\"</code> se puede usar para seleccionar una tipo de lista "
+"numerada adecuada al idioma de la página."
 
 #: C/mal_block_list.page:68(p)
 msgid ""
@@ -6969,6 +7031,14 @@ msgid ""
 "override the bullet or numbering type on each list item. Mallard does not "
 "allow this."
 msgstr ""
+"El elemento <code>list</code> combina la funcionalidad de los elementos "
+"<code href=\"http://www.docbook.org/tdg/en/html/itemizedlist.html"
+"\">itemizedlist</code> y <code href=\"http://www.docbook.org/tdg/en/html/"
+"orderedlist.html\">orderedlist</code> en DocBook. DocBook permite elementos "
+"contenido principal a nivel de bloque en sus elementos de listas. En Mallard "
+"esto no se permite, aunque sí se pemite un elemento <code>title</code> "
+"opcional. DocBook le permite omitir el topo o el tipo de numeración en cada "
+"elemento de la lista. Mallard no permite esto."
 
 #: C/mal_block_listing.page:19(desc)
 msgid "Provide a name and description for a code block or other content."
@@ -7013,6 +7083,14 @@ msgid ""
 "of content. To provide a title for images or other multimedia objects, use "
 "the <link xref=\"mal_block_figure\">figure</link> element."
 msgstr ""
+"Use el elemento <code>listing</code> para crear listados de nombres de "
+"contenidos de archivos u otros contenidos. Los listados se usan "
+"habitualmente con <link xref=\"mal_block_code\">bloques de código</link> "
+"para proporcionar un nombre al archivo en el que introducir el contenido. "
+"También se pueden usar para proporcionar un nombre para una <link xref="
+"\"mal_block_screen\">sesión de shell interactiva</link> o cualquier otro "
+"tipo de contenido. Para proporcionar un título para imágenes u otros objetos "
+"multimedia, use el elemento <link xref=\"mal_block_figure\">figure</link>."
 
 #: C/mal_block_listing.page:47(p)
 msgid ""
@@ -7093,6 +7171,10 @@ msgid ""
 "being interpreted as block elements. When present, the title and description "
 "should be displayed in a way that makes their respective roles clear."
 msgstr ""
+"Los listados se muestran como bloques de elementos, con cada uno de sus "
+"elementos hijos interpretados como bloques de elementos. Cuando están "
+"presentes, el título y la descripción se deben mostrar de manera que sus "
+"respectivos roles queden claros."
 
 #: C/mal_block_figure.page:19(desc)
 msgid "Provide a title or caption for a multimedia object."
@@ -7133,6 +7215,11 @@ msgid ""
 "\"mal_block_code\">code block</link>, use the <code xref=\"mal_block_listing"
 "\">listing</code> element instead."
 msgstr ""
+"Use el elemento <code>figure</code> para proporcionar un título o una "
+"descripción para un <link xref=\"mal_block_media\">objeto multimedia</link> "
+"u otro bloque de objetos. Para proporcionar un título para el contenido de "
+"un archivo, como un <link xref=\"mal_block_code\">bloque de código</link>, "
+"use el elemento <code xref=\"mal_block_listing\">listing</code> en su lugar."
 
 #: C/mal_block_figure.page:45(p)
 msgid ""
@@ -7189,6 +7276,10 @@ msgid ""
 "being interpreted as block elements. When present, the title and description "
 "should be displayed in a way that makes their respective roles clear."
 msgstr ""
+"Las figuras se muestran como bloques de elementos, con cada uno de sus "
+"elementos hijos interpretados como bloques de elementos. Cuando están "
+"presentes, el título y la descripción se deben mostrar de manera que sus "
+"respectivos roles queden claros."
 
 #: C/mal_block_figure.page:105(p)
 msgid ""
@@ -7197,6 +7288,10 @@ msgid ""
 "provides a title for figures, whereas Mallard distinguishes between a title "
 "and a caption."
 msgstr ""
+"El elemento <code>figure</code> es similar al elemento <code href=\"http://"
+"www.docbook.org/tdg/en/html/figure.html\">figure</code> en DocBook. DocBook "
+"sólo proporciona un título para figuras, mientras que Mallard distingue "
+"entre entre un título y una descripción."
 
 #: C/mal_block_example.page:16(desc)
 msgid "Mark a group of block elements as being part of a single example."
@@ -7974,7 +8069,7 @@ msgstr ""
 
 #: C/its.page:33(title)
 msgid "R002: Span-Like Element"
-msgstr ""
+msgstr "R002: elemento «span-like»"
 
 #: C/its.page:36(cite) C/its.page:55(cite) C/its.page:76(cite)
 #: C/its.page:105(cite) C/its.page:124(cite) C/its.page:146(cite)
@@ -7991,6 +8086,9 @@ msgid ""
 "that may have special properties, from a localization and "
 "internationalization point of view."
 msgstr ""
+"R002: el elemento «span-like» es obligatorio para permitir a los autores "
+"marcar secciones que pueden tener propiedades especiales, desde un punto de "
+"vista de localización e internacionalización."
 
 #: C/its.page:43(p)
 msgid ""
@@ -8000,6 +8098,11 @@ msgid ""
 "lang</code> and <code href=\"http://www.w3.org/TR/its/#trans-datacat\">its:"
 "translate</code> to be used in Mallard documents."
 msgstr ""
+"Mallard proporciona el elemento <code xref=\"mal_inline_span\">span</code>, "
+"un elemento «span-like» de propósito general. El elemento <code>span</code> "
+"acepta atributos de espacios de nombres externos, permitiendo atributos como "
+"<code>xml:lang</code> y <code href=\"http://www.w3.org/TR/its/#trans-datacat"
+"\">its:translate</code> para usarse el documentos de Mallard."
 
 #: C/its.page:52(title)
 msgid "R004: Unique Identifier"
@@ -8011,6 +8114,10 @@ msgid ""
 "localizable item. This identifier should be unique within a document set, "
 "but should be identical across all translations of the same item."
 msgstr ""
+"R004: debería ser posible adjuntar un identificador único a cualquier "
+"elemento traducible. Este elemento debe ser único en el conjunto de un "
+"documento, pero debe ser idéntico a lo largo de todas las traducciones del "
+"mismo elemento."
 
 #: C/its.page:62(p)
 msgid ""
@@ -10489,7 +10596,9 @@ msgstr "Material de referencia adicional"
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: C/index.page:0(None)
 msgid "translator-credits"
-msgstr "Jorge González <jorgegonz@svn.gnome.org>, 2009-2010"
+msgstr ""
+"Daniel Mustieles <daniel.mustieles@gmail.com>, 2011\n"
+"Jorge González <jorgegonz@svn.gnome.org>, 2009-2010"
 
 #~ msgid ""
 #~ "This work is licensed under a <link href=\"http://creativecommons.org/"
