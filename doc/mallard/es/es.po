@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-doc-utils.mallard.master\n"
-"POT-Creation-Date: 2011-04-24 10:09+0000\n"
-"PO-Revision-Date: 2011-05-08 17:18+0200\n"
+"POT-Creation-Date: 2011-05-08 15:23+0000\n"
+"PO-Revision-Date: 2011-05-09 16:27+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -1280,7 +1280,7 @@ msgid ""
 "DocBook."
 msgstr ""
 "El elemento <code>var</code> es similar al elemento <code href=\"http://www."
-"docbook.org/tdg/en/html/replaceable.html\">replaceable</code> en DocBook."
+"docbook.org/tdg/en/html/replaceable.html\">replaceable</code> de DocBook."
 
 #: C/mal_inline_sys.page:18(desc)
 msgid "Mark up general identifiers found on computer systems."
@@ -1520,7 +1520,7 @@ msgid ""
 "docbook.org/tdg/en/html/phrase.html\">phrase</code> element in DocBook."
 msgstr ""
 "El elemento <code>span</code> es similar al elemento <code href=\"http://www."
-"docbook.org/tdg/en/html/phrase.html\">phrase</code> en DocBook."
+"docbook.org/tdg/en/html/phrase.html\">phrase</code> de DocBook."
 
 #: C/mal_inline.page:18(desc)
 msgid "Rich semantic elements for marking up inline content."
@@ -1872,7 +1872,7 @@ msgid ""
 "docbook.org/tdg/en/html/errortext.html\">errortext</code> elements."
 msgstr ""
 "El elemento <code>output</code> es similar al elemento <code href=\"http://"
-"www.docbook.org/tdg/en/html/computeroutput.html\">computeroutput</code> en "
+"www.docbook.org/tdg/en/html/computeroutput.html\">computeroutput</code> de "
 "DocBook. Cuando sea necesario, se puede usar el elemento <code>output</code> "
 "con el atributo de <code>style</code> <code>\"prompt\"</code> en lugar del "
 "elemento <code href=\"http://www.docbook.org/tdg/en/html/prompt.html"
@@ -2898,7 +2898,7 @@ msgid ""
 "docbook.org/tdg/en/html/userinput.html\">userinput</code> element in DocBook."
 msgstr ""
 "El elemento <code>input</code> es similar al elemento <code href=\"http://"
-"www.docbook.org/tdg/en/html/userinput.html\">userinput</code> en DocBook."
+"www.docbook.org/tdg/en/html/userinput.html\">userinput</code> de DocBook."
 
 #: C/mal_inline_guiseq.page:19(desc)
 msgid "Mark up a sequence of interface controls to navigate."
@@ -3017,6 +3017,15 @@ msgid ""
 "html/shortcut.html\">shortcut</code> element in DocBook. It is recommended "
 "that shortcuts, when necessary, be written into prose separately."
 msgstr ""
+"El elemento <code>guiseq</code> es similar al elemento <code href=\"http://"
+"www.docbook.org/tdg/en/html/menuchoice.html\">menuchoice</code> de DocBook. "
+"Dado que Mallard no proporciona diferentes elementos para diferentes tipos "
+"de elementos de la interfaz, el contenido de <code>guiseq</code> son todo "
+"elementos <code>gui</code> o texto. Actualmente, Mallard no proporciona una "
+"manera de codificar atajos de teclado como el elemento <code href=\"http://"
+"www.docbook.org/tdg/en/html/shortcut.html\">shortcut</code> de DocBook. Se "
+"recomienda que, cuando sea necesario, los atajos se escriban en prosa por "
+"separado."
 
 #: C/mal_inline_gui.page:18(desc)
 msgid "Mark up control labels from a graphical user interface."
@@ -3250,6 +3259,22 @@ msgid ""
 "abuse a specific element or use the deprecated <code>interface</code> "
 "element."
 msgstr ""
+"El elemento <code>gui</code> es similar al elemento obsoleto <code href="
+"\"http://www.docbook.org/tdg/en/html/interface.html\">interface</code> de "
+"DocBook. DocBook 3 introdujo elementos más específicos para marcar partes de "
+"la interfaz de usuario: <code href=\"http://www.docbook.org/tdg/en/html/"
+"guibutton.html\">guibutton</code>, <code href=\"http://www.docbook.org/tdg/"
+"en/html/guiicon.html\">guiicon</code>, <code href=\"http://www.docbook.org/"
+"tdg/en/html/guilabel.html\">guilabel</code>, <code href=\"http://www.docbook."
+"org/tdg/en/html/guimenu.html\">guimenu</code>, <code href=\"http://www."
+"docbook.org/tdg/en/html/guimenuitem.html\">guimenuitem</code>, y <code href="
+"\"http://www.docbook.org/tdg/en/html/guisubmenu.html\">guisubmenu</code>. En "
+"la práctica, rara vez se necesita distinguir entre tipos de elementos de la "
+"interfaz en el marcado. Cuando es necesario, se puede manejar usando "
+"atributos sobre un único elemento. Por otra parte, varios elementos de "
+"DocBook no son exhaustivos. Por lo tanto, los autores abusan frencuentemente "
+"de un elemento específico, o usan el elemento <code>interface</code> "
+"obsoleto."
 
 #: C/mal_inline_file.page:18(desc)
 msgid "Mark up the name of a file or directory."
@@ -3349,7 +3374,7 @@ msgid ""
 "docbook.org/tdg/en/html/filename.html\">filename</code> element in DocBook."
 msgstr ""
 "El elemento <code>file</code> es similar al elemento <code href=\"http://www."
-"docbook.org/tdg/en/html/filename.html\">filename</code> en DocBook."
+"docbook.org/tdg/en/html/filename.html\">filename</code> de DocBook."
 
 #: C/mal_inline_em.page:18(desc)
 msgid "Emphasize important text."
@@ -3461,8 +3486,8 @@ msgstr ""
 "El texto enfatizado generalmente se presenta en una tipografía cursiva u "
 "oblicua. Las tipografías cursivas y oblicuas marcan una parte del texto sin "
 "resaltarlo. Por el contrario, el texto en negrita suele llamar la atención "
-"del ojo, que puede distraer al leer grandes trozos de texto. En «scripts» "
-"sin distinción entre tipos de estilo romano y cursivo, aún puede ser posible "
+"del ojo, que puede distraer al leer grandes trozos de texto. En «scripts» sin "
+"distinción entre tipos de estilo romano y cursivo, aún puede ser posible "
 "usar una tipografía oblicua u otra variación de tipografía. Se puede usar "
 "texto en negrita si es necesario."
 
@@ -3487,6 +3512,13 @@ msgid ""
 "<code>role</code> attribute to <code>bold</code> or <code>strong</code> to "
 "specify bold text. No such recommendation is made for Mallard."
 msgstr ""
+"El elemento <code>em</code> es similar al elemento <code href=\"http://www."
+"docbook.org/tdg/en/html/emphasis.html\">emphasis</code> de DocBook. Aunque "
+"DocBook normalmente no especifica una manera de controlar la presentación, "
+"ma mayoría de las herramientas de visualización de DocBook permiten a los "
+"editores establecer el atributo <code>role</code> como <code>bold</code> o "
+"<code>strong</code> para especificar texto en negrita. No hay ninguna "
+"recomendación para Mallard."
 
 #: C/mal_inline_code.page:18(desc)
 msgid ""
@@ -3531,6 +3563,12 @@ msgid ""
 "xref=\"mal_inline_cmd\">cmd</code> element, even though they may include "
 "snippets of shell programming."
 msgstr ""
+"Use el elemento <code>code</code> para marcar un fragmento de texto de "
+"lenguaje informático. Esto incluye lenguajes de programación, lenguajes de "
+"marcado y el contenido de cualquier tipo de archivo con una sintaxis "
+"estructurada. Sin embargo, para comandos que se ejecutan en una terminal "
+"interactiva, debe usar el elemento <code xref=\"mal_inline_cmd\">cmd</code>, "
+"aunque puede incluir fragmentos de scripts."
 
 #: C/mal_inline_code.page:41(p)
 msgid ""
@@ -3856,6 +3894,8 @@ msgid ""
 "The <cmd>-mtime</cmd> option for the <cmd>find</cmd> command allows you to "
 "filter files based on their modification times."
 msgstr ""
+"La opción <cmd>-mtime</cmd> del comando <cmd>find</cmd> le permite filtrar "
+"los archivos basándose en sus fechas de modificación."
 
 #: C/mal_inline_cmd.page:140(p)
 msgid ""
@@ -3935,6 +3975,10 @@ msgid ""
 "<code>app</code> element to mark up the command used to run an application; "
 "use <code xref=\"mal_inline_cmd\">cmd</code> for this purpose instead."
 msgstr ""
+"Use el elemento <code>app</code> marcar marcar el nombre legible de una "
+"aplicación o el título de una ventana en una aplicación. No use el elemento "
+"<code>app</code> mara marcar el comando usado para ejecutar una aplicación; "
+"en su lugar, use <code xref=\"mal_inline_cmd\">cmd</code> para esto."
 
 #: C/mal_inline_app.page:44(p)
 msgid ""
@@ -3988,6 +4032,8 @@ msgid ""
 "Use the <app>Theme Preferences</app> window to adjust the look of your "
 "desktop."
 msgstr ""
+"Use la ventana <app>Preferencias del tema</app> para ajustar el aspecto de "
+"su escritorio."
 
 #: C/mal_inline_app.page:100(p)
 msgid ""
@@ -4007,6 +4053,11 @@ msgid ""
 "This is even more pronounced in languages such as German where nouns are "
 "always capitalized."
 msgstr ""
+"Por ejemplo, la aplicación de calculadora que incluye GNOME se llama "
+"<app>Calculadora</app>. Si el autor escribe «Para iniciar Calculadora», un "
+"lector puede confundirlo erróneamente con «Para iniciar la calculadora». Esto "
+"se acentúa en idiomas como el alemán, donde los nombres siempre se ponen con "
+"mayúsculas."
 
 #: C/mal_inline_app.page:113(p)
 msgid ""
@@ -4014,6 +4065,9 @@ msgid ""
 "<code>app</code> element are rendered in italics or using some other font "
 "variation."
 msgstr ""
+"Por esta razón, se recomienda que los nombres de aplicaciones marcados con "
+"el elemento <code>app</code> se muestren en cursiva o usando alguna otra "
+"variación de la tipografía."
 
 #: C/mal_inline_app.page:123(p)
 msgid ""
@@ -4021,6 +4075,8 @@ msgid ""
 "docbook.org/tdg/en/html/application.html\">application</code> element in "
 "DocBook."
 msgstr ""
+"El elemento <code>app</code> es similar al elemento <code href=\"http://www."
+"docbook.org/tdg/en/html/application.html\">application</code> de DocBook."
 
 #: C/mal_info_years.page:18(desc) C/mal_info_name.page:18(desc)
 #: C/mal_info_email.page:18(desc)
@@ -4051,6 +4107,8 @@ msgid ""
 "Use the <code>years</code> element to mark up the years for which a person "
 "or organization holds a copyright."
 msgstr ""
+"Use el elemento <code>years</code> para marcar los años durante los cuales "
+"una persona u organización tiene un copyright."
 
 #: C/mal_info_years.page:38(p)
 msgid ""
@@ -4464,7 +4522,7 @@ msgstr ""
 
 #: C/mal_info.page:11(title) C/mal_info.page:45(title)
 msgid "Informational Elements"
-msgstr ""
+msgstr "Elementos de información"
 
 #: C/mal_info.page:13(code)
 #, no-wrap
@@ -4755,7 +4813,7 @@ msgid ""
 "element in Mallard does not double as an inline element."
 msgstr ""
 "El elemento <code>email</code> es similar al elemento <code href=\"http://"
-"www.docbook.org/tdg/en/html/email.html\">email</code> en DocBook, cuando ese "
+"www.docbook.org/tdg/en/html/email.html\">email</code> de DocBook, cuando ese "
 "elemento se usa en un contexto de información. El elemento <code>email</"
 "code> en Mallard no tiene doble función, no es un componente en línea."
 
@@ -5032,11 +5090,11 @@ msgstr ""
 
 #: C/mal_external.page:20(title)
 msgid "External Namespaces"
-msgstr ""
+msgstr "Espacios de nombres externos"
 
 #: C/mal_external.page:24(p) C/explore.page:23(p) C/details.page:23(p)
 msgid "Add content"
-msgstr ""
+msgstr "Añadir contenido"
 
 #: C/mal_external.page:27(code)
 #, no-wrap
@@ -5092,7 +5150,7 @@ msgstr ""
 
 #: C/mal_external.page:77(title)
 msgid "External Namespace Elements"
-msgstr ""
+msgstr "Elementos de espacios de nombres externos"
 
 #: C/mal_block_tree.page:16(desc)
 msgid "Create simple trees to show heirarchical structures."
@@ -5174,7 +5232,7 @@ msgstr "líneas"
 
 #: C/mal_block_tree.page:69(p)
 msgid "draw lines to show the hierarchy"
-msgstr ""
+msgstr "dibujar líneas para mostrar la jerarquía"
 
 #: C/mal_block_tree.page:74(p)
 msgid ""
@@ -5236,7 +5294,7 @@ msgstr ""
 
 #: C/mal_block_tree.page:153(item)
 msgid "Baikal Teal"
-msgstr ""
+msgstr "Baikal Teal"
 
 #: C/mal_block_tree.page:154(item)
 msgid "Wigeons"
@@ -5248,11 +5306,11 @@ msgstr ""
 
 #: C/mal_block_tree.page:157(item)
 msgid "Lophonetta"
-msgstr ""
+msgstr "Lophonetta"
 
 #: C/mal_block_tree.page:158(item)
 msgid "Speculanas"
-msgstr ""
+msgstr "Speculanas"
 
 #: C/mal_block_tree.page:149(item)
 msgid ""
@@ -5261,11 +5319,11 @@ msgstr ""
 
 #: C/mal_block_tree.page:162(item)
 msgid "Aythya"
-msgstr ""
+msgstr "Aythya"
 
 #: C/mal_block_tree.page:163(item)
 msgid "Netta"
-msgstr ""
+msgstr "Netta"
 
 #: C/mal_block_tree.page:160(item)
 msgid "Anthyinae (diving ducks) <placeholder-1/><placeholder-2/>"
@@ -5273,7 +5331,7 @@ msgstr ""
 
 #: C/mal_block_tree.page:165(item)
 msgid "Dendrocygninae (whistling ducks)"
-msgstr ""
+msgstr "Dendrocygninae (patos silbadores)"
 
 #: C/mal_block_tree.page:176(p)
 msgid ""
@@ -5305,7 +5363,7 @@ msgstr ""
 
 #: C/mal_block_terms.page:16(desc)
 msgid "Create a list of terms and associated descriptions."
-msgstr ""
+msgstr "Crear una lista de términos y descripciones asociadas."
 
 #: C/mal_block_terms.page:19(title)
 msgid "Definition Lists"
@@ -5392,7 +5450,7 @@ msgstr "código"
 
 #: C/mal_block_terms.page:97(p) C/mal_block_code.page:18(desc)
 msgid "Mark up a block of code or the contents of a file."
-msgstr ""
+msgstr "Marcar un bloque de código o de contenido de un archivo."
 
 #: C/mal_block_terms.page:100(code) C/docbook.page:488(code)
 #, no-wrap
@@ -5406,7 +5464,7 @@ msgstr ""
 #: C/mal_block_terms.page:104(code)
 #, no-wrap
 msgid "screen"
-msgstr ""
+msgstr "pantalla"
 
 #: C/mal_block_terms.page:105(p) C/mal_block_screen.page:18(desc)
 msgid "Mark up a textual user interface or an interactive shell session."
@@ -5781,7 +5839,7 @@ msgid ""
 "DocBook. Note the following differences:"
 msgstr ""
 "El elemento <code>steps</code> es similar al elemento <code href=\"http://"
-"www.docbook.org/tdg/en/html/procedure.html\">procedure</code> en DocBook. "
+"www.docbook.org/tdg/en/html/procedure.html\">procedure</code> de DocBook. "
 "Note las siguientes diferencias:"
 
 #: C/mal_block_steps.page:171(p)
@@ -6009,7 +6067,7 @@ msgid ""
 "docbook.org/tdg/en/html/screen.html\">screen</code> element in DocBook."
 msgstr ""
 "El elemento <code>screen</code> es similar al elemento <code href=\"http://"
-"www.docbook.org/tdg/en/html/screen.html\">screen</code> en DocBook."
+"www.docbook.org/tdg/en/html/screen.html\">screen</code> de DocBook."
 
 #: C/mal_block_screen.page:176(p)
 msgid ""
@@ -6693,7 +6751,7 @@ msgstr ""
 "<code href=\"http://www.docbook.org/tdg/en/html/note.html\">note</code>, "
 "<code href=\"http://www.docbook.org/tdg/en/html/tip.html\">tip</code>, y "
 "<code href=\"http://www.docbook.org/tdg/en/html/warning.html\">warning</"
-"code> en DocBook. En lugar de usar elementos separados, Mallard usa un único "
+"code> de DocBook. En lugar de usar elementos separados, Mallard usa un único "
 "elemento <code>note</code> que se puede especializar y extender mediante "
 "sugerencias de estilo. Este documento recomienda las sugerencias de estilo "
 "<code>advanced</code> y <code>bug</code>, que no tienen equivalente en "
@@ -7034,7 +7092,7 @@ msgstr ""
 "El elemento <code>list</code> combina la funcionalidad de los elementos "
 "<code href=\"http://www.docbook.org/tdg/en/html/itemizedlist.html"
 "\">itemizedlist</code> y <code href=\"http://www.docbook.org/tdg/en/html/"
-"orderedlist.html\">orderedlist</code> en DocBook. DocBook permite elementos "
+"orderedlist.html\">orderedlist</code> de DocBook. DocBook permite elementos "
 "contenido principal a nivel de bloque en sus elementos de listas. En Mallard "
 "esto no se permite, aunque sí se pemite un elemento <code>title</code> "
 "opcional. DocBook le permite omitir el topo o el tipo de numeración en cada "
@@ -7289,7 +7347,7 @@ msgid ""
 "and a caption."
 msgstr ""
 "El elemento <code>figure</code> es similar al elemento <code href=\"http://"
-"www.docbook.org/tdg/en/html/figure.html\">figure</code> en DocBook. DocBook "
+"www.docbook.org/tdg/en/html/figure.html\">figure</code> de DocBook. DocBook "
 "sólo proporciona un título para figuras, mientras que Mallard distingue "
 "entre entre un título y una descripción."
 
@@ -7445,7 +7503,7 @@ msgid ""
 "<code xref=\"mal_block_title\">title</code> element."
 msgstr ""
 "El elemento <code>example</code> es similar al elemento <code href=\"http://"
-"www.docbook.org/tdg/en/html/example.html\">example</code> en DocBook. En "
+"www.docbook.org/tdg/en/html/example.html\">example</code> de DocBook. En "
 "DocBook, el elemento <code>example</code> es un elemento formal. En Mallard, "
 "<code>example</code> es simplemente un elemento contenedor y no permite un "
 "elemento <code xref=\"mal_block_title\">title</code>."
@@ -7761,7 +7819,7 @@ msgid ""
 "way to supply a title or the name of the person making the remark."
 msgstr ""
 "El elemento <code>comment</code> es similar al elemento <code href=\"http://"
-"www.docbook.org/tdg/en/html/remark.html\">remark</code> en DocBook. El "
+"www.docbook.org/tdg/en/html/remark.html\">remark</code> de DocBook. El "
 "elemento <code>remark</code> se puede usar tanto en un bloque como en un "
 "contexto en línea, mientras que el elemento <code>comment</code> sólo se "
 "puede usar como un elemento de bloque. El elemento <code>remark</code> de "
@@ -8544,7 +8602,7 @@ msgid ""
 "recommendations for equivalent or similar functionality in Mallard, when "
 "available."
 msgstr ""
-"La siguiente tabla lista todos los elementos en DocBook y proporciona "
+"La siguiente tabla lista todos los elementos de DocBook y proporciona "
 "recomendaciones para equivalentes o funcionalidades similares en Mallard, "
 "siempre que estén disponibles."
 
