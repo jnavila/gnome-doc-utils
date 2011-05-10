@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-doc-utils.mallard.master\n"
-"POT-Creation-Date: 2011-05-08 15:23+0000\n"
-"PO-Revision-Date: 2011-05-09 16:27+0200\n"
+"POT-Creation-Date: 2011-05-09 17:22+0000\n"
+"PO-Revision-Date: 2011-05-10 21:05+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -3486,8 +3486,8 @@ msgstr ""
 "El texto enfatizado generalmente se presenta en una tipografía cursiva u "
 "oblicua. Las tipografías cursivas y oblicuas marcan una parte del texto sin "
 "resaltarlo. Por el contrario, el texto en negrita suele llamar la atención "
-"del ojo, que puede distraer al leer grandes trozos de texto. En «scripts» sin "
-"distinción entre tipos de estilo romano y cursivo, aún puede ser posible "
+"del ojo, que puede distraer al leer grandes trozos de texto. En «scripts» "
+"sin distinción entre tipos de estilo romano y cursivo, aún puede ser posible "
 "usar una tipografía oblicua u otra variación de tipografía. Se puede usar "
 "texto en negrita si es necesario."
 
@@ -3703,6 +3703,12 @@ msgid ""
 "particularly important in code, since letters often appear without the "
 "context of a known word that helps make them discernable in normal prose."
 msgstr ""
+"Los fragmentos de código se muestran en una tipografía de ancho fijo. Esto "
+"imita el aspecto de un entorno típico donde se escribe el código. Más "
+"importante aún, las tipografías de ancho fijo tienden a distinguir mejor los "
+"caracteres visualmente similares. Esto es particularmente importante en el "
+"código, ya que las letras aparecen a menudo sin el contexto de una palabra "
+"conocida que les ayuda a ser perceptible en la prosa normal."
 
 #: C/mal_inline_code.page:137(p)
 msgid ""
@@ -3711,6 +3717,10 @@ msgid ""
 "prefer <link xref=\"mal_block_code\">code blocks</link> for long code "
 "snippets."
 msgstr ""
+"Para fragmentos de código particularmente grandes, las herramientas de "
+"visualización usan un color de fondo o un borde para resaltar el principio y "
+"el final, aunque algunos autores prefieren <link xref=\"mal_block_code"
+"\">bloques de código</link> para fragmentos grandes de código."
 
 #: C/mal_inline_code.page:147(p)
 msgid ""
@@ -3734,6 +3744,26 @@ msgid ""
 "\"http://www.docbook.org/tdg/en/html/markup.html\">markup</code> and <code "
 "href=\"http://www.docbook.org/tdg/en/html/sgmltag.html\">sgmltag</code>."
 msgstr ""
+"El elemento <code>code</code> es similar al elemento <code href=\"http://www."
+"docbook.org/tdg/en/html/code.html\">code</code> de DocBook. Dado que Mallard "
+"no pretende modelar lenguajes de programación, el elemento <code>code</code> "
+"se puede usar en lugar de numerosos elementos de DocBook, incluyendo <code "
+"href=\"http://www.docbook.org/tdg/en/html/classname.html\">classname</code>, "
+"<code href=\"http://www.docbook.org/tdg/en/html/constant.html\">constant</"
+"code>, <code href=\"http://www.docbook.org/tdg/en/html/function.html"
+"\">function</code>, <code href=\"http://www.docbook.org/tdg/en/html/"
+"interfacename.html\">interfacename</code>, <code href=\"http://www.docbook."
+"org/tdg/en/html/methodname.html\">methodname</code>, <code href=\"http://www."
+"docbook.org/tdg/en/html/parameter.html\">parameter</code>, <code href="
+"\"http://www.docbook.org/tdg/en/html/structfield.html\">structfield</code>, "
+"<code href=\"http://www.docbook.org/tdg/en/html/structname.html"
+"\">structname</code>, y <code href=\"http://www.docbook.org/tdg/en/html/"
+"varname.html\">varname</code>. Además, dado que Mallard no proporciona "
+"elementos separados para marcar fragmentos de lenguajes de marcado, se debe "
+"usar el elemento <code>code</code> en lugar de los elementos <code href="
+"\"http://www.docbook.org/tdg/en/html/markup.html\">markup</code> y <code "
+"href=http://www.docbook.org/tdg/en/html/sgmltag.html\">sgmltag</code> de "
+"DocBook."
 
 #: C/mal_inline_cmd.page:19(desc)
 msgid "Mark up a command to be entered at an interactive shell."
@@ -3774,6 +3804,11 @@ msgid ""
 "mark up the human-readable name of an application; use <code xref="
 "\"mal_inline_app\">app</code> for this purpose instead."
 msgstr ""
+"Use el elemento <code>cmd</code> para marcar un comando o un fragmento de un "
+"comando que ejecutar en una terminal interactiva. Se usa frecuentemente para "
+"marcar un comando para ejecutar una aplicación. No use el elemento "
+"<code>cmd</code> para marcar el nombre legible de una aplicación; en su "
+"lugar, use <code xref=\"mal_inline_app\">app</code> para esto."
 
 #: C/mal_inline_cmd.page:41(p)
 msgid ""
@@ -3783,6 +3818,12 @@ msgid ""
 "may also use the <code>cmd</code> element to mark up parts of a command, "
 "such as options and arguments, when these need to be referenced alone."
 msgstr ""
+"Puede usar el elemento <code>cmd</code> para marcar el comando entero, "
+"incluyendo sus argumentos. Mallard no contiene elementos para marcar "
+"argumentos específicamente, ya que no se habitual tener que distinguirlos. "
+"También puede usar el elemento <code>cmd</code> para marcar partes de un "
+"comando, así como sus opciones y argumentos, cuando necesite referirse a "
+"ellos de manera individual."
 
 #: C/mal_inline_cmd.page:47(p)
 msgid ""
@@ -3887,7 +3928,7 @@ msgstr ""
 
 #: C/mal_inline_cmd.page:122(p)
 msgid "Use <code>cmd</code> to mark up command names and options:"
-msgstr ""
+msgstr "Use <code>cmd</code> para marcar nombres de comandos y opciones:"
 
 #: C/mal_inline_cmd.page:129(p)
 msgid ""
@@ -3906,6 +3947,12 @@ msgid ""
 "appear without the context of a known word that helps make them discernable "
 "in normal prose."
 msgstr ""
+"Los comandos se muestran en una tipografía de ancho fijo. Esto imita el "
+"aspecto de un entorno típico donde se ejecutan los comandos. Más importante "
+"aún, las tipografías de ancho fijo tienden a distinguir mejor los caracteres "
+"visualmente similares. Esto es particularmente importante en los comandos, "
+"ya que las letras aparecen a menudo sin el contexto de una palabra conocida "
+"que les ayuda a ser perceptible en la prosa normal."
 
 #: C/mal_inline_cmd.page:147(p)
 msgid ""
@@ -3925,6 +3972,11 @@ msgid ""
 "en/html/option.html\">option</code> element inside <code>command</code>. "
 "Mallard does not provide an element for this purpose."
 msgstr ""
+"El elemento <code>cmd</code> es similar al elemento <code href=\"http://www."
+"docbook.org/tdg/en/html/command.html\">command</code> de DocBook. En "
+"DocBook, los editores usan frecuentemente el elemento <code href=\"http://"
+"www.docbook.org/tdg/en/html/option.html\">option</code> dentro de "
+"<code>command</code>. Mallard no proporciona un elemento para esto."
 
 #: C/mal_inline_cmd.page:168(p)
 msgid ""
@@ -3941,7 +3993,7 @@ msgstr ""
 
 #: C/mal_inline_app.page:19(desc)
 msgid "Mark up the human-readable name of an application or window."
-msgstr ""
+msgstr "Marcar el nombre legible de una aplicación o una ventana."
 
 #: C/mal_inline_app.page:22(title)
 msgid "Application Names"
@@ -4055,9 +4107,9 @@ msgid ""
 msgstr ""
 "Por ejemplo, la aplicación de calculadora que incluye GNOME se llama "
 "<app>Calculadora</app>. Si el autor escribe «Para iniciar Calculadora», un "
-"lector puede confundirlo erróneamente con «Para iniciar la calculadora». Esto "
-"se acentúa en idiomas como el alemán, donde los nombres siempre se ponen con "
-"mayúsculas."
+"lector puede confundirlo erróneamente con «Para iniciar la calculadora». "
+"Esto se acentúa en idiomas como el alemán, donde los nombres siempre se "
+"ponen con mayúsculas."
 
 #: C/mal_inline_app.page:113(p)
 msgid ""
@@ -4313,7 +4365,7 @@ msgstr ""
 
 #: C/mal_info_revision.page:18(desc)
 msgid "Record revision numbers, dates, and statuses."
-msgstr ""
+msgstr "Grabar números de revisión, fechas y estados."
 
 #: C/mal_info_revision.page:21(title)
 msgid "Version Information"
@@ -5083,10 +5135,15 @@ msgid ""
 "capacity, it is similar to the <code href=\"http://www.docbook.org/tdg/en/"
 "html/copyright.html\">copyright</code> element in DocBook."
 msgstr ""
+"El elemento <code>credit</code> también guarda información de copyright. En "
+"este aspecto, es similar al elemento <code href=\"http://www.docbook.org/tdg/"
+"en/html/copyright.html\">copyright</code> de DocBook."
 
 #: C/mal_external.page:16(desc)
 msgid "Use elements and attributes from other namespaces in Mallard documents."
 msgstr ""
+"Usar elementos y atributos de otros espacios de nombres en documentos de "
+"Mallard."
 
 #: C/mal_external.page:20(title)
 msgid "External Namespaces"
@@ -5147,6 +5204,8 @@ msgid ""
 "Processing tools should ignore any attributes from external namespaces they "
 "do not understand."
 msgstr ""
+"Las herramientas de procesado puede ignorar cualquier atributo de espacios "
+"de nombres externos que no entiendan."
 
 #: C/mal_external.page:77(title)
 msgid "External Namespace Elements"
@@ -5154,11 +5213,11 @@ msgstr "Elementos de espacios de nombres externos"
 
 #: C/mal_block_tree.page:16(desc)
 msgid "Create simple trees to show heirarchical structures."
-msgstr ""
+msgstr "Crear árboles simples para mostrar estructuras jerárquicas."
 
 #: C/mal_block_tree.page:19(title)
 msgid "Tree Lists"
-msgstr ""
+msgstr "Listas en árbol"
 
 #: C/mal_block_tree.page:21(code)
 #, no-wrap
@@ -5298,11 +5357,11 @@ msgstr "Baikal Teal"
 
 #: C/mal_block_tree.page:154(item)
 msgid "Wigeons"
-msgstr ""
+msgstr "Wigeons"
 
 #: C/mal_block_tree.page:151(item)
 msgid "Anas <placeholder-1/><placeholder-2/><placeholder-3/>"
-msgstr ""
+msgstr "Anas <placeholder-1/><placeholder-2/><placeholder-3/>"
 
 #: C/mal_block_tree.page:157(item)
 msgid "Lophonetta"
@@ -5316,6 +5375,8 @@ msgstr "Speculanas"
 msgid ""
 "Anatinae (dabbling ducks) <placeholder-1/><placeholder-2/><placeholder-3/>"
 msgstr ""
+"Anatinae (patos chapoteadores) <placeholder-1/><placeholder-2/"
+"><placeholder-3/>"
 
 #: C/mal_block_tree.page:162(item)
 msgid "Aythya"
@@ -5327,7 +5388,7 @@ msgstr "Netta"
 
 #: C/mal_block_tree.page:160(item)
 msgid "Anthyinae (diving ducks) <placeholder-1/><placeholder-2/>"
-msgstr ""
+msgstr "Anthyinae (patos buceadores) <placeholder-1/><placeholder-2/>"
 
 #: C/mal_block_tree.page:165(item)
 msgid "Dendrocygninae (whistling ducks)"
@@ -5486,31 +5547,31 @@ msgstr "comillas"
 
 #: C/mal_block_terms.page:135(p)
 msgid "Formal elements which allow a <code>cite</code> element."
-msgstr ""
+msgstr "Elementos formales que admiten un elemento <code>cite</code>."
 
 #: C/mal_block_terms.page:138(code) C/docbook.page:509(code)
 #, no-wrap
 msgid "figure"
-msgstr ""
+msgstr "figure"
 
 #: C/mal_block_terms.page:139(code)
 #, no-wrap
 msgid "listing"
-msgstr ""
+msgstr "listing"
 
 #: C/mal_block_terms.page:140(code)
 #, no-wrap
 msgid "synopsis"
-msgstr ""
+msgstr "synopsis"
 
 #: C/mal_block_terms.page:141(p)
 msgid "Formal elements which allow a <code>desc</code> element."
-msgstr ""
+msgstr "Elementos formales que admiten un elemento <code>desc</code>."
 
 #: C/mal_block_terms.page:144(code) C/docbook.page:969(code)
 #, no-wrap
 msgid "note"
-msgstr ""
+msgstr "note"
 
 #: C/mal_block_terms.page:145(p)
 msgid "Formal elements which only allow a <code>title</code> element."
