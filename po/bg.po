@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-doc-utils master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-25 22:51+0200\n"
+"POT-Creation-Date: 2011-05-10 06:52+0300\n"
 "PO-Revision-Date: 2010-01-25 22:51+0200\n"
 "Last-Translator: Alexander Shopov <ash@kambanaria.org>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
+"Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -51,7 +52,7 @@ msgstr ", "
 #.
 #: ../xslt/gettext/l10n.xml.in.h:25
 msgid ", and "
-msgstr ", и "
+msgstr " и "
 
 #.
 #. The number formatter used for appendix numbers.  This can be one of
@@ -210,7 +211,7 @@ msgstr "<msgstr>Приложение <number/> ― <title/></msgstr>"
 msgid ""
 "<msgid>biblioentry.tooltip</msgid> <msgstr>View the bibliography entry "
 "<label/>.</msgstr>"
-msgstr "<msgstr>Проверете в библиографията „<label/>“.</msgstr>"
+msgstr "<msgstr>Проверете „<label/>“ в библиографията.</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -397,7 +398,10 @@ msgid ""
 "<msgid>chapter.label</msgid> <msgstr role='header'><number/>.&#x2003;</"
 "msgstr> <msgstr role='li'><number/>.&#x2002;</msgstr> <msgstr>Chapter "
 "<number/></msgstr>"
-msgstr "<msgstr>Глава №&#x00A0;<number/></msgstr>"
+msgstr ""
+"<msgstr role='header'><number/>.&#x2003;</msgstr>\n"
+"<msgstr role='li'><number/>.&#x2002;</msgstr>\n"
+"<msgstr><b>Въпрос №&#x00A0;<number/></b></msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -536,7 +540,9 @@ msgstr "<msgstr>[<citation/>]</msgstr>"
 msgid ""
 "<msgid>citetitle.format</msgid> <msgstr role='article'>“<node/>”</msgstr> "
 "<msgstr><i><node/></i></msgstr>"
-msgstr "<msgstr>„<node/>“</msgstr>"
+msgstr ""
+"<msgstr role='article'>„<node/>“</msgstr>\n"
+"<msgstr><i><node/></i></msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -564,7 +570,7 @@ msgstr "<msgstr>„<node/>“</msgstr>"
 #: ../xslt/gettext/l10n.xml.in.h:477
 msgid ""
 "<msgid>email.tooltip</msgid> <msgstr>Send email to ‘<string/>’.</msgstr>"
-msgstr "<msgstr>Пращане на е-писмо до „<b><tt><string/></tt></b>“.</msgstr>"
+msgstr "<msgstr>Пращане на е-писмо до <b><tt><string/></tt></b>.</msgstr>"
 
 #.
 #. The number formatter used for example numbers.  This can be one of
@@ -960,7 +966,9 @@ msgstr "<msgstr>Проверете дефиницията на „<b><glossterm/
 msgid ""
 "<msgid>glossentry.xref</msgid> <msgstr role='glosssee'><glossterm/></msgstr> "
 "<msgstr>‘<glossterm/>’</msgstr>"
-msgstr "<msgstr>„<b><glossterm/></b>“</msgstr>"
+msgstr ""
+"<msgstr role='glosssee'><b><glossterm/></b></msgstr>\n"
+"<msgstr>„<b><glossterm/></b>“</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -1086,7 +1094,7 @@ msgstr "<msgstr>(<node/>)</msgstr>"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:940
 msgid "<msgid>part.digit</msgid> <msgstr>I</msgstr>"
-msgstr "<msgstr>I</msgstr>"
+msgstr "<msgstr>1</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -1125,7 +1133,10 @@ msgstr "<msgstr>I</msgstr>"
 msgid ""
 "<msgid>part.label</msgid> <msgstr role='header'><number/>.&#x2003;</msgstr> "
 "<msgstr role='li'><number/>.&#x2002;</msgstr> <msgstr>Part <number/></msgstr>"
-msgstr "<msgstr>Част №&#x00A0;<number/></msgstr>"
+msgstr ""
+"<msgstr role='header'><number/>.&#x2003;</msgstr>\n"
+"<msgstr role='li'><number/>.&#x2002;</msgstr>\n"
+"<msgstr><b>Въпрос №&#x00A0;<number/></b></msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -1252,7 +1263,10 @@ msgid ""
 "<msgid>question.label</msgid> <msgstr role='header'><number/>.&#x2003;</"
 "msgstr> <msgstr role='li'><number/>.&#x2002;</msgstr> <msgstr>Question "
 "<number/></msgstr>"
-msgstr "<msgstr><b>Въпрос №&#x00A0;<number/></b></msgstr>"
+msgstr ""
+"<msgstr role='header'><number/>.&#x2003;</msgstr>\n"
+"<msgstr role='li'><number/>.&#x2002;</msgstr>\n"
+"<msgstr><b>Въпрос №&#x00A0;<number/></b></msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -1324,7 +1338,9 @@ msgstr "<msgstr>Въпрос №&#x00A0;<number/></msgstr>"
 msgid ""
 "<msgid>quote.format</msgid> <msgstr role='inner'>‘<node/>’</msgstr> "
 "<msgstr>“<node/>”</msgstr>"
-msgstr "<msgstr role=\"inner\">«<node/>»</msgstr> <msgstr>„<node/>“</msgstr>"
+msgstr ""
+"<msgstr role='inner'>«<node/>»</msgstr>\n"
+"<msgstr>„<node/>“</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -1413,7 +1429,10 @@ msgid ""
 "<msgid>refsection.label</msgid> <msgstr role='header'><number/>.&#x2003;</"
 "msgstr> <msgstr role='li'><number/>.&#x2002;</msgstr> <msgstr>Section "
 "<number/></msgstr>"
-msgstr "<msgstr>Дял №&#x00A0;<number/></msgstr>"
+msgstr ""
+"<msgstr role='header'><number/>.&#x2003;</msgstr>\n"
+"<msgstr role='li'><number/>.&#x2002;</msgstr>\n"
+"<msgstr><b>Дял №&#x00A0;<number/></b></msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -1544,7 +1563,10 @@ msgid ""
 "<msgid>section.label</msgid> <msgstr role='header'><number/>.&#x2003;</"
 "msgstr> <msgstr role='li'><number/>.&#x2002;</msgstr> <msgstr>Section "
 "<number/></msgstr>"
-msgstr "<msgstr>Дял №&#x00A0;<number/></msgstr>"
+msgstr ""
+"<msgstr role='header'><number/>.&#x2003;</msgstr>\n"
+"<msgstr role='li'><number/>.&#x2002;</msgstr>\n"
+"<msgstr><b>Дял №&#x00A0;<number/></b></msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -1786,7 +1808,10 @@ msgid ""
 "<msgid>table.label</msgid> <msgstr role='header'><i>Table <number/></"
 "i>&#x2003;</msgstr> <msgstr role='li'>Table <number/>&#x2002;</msgstr> "
 "<msgstr>Table <number/></msgstr>"
-msgstr "<msgstr>Таблица №&#x00A0;<number/></msgstr>"
+msgstr ""
+"<msgstr role='header'><number/>.&#x2003;</msgstr>\n"
+"<msgstr role='li'><number/>.&#x2002;</msgstr>\n"
+"<msgstr><b>Таблица №&#x00A0;<number/></b></msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -1857,12 +1882,14 @@ msgstr "<msgstr><parent/>-<digit/></msgstr>"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1621
 msgid "<msgid>table.xref</msgid> <msgstr>Table <number/></msgstr>"
-msgstr "<msgstr>Таблица <number/></msgstr>"
+msgstr "<msgstr>Таблица №&#x00A0;<number/></msgstr>"
 
 #. Used as a header before a list of authors.
 #: ../xslt/gettext/l10n.xml.in.h:1623
 msgid "<msgstr form='0'>Author</msgstr> <msgstr form='1'>Authors</msgstr>"
-msgstr "<msgstr form=\"0\">Автор</msgstr> <msgstr form=\"1\">Автори</msgstr>"
+msgstr ""
+"<msgstr form='0'>Автор</msgstr>\n"
+"<msgstr form='1'>Автори</msgstr>"
 
 #. Used as a header before a list of collaborators.
 #: ../xslt/gettext/l10n.xml.in.h:1625
@@ -1870,21 +1897,23 @@ msgid ""
 "<msgstr form='0'>Collaborator</msgstr> <msgstr form='1'>Collaborators</"
 "msgstr>"
 msgstr ""
-"<msgstr form=\"0\">Сътрудник</msgstr> <msgstr form=\"1\">Сътрудници</msgstr>"
+"<msgstr form='0'>Сътрудник</msgstr>\n"
+"<msgstr form='1'>Сътрудници</msgstr>"
 
 #. Used as a header before a list of copyrights.
 #: ../xslt/gettext/l10n.xml.in.h:1627
 msgid ""
 "<msgstr form='0'>Copyright</msgstr> <msgstr form='1'>Copyrights</msgstr>"
 msgstr ""
-"<msgstr form=\"0\">Авторско право</msgstr> <msgstr form=\"1\">Авторски "
-"права</msgstr>"
+"<msgstr form='0'>Авторско право</msgstr>\n"
+"<msgstr form='1'>Авторски права</msgstr>"
 
 #. Used as a header before a list of editors.
 #: ../xslt/gettext/l10n.xml.in.h:1629
 msgid "<msgstr form='0'>Editor</msgstr> <msgstr form='1'>Editors</msgstr>"
 msgstr ""
-"<msgstr form=\"0\">Редактор</msgstr> <msgstr form=\"1\">Редактори</msgstr>"
+"<msgstr form='0'>Редактор</msgstr>\n"
+"<msgstr form='1'>Редактори</msgstr>"
 
 #. Used as a header before a list of contributors.
 #: ../xslt/gettext/l10n.xml.in.h:1631
@@ -1892,22 +1921,24 @@ msgid ""
 "<msgstr form='0'>Other Contributor</msgstr> <msgstr form='1'>Other "
 "Contributors</msgstr>"
 msgstr ""
-"<msgstr form=\"0\">Допълнителен сътрудник</msgstr> <msgstr form=\"1"
-"\">Допълнителни сътрудници</msgstr>"
+"<msgstr form='0'>Допълнителен сътрудник</msgstr>\n"
+"<msgstr form='1'>Допълнителни сътрудници</msgstr>"
 
 #. Used as a header before a list of publishers.
 #: ../xslt/gettext/l10n.xml.in.h:1633
 msgid ""
 "<msgstr form='0'>Publisher</msgstr> <msgstr form='1'>Publishers</msgstr>"
 msgstr ""
-"<msgstr form=\"0\">Издател</msgstr> <msgstr form=\"1\">Издатели</msgstr>"
+"<msgstr form='0'>Издател</msgstr>\n"
+"<msgstr form='1'>Издатели</msgstr>"
 
 #. Used as a header before a list of translators.
 #: ../xslt/gettext/l10n.xml.in.h:1635
 msgid ""
 "<msgstr form='0'>Translator</msgstr> <msgstr form='1'>Translators</msgstr>"
 msgstr ""
-"<msgstr form=\"0\">Преводач</msgstr> <msgstr form=\"1\">Преводачи</msgstr>"
+"<msgstr form='0'>Преводач</msgstr>\n"
+"<msgstr form='1'>Преводачи</msgstr>"
 
 #.
 #. http://www.docbook.org/tdg/en/html/qandaentry.html
