@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-doc-utils.mallard.master\n"
-"POT-Creation-Date: 2011-05-09 17:22+0000\n"
-"PO-Revision-Date: 2011-05-10 21:05+0200\n"
+"POT-Creation-Date: 2011-05-10 19:12+0000\n"
+"PO-Revision-Date: 2011-05-26 18:00+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -3486,8 +3486,8 @@ msgstr ""
 "El texto enfatizado generalmente se presenta en una tipografía cursiva u "
 "oblicua. Las tipografías cursivas y oblicuas marcan una parte del texto sin "
 "resaltarlo. Por el contrario, el texto en negrita suele llamar la atención "
-"del ojo, que puede distraer al leer grandes trozos de texto. En «scripts» "
-"sin distinción entre tipos de estilo romano y cursivo, aún puede ser posible "
+"del ojo, que puede distraer al leer grandes trozos de texto. En «scripts» sin "
+"distinción entre tipos de estilo romano y cursivo, aún puede ser posible "
 "usar una tipografía oblicua u otra variación de tipografía. Se puede usar "
 "texto en negrita si es necesario."
 
@@ -3762,7 +3762,7 @@ msgstr ""
 "elementos separados para marcar fragmentos de lenguajes de marcado, se debe "
 "usar el elemento <code>code</code> en lugar de los elementos <code href="
 "\"http://www.docbook.org/tdg/en/html/markup.html\">markup</code> y <code "
-"href=http://www.docbook.org/tdg/en/html/sgmltag.html\">sgmltag</code> de "
+"href=\"http://www.docbook.org/tdg/en/html/sgmltag.html\">sgmltag</code> de "
 "DocBook."
 
 #: C/mal_inline_cmd.page:19(desc)
@@ -3963,6 +3963,12 @@ msgid ""
 "reason, it is recommended that commands be displayed with a border or "
 "background color."
 msgstr ""
+"Los comandos en la documentación se muestran habitualmente con opciones para "
+"ilustrar cómo usarlos para una acción concreta. Esto puede dificultar "
+"encontrar el final del comando rápidamente. El texto alrededor del "
+"contenido, especialmente la puntuación, a veces puede confundirse como parte "
+"del comando. Por esta razón, se recomienda que los comandos se muestren con "
+"un borde o un color de fondo."
 
 #: C/mal_inline_cmd.page:161(p)
 msgid ""
@@ -3984,6 +3990,9 @@ msgid ""
 "<code>command</code> element. In Mallard, simply use the <code>cmd</code> "
 "element for options outside of an entire command."
 msgstr ""
+"En DocBook, el elemento <code>option</code> también se usa fuera del "
+"elemento <code>command</code>. En Mallard, simplemente use el elemento "
+"<code>cmd</code> para marcar opciones fuera de un comando completo."
 
 #: C/mal_inline_cmd.page:172(p)
 msgid "See <link xref=\"principle-justenough\"/> for more background."
@@ -4096,6 +4105,12 @@ msgid ""
 "simply mistakenly omitted an article, if the application name is not "
 "understood to be a title."
 msgstr ""
+"Los nombres de aplicaciones suelen ser sustantivos, y a menudo son palabras "
+"comunes o frases indicativas de su funcionalidad. Frecuentemente, son "
+"simplemente el nombre de lo que es la aplicación. En inglés, y en muchos "
+"otros idiomas, el uso del nombre de la aplicación en una sentencia puede "
+"sonar como que el autor ha omitido un artículo por error, si el nombre de la "
+"aplicación no se entiende como un título."
 
 #: C/mal_inline_app.page:107(p)
 msgid ""
@@ -4107,9 +4122,9 @@ msgid ""
 msgstr ""
 "Por ejemplo, la aplicación de calculadora que incluye GNOME se llama "
 "<app>Calculadora</app>. Si el autor escribe «Para iniciar Calculadora», un "
-"lector puede confundirlo erróneamente con «Para iniciar la calculadora». "
-"Esto se acentúa en idiomas como el alemán, donde los nombres siempre se "
-"ponen con mayúsculas."
+"lector puede confundirlo erróneamente con «Para iniciar la calculadora». Esto "
+"se acentúa en idiomas como el alemán, donde los nombres siempre se ponen con "
+"mayúsculas."
 
 #: C/mal_inline_app.page:113(p)
 msgid ""
@@ -4194,6 +4209,8 @@ msgid ""
 "See the processing expectations for the <code xref=\"mal_info_credit"
 "\">credit</code> element."
 msgstr ""
+"Vea las transformaciones esperadas para el elemento <code xref="
+"\"mal_info_credit\">credit</code>."
 
 #: C/mal_info_years.page:66(p)
 msgid ""
@@ -4203,10 +4220,17 @@ msgid ""
 "to join them appropriately. In Mallard, all years are listed in a single "
 "<code>years</code> element, formatted as they should be displayed."
 msgstr ""
+"El elemento <code>years</code> es similar al elemento <code href=\"http://"
+"www.docbook.org/tdg/en/html/year.html\">year</code> de DocBook. En DocBook, "
+"cada año se lista de manera separada, y se espera que las herramientas de "
+"procesado los unan adecuadamente. En Mallard, todos los años se listan en un "
+"único elemento <code>years</code>, formateado como deberían mostrarse."
 
 #: C/mal_info_title.page:18(desc)
 msgid "Provide alternate titles for automatic link text and sorting."
 msgstr ""
+"Proporcione títulos alternativos para el enlazado automático del texto y la "
+"ordenación."
 
 #: C/mal_info_title.page:21(title)
 msgid "Informational Tiltes"
@@ -4240,6 +4264,10 @@ msgid ""
 "used as alternative link text, for sorting, or for other application-"
 "specific purposes."
 msgstr ""
+"Use el elemento <code>title</code> dentro de <code xref=\"mal_info\">info</"
+"code> para listar los títulos alternativos de páginas y secciones. Estos "
+"títulos se puede usar como texto alternativo de un enlace, o para otros "
+"propósitos específicos de la aplicación."
 
 #: C/mal_info_title.page:43(p)
 msgid ""
@@ -4262,6 +4290,8 @@ msgid ""
 "The <code>type</code> attribute specifies what purpose this informational "
 "title is serving. The following values are currently recognized:"
 msgstr ""
+"El atributo <code>type</code> especifica para qué propósito sirve este "
+"título de información. Actualmente se reconocen lo siguientes valores:"
 
 #: C/mal_info_title.page:54(code)
 #, no-wrap
@@ -4287,6 +4317,8 @@ msgid ""
 "The <code>role</code> attribute can be used for link titles to specify "
 "multiple alternate link texts."
 msgstr ""
+"El atributo <code>role</code> se puede usar para enlazar títulos para "
+"especificar varios enlaces de texto alternativos."
 
 #: C/mal_info_title.page:66(p)
 msgid ""
@@ -4309,6 +4341,10 @@ msgid ""
 "informational title as specified here, it is used as fallback for all "
 "informational titles."
 msgstr ""
+"El <em>título primario</em> de una página o sección es el especificado en el "
+"bloque de contexto y se usa para mostrar el propósito. Dado que este título "
+"no es un título de información como se ha especificado aquí, se usa como "
+"título alternativo para los títulos de información."
 
 #: C/mal_info_title.page:88(title)
 msgid "Link Titles"
@@ -4445,29 +4481,38 @@ msgid ""
 "The <code>version</code> attribute records the version number of the page or "
 "section."
 msgstr ""
+"El atributo <code>version</code> guarda el número de versión de la página o "
+"la sección."
 
 #: C/mal_info_revision.page:67(p)
 msgid ""
 "The <code>docversion</code> attribute can be used to record the version "
 "number of the enclosing document."
 msgstr ""
+"El atributo <code>docversion</code> se puede usar para guardar el número de "
+"versión del documento."
 
 #: C/mal_info_revision.page:70(p)
 msgid ""
 "The <code>pkgversion</code> attribute can be used to record the version "
 "number of the package containing this document."
 msgstr ""
+"El atributo <code>pkgversion</code> se puede usar para guardar el número de "
+"versión del paquete que contiene este documento."
 
 #: C/mal_info_revision.page:73(p)
 msgid ""
 "The <code>date</code> attribute records the date this revision was made."
 msgstr ""
+"El atributo <code>date</code> guarda la fecha en la que se hizo la revisión."
 
 #: C/mal_info_revision.page:76(p)
 msgid ""
 "The <code>status</code> attribute records the status of the page or section "
 "as of the given revision. The following values are allowed:"
 msgstr ""
+"El atributo <code>status</code> guarda el estado de una página o sección "
+"para la revisión dada. Se permiten los siguientes valores:"
 
 #: C/mal_info_revision.page:80(code)
 #, no-wrap
@@ -4476,7 +4521,7 @@ msgstr "\"stub\""
 
 #: C/mal_info_revision.page:81(p)
 msgid "contains little to no real content"
-msgstr ""
+msgstr "contiene el título de un contenido no real"
 
 #: C/mal_info_revision.page:84(code)
 #, no-wrap
@@ -4485,7 +4530,7 @@ msgstr "\"incomplete\""
 
 #: C/mal_info_revision.page:85(p)
 msgid "outline of all information, but lacking content"
-msgstr ""
+msgstr "resumen de toda la información, pero que carece de contenido"
 
 #: C/mal_info_revision.page:88(code)
 #, no-wrap
@@ -4494,7 +4539,7 @@ msgstr "\"draft\""
 
 #: C/mal_info_revision.page:89(p)
 msgid "all content available, but unpolished"
-msgstr ""
+msgstr "todo el contenido disponible, pero sin pulir"
 
 #: C/mal_info_revision.page:92(code)
 #, no-wrap
@@ -4506,6 +4551,8 @@ msgid ""
 "was once complete or nearly complete, but needs to be revised to reflect "
 "changes"
 msgstr ""
+"que una vez estuvo completo o casi completo, pero debe revisarse para "
+"reflejar los cambios"
 
 #: C/mal_info_revision.page:97(code)
 #, no-wrap
@@ -4514,7 +4561,7 @@ msgstr "\"review\""
 
 #: C/mal_info_revision.page:98(p)
 msgid "ready to be reviewed by editors"
-msgstr ""
+msgstr "listo para que los editores lo revisen"
 
 #: C/mal_info_revision.page:101(code)
 #, no-wrap
@@ -4523,7 +4570,7 @@ msgstr "\"candidate\""
 
 #: C/mal_info_revision.page:102(p)
 msgid "reviewed and awaiting a final approval"
-msgstr ""
+msgstr "revisado y esperando la aprobación final"
 
 #: C/mal_info_revision.page:105(code)
 #, no-wrap
@@ -4532,7 +4579,7 @@ msgstr "\"final\""
 
 #: C/mal_info_revision.page:106(p)
 msgid "approved and ready for publication or distribution"
-msgstr ""
+msgstr "aprobado y listo para publicarse o distribuirse"
 
 #: C/mal_info_revision.page:111(p)
 msgid ""
@@ -5012,6 +5059,8 @@ msgid ""
 "The <code>credit</code> element can occur in any <code xref=\"mal_info"
 "\">info</code> element."
 msgstr ""
+"El elemento <code>credit</code> puede aparecen en cualquier elemento <code "
+"xref=\"mal_info\">info</code>."
 
 #: C/mal_info_credit.page:59(p)
 msgid ""
@@ -5027,7 +5076,7 @@ msgstr "\"author\""
 
 #: C/mal_info_credit.page:67(p)
 msgid "somebody responsible for writing content"
-msgstr ""
+msgstr "alguien responsable de escribir el contenido"
 
 #: C/mal_info_credit.page:70(code)
 #, no-wrap
@@ -5036,7 +5085,7 @@ msgstr "\"editor\""
 
 #: C/mal_info_credit.page:71(p)
 msgid "somebody who has provided reviews or editorial corrections"
-msgstr ""
+msgstr "alguien que ha hecho revisiones o correcciones en la edición"
 
 #: C/mal_info_credit.page:74(code)
 #, no-wrap
@@ -5375,8 +5424,8 @@ msgstr "Speculanas"
 msgid ""
 "Anatinae (dabbling ducks) <placeholder-1/><placeholder-2/><placeholder-3/>"
 msgstr ""
-"Anatinae (patos chapoteadores) <placeholder-1/><placeholder-2/"
-"><placeholder-3/>"
+"Anatinae (patos chapoteadores) <placeholder-1/><placeholder-2/><placeholder-"
+"3/>"
 
 #: C/mal_block_tree.page:162(item)
 msgid "Aythya"
