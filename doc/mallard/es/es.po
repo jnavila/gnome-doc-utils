@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-doc-utils.mallard.master\n"
-"POT-Creation-Date: 2011-05-10 19:12+0000\n"
-"PO-Revision-Date: 2011-05-26 18:00+0200\n"
+"POT-Creation-Date: 2011-05-26 18:16+0000\n"
+"PO-Revision-Date: 2011-05-27 17:10+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -4358,6 +4358,12 @@ msgid ""
 "taken first from the link titles, falling back to the primary title if no "
 "suitable link title is found."
 msgstr ""
+"Las páginas y las secciones pueden tener varios títulos de enlace. Se usan "
+"como contenido alternativo para enlazado automático del texto. Cuando se "
+"debe generar el texto automático para un elemento <code xref=\"mal_block_link"
+"\">link</code>, se toma primero de los títulos de enlace y, si no se "
+"encuentra un título de enlace, se toma el título primario de manera "
+"alternativa."
 
 #: C/mal_info_title.page:96(p)
 msgid ""
@@ -4369,6 +4375,13 @@ msgid ""
 "difficult to provide grammatically correct automatic link text in some "
 "languages."
 msgstr ""
+"Puede usar el atributo <code>role</code> para especificar varios títulos de "
+"enlace. Se pueden seleccionar usando el atributo <code>role</code> del "
+"elemento <code>link</code>. Esto se puede usar para varios propósitos. Un "
+"propósito común es especificar textos de enlace para diferentes partes del "
+"texto en idiomas que tienen declinaciones. Si esta característica, puede ser "
+"difícil proporcionar corrección gramatical automática de los texto de enlace "
+"en algunos idiomas."
 
 #: C/mal_info_title.page:109(title)
 msgid "Sort Titles"
@@ -4388,6 +4401,8 @@ msgid ""
 "Informational titles are not displayed directly, although they will affect "
 "the output of any material which links to the given page or section."
 msgstr ""
+"Los títulos de información no se muestran directamente, aunque afectarán a "
+"la salida de cualquier material que enlace con la página o la sección dada."
 
 #: C/mal_info_title.page:128(p)
 msgid ""
@@ -4451,6 +4466,13 @@ msgid ""
 "external namespaces. Multiple <code>revision</code> elements can be used to "
 "record the revision history."
 msgstr ""
+"Use el elemento de información <code>revision</code> para guardar "
+"información sobre las revisiones de un documento, página o sección. El "
+"elemento <code>revision</code> le permite especificar números de versión, la "
+"fecha de la revisión, y el estado de la revisión. Se puede guardar otra "
+"información con atributos o elementos de espacios de nombres externos. Se "
+"pueden usar varios elementos <code>revision</code> para guardar el histórico "
+"de revisiones."
 
 #: C/mal_info_revision.page:47(p)
 msgid ""
@@ -4459,6 +4481,10 @@ msgid ""
 "revision. This is not necessarily the same as the title and description of "
 "the page or section as of that revision."
 msgstr ""
+"Puede usar los elementos <code>title</code> y <code>desc</code> en un "
+"elemento <code>revision</code> para proporcionar un título y una descripción "
+"a esa revisión. No es necesario que sean iguales que el título y la "
+"descripción de la página o la sección de esa revisión."
 
 #: C/mal_info_revision.page:56(p)
 msgid ""
@@ -4467,6 +4493,9 @@ msgid ""
 "\"mal_block_desc\">desc</code> element, and any number of elements from "
 "external namespaces."
 msgstr ""
+"El elemento <code>revision</code> contiene un elemento <code xref="
+"\"mal_block_title\">title</code>, un elemento <code xref=\"mal_block_desc"
+"\">desc</code> opcional, y varios elementos de espacios de nombres externos."
 
 #: C/mal_info_revision.page:61(p)
 msgid ""
@@ -4598,6 +4627,11 @@ msgid ""
 "Some tools may show revision on a separate informational page or dialog. "
 "Tools designed for editors might show revision information directly."
 msgstr ""
+"Como elemento de información, el elemento <code>revision</code> no se "
+"muestra necesariamente de manera directa en la página o la sección en la que "
+"aparece. Algunas herramientas pueden mostrar la revisión en una página o "
+"diálogo de información adicional. Las herramientas diseñadas para los "
+"editores pueden mostrar la información de la revisión directamente."
 
 #: C/mal_info_revision.page:128(p)
 msgid ""
@@ -4605,6 +4639,9 @@ msgid ""
 "process only those child elements that they understand, and ignore "
 "everything else."
 msgstr ""
+"Cuando se muestra o se procesa un elemento <code>revision</code>, las "
+"herramientas pueden procesar sólo aquellos elementos hijos que entienden, "
+"ignorando el resto."
 
 #: C/mal_info_revision.page:139(p)
 msgid ""
@@ -4618,6 +4655,16 @@ msgid ""
 "Mallard allows such information to be encoded with elements from external "
 "namespaces when needed."
 msgstr ""
+"El elemento <code>revision</code> es similar al elemento <code href=\"http://"
+"www.docbook.org/tdg/en/html/revision.html\">revision</code> de DocBook. En "
+"DocBook, los elementos <code>revision</code> deben estar dentro de un "
+"elemento <code href=\"http://www.docbook.org/tdg/en/html/revhistory.html"
+"\">revhistory</code>. En Mallard, se colocan directamente dentro de un "
+"elemento <code xref=\"mal_info\">info</code>. DocBook proporciona elementos "
+"hijos más específicos para contenido estructurado, así como para bloques de "
+"contenido para observaciones detalladas. Mallard permite que esta "
+"información se codifique con elementos de nombres de espacios externos "
+"cuando se necesita."
 
 #: C/mal_info.page:11(title) C/mal_info.page:45(title)
 msgid "Informational Elements"
@@ -4827,6 +4874,10 @@ msgid ""
 "informational page or dialog. When it is displayed, its contents are treated "
 "as block content."
 msgstr ""
+"El elemento <code>license</code> no se muestra necesariamente de manera "
+"directa en la página en la que aparece. Algunas herramientas pueden mostrar "
+"la licencia en una página o diálogo de información adicional. Cuando se "
+"muestra, su contenido se trata como un bloque."
 
 #: C/mal_info_license.page:65(p)
 msgid ""
@@ -4948,6 +4999,11 @@ msgid ""
 "itself, it is used in automatic links to the page or section. It may also be "
 "used for various other purposes by different tools."
 msgstr ""
+"El elemento <code>desc</code> se puede usar para proporcionar una "
+"descripción de una página o una sección. Dado que esta descripción "
+"generalmente no se muestra en la propia página, se usa en los enlaces "
+"automáticos a la página o la sección. Otras herramientas pueden usarlo "
+"también para otros propósitos."
 
 #: C/mal_info_desc.page:41(p) C/mal_block_desc.page:44(p)
 msgid ""
@@ -4992,6 +5048,12 @@ msgid ""
 "of the linked-to page or section. When it is displayed, its contents are "
 "treated as inline content."
 msgstr ""
+"El elemento El elemento <code>desc</code> no se muestra necesariamente de "
+"manera directa en la página en la que aparece. Sin embargo, se usa para los "
+"<link xref=\"links\">enlaces automáticos</link>, que normalmente muestran un "
+"enlace de bloque que muestra el título y la descripción de la página o "
+"sección a la que enlazan. Cuando se muestra, su contenido se trata como "
+"contenido en línea."
 
 #: C/mal_info_credit.page:13(years) C/mal_external.page:11(years)
 #: C/mal_block_cite.page:12(years) C/mal_attr_link.page:11(years)
@@ -5044,6 +5106,12 @@ msgid ""
 "code> element also specifies copyright holders when used with the <code xref="
 "\"mal_info_years\">years</code> element."
 msgstr ""
+"Use el elemento <code>credit</code> para guardar quién ha contribuido a la "
+"página o sección. Opcionalmente, puede usar el atributo <code>type</code> "
+"para especificar qué tipo de contribuciones ha hecho la persona. El elemento "
+"<code>credit</code> también especifica los titulares de los derechos de "
+"autor cuando se usa con el elemento <code xref=\"mal_info_years\">years</"
+"code>."
 
 #: C/mal_info_credit.page:48(p)
 msgid ""
@@ -5053,6 +5121,12 @@ msgid ""
 "element. The <code>credit</code> element can also contain elements from "
 "external namespaces. The order of the child elements does not matter."
 msgstr ""
+"El elemento <code>credit</code> contiene un elemento <code xref="
+"\"mal_info_name\">name</code>, un elemento <code xref=\"mal_info_email\">&gt;"
+"email</code> opcional, y un elemento <code xref=\"mal_info_years\">years</"
+"code> opcional. El elemento <code>credit</code> también puede contener "
+"elementos de espacios de nombres externos. El orden de los elementos hijos "
+"no importa."
 
 #: C/mal_info_credit.page:55(p)
 msgid ""
@@ -5068,6 +5142,10 @@ msgid ""
 "contribution the person has made. The <code>type</code> attribute contains a "
 "space-separated list of credit types. The following values are recommended:"
 msgstr ""
+"El atributo opcional <code>type</code> se puede usar para especificar qué "
+"tipo de contribución ha hecho la persona. El atributo <code>type</code> "
+"contiene una lista de tipos de créditos separados por espacios. Se "
+"recomienda usar los siguientes valores:"
 
 #: C/mal_info_credit.page:66(code)
 #, no-wrap
@@ -5094,7 +5172,7 @@ msgstr "\"copyright\""
 
 #: C/mal_info_credit.page:75(p)
 msgid "a person or entity which holds copyright on the work"
-msgstr ""
+msgstr "una persona o entidad titular de los derechos de autor del trabajo"
 
 #: C/mal_info_credit.page:78(code)
 #, no-wrap
@@ -5103,7 +5181,7 @@ msgstr "\"maintainer\""
 
 #: C/mal_info_credit.page:79(p)
 msgid "the person or entity currently responsible for the work"
-msgstr ""
+msgstr "la persona o entidad responsable del trabajo"
 
 #: C/mal_info_credit.page:82(code)
 #, no-wrap
@@ -5112,7 +5190,7 @@ msgstr "\"collaborator\""
 
 #: C/mal_info_credit.page:83(p)
 msgid "somebody who has provided extensive rough information"
-msgstr ""
+msgstr "alguien que ha proporcionado información en bruto ampliamente"
 
 #: C/mal_info_credit.page:86(code)
 #, no-wrap
@@ -5121,7 +5199,7 @@ msgstr "\"translator\""
 
 #: C/mal_info_credit.page:87(p)
 msgid "somebody who has translated the work into another language"
-msgstr ""
+msgstr "alguien que ha traducido el trabajo a otro idioma"
 
 #: C/mal_info_credit.page:90(code)
 #, no-wrap
@@ -5155,6 +5233,9 @@ msgid ""
 "When processing the children of a <code>credit</code> element, tools should "
 "select the child elements they understand and ignore all other child content."
 msgstr ""
+"Al procesar el hijo de un elemento <code>credit</code>, las herramientas "
+"pueden procesar sólo aquellos elementos hijos que entienden, ignorando el "
+"resto."
 
 #: C/mal_info_credit.page:124(p)
 msgid ""
@@ -5354,6 +5435,8 @@ msgid ""
 "Use a tree to outline a class heirarchy inside a <code xref="
 "\"mal_block_synopsis\">&gt;synopsis</code> element:"
 msgstr ""
+"Use un árbol para mostrar una clase jerárquica dentro de un elemento <code "
+"xref=\"mal_block_synopsis\">&gt;synopsis</code>:"
 
 #: C/mal_block_tree.page:110(code)
 #, no-wrap
@@ -5722,7 +5805,7 @@ msgstr ""
 
 #: C/mal_block_synopsis.page:76(p)
 msgid "Use <code>synopsis</code> to create an overview of functions:"
-msgstr ""
+msgstr "Use <code>synopsis</code> para crear un resumen de funciones:"
 
 #: C/mal_block_synopsis.page:89(title)
 msgid "Beanstalk Functions"
@@ -5976,6 +6059,10 @@ msgid ""
 "<code xref=\"mal_block_list\">basic bulleted list</code> with introductory "
 "text when this is needed."
 msgstr ""
+"Mallard no proporciona un elemento equivalente a <code href=\"http://www."
+"docbook.org/tdg/en/html/stepalternatives.html\">stepalternatives</code>. Use "
+"una <code xref=\"mal_block_list\">lista de topos básica</code> con un texto "
+"de introducción cuando sea necesario."
 
 #: C/mal_block_steps.page:185(p)
 msgid ""
@@ -6415,6 +6502,13 @@ msgid ""
 "is actaully similar to the <code href=\"http://www.docbook.org/tdg/en/html/"
 "simpara.html\">simpara</code> element in DocBook."
 msgstr ""
+"El elemento <code>p</code> de Mallard parece ser equivalente al elemento "
+"<code href=\"http://www.docbook.org/tdg/en/html/para.html\">para</code> de "
+"DocBook. Aunque ambos elementos crean un párrafo en la salida formateada, el "
+"elemento <code>p</code> de Mallard es, actualmente, mucho más restrictivo, "
+"ya que no permite contenido en bloques anidados. En este sentido, es similar "
+"al actual elemento <code href=\"http://www.docbook.org/tdg/en/html/simpara."
+"html\">simpara</code> de DocBook."
 
 #: C/mal_block.page:18(desc)
 msgid ""
@@ -8354,6 +8448,11 @@ msgid ""
 "<code>its:termInfoRef</code></link> attributes may be used on any elements "
 "to indicate such a relationship."
 msgstr ""
+"Actualmente, Mallard no proporciona una manera de marcar términos y "
+"definiciones. Cuando sea necesario, por motivos de traducción, se pueden "
+"usar los atributos <link href=\"http://www.w3.org/TR/its/#terminology"
+"\"><code>its:term</code> y <code>its:termInfoRef</code></link> en cualquier "
+"elemento para indicar esta relación."
 
 #: C/its.page:121(title)
 msgid "R008: Purpose Specification/Mapping"
