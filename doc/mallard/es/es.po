@@ -2,20 +2,20 @@
 # Spanish translation for gnome-doc-utils.
 # Copyright (C) 2009 gnome-doc-utils's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-doc-utils package.
-# Jorge González <jorgegonz@svn.gnome.org>, 2009, 2010, 2011.
 # Daniel Mustieles <daniel.mustieles@gmail.com>, 2011.
+# Jorge González <jorgegonz@svn.gnome.org>, 2009, 2010, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-doc-utils.mallard.master\n"
-"POT-Creation-Date: 2011-05-26 18:16+0000\n"
-"PO-Revision-Date: 2011-05-27 17:10+0200\n"
-"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
-"Language-Team: Español <gnome-es-list@gnome.org>\n"
+"POT-Creation-Date: 2011-05-29 16:19+0000\n"
+"PO-Revision-Date: 2011-07-02 08:42+0200\n"
+"Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
+"Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Content-Transfer-Encoding: 8bits\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
 #: C/tenminutes.page:10(name) C/spec.page:12(name) C/spec.page:23(cite)
@@ -3486,8 +3486,8 @@ msgstr ""
 "El texto enfatizado generalmente se presenta en una tipografía cursiva u "
 "oblicua. Las tipografías cursivas y oblicuas marcan una parte del texto sin "
 "resaltarlo. Por el contrario, el texto en negrita suele llamar la atención "
-"del ojo, que puede distraer al leer grandes trozos de texto. En «scripts» sin "
-"distinción entre tipos de estilo romano y cursivo, aún puede ser posible "
+"del ojo, que puede distraer al leer grandes trozos de texto. En «scripts» "
+"sin distinción entre tipos de estilo romano y cursivo, aún puede ser posible "
 "usar una tipografía oblicua u otra variación de tipografía. Se puede usar "
 "texto en negrita si es necesario."
 
@@ -4122,9 +4122,9 @@ msgid ""
 msgstr ""
 "Por ejemplo, la aplicación de calculadora que incluye GNOME se llama "
 "<app>Calculadora</app>. Si el autor escribe «Para iniciar Calculadora», un "
-"lector puede confundirlo erróneamente con «Para iniciar la calculadora». Esto "
-"se acentúa en idiomas como el alemán, donde los nombres siempre se ponen con "
-"mayúsculas."
+"lector puede confundirlo erróneamente con «Para iniciar la calculadora». "
+"Esto se acentúa en idiomas como el alemán, donde los nombres siempre se "
+"ponen con mayúsculas."
 
 #: C/mal_inline_app.page:113(p)
 msgid ""
@@ -4395,6 +4395,12 @@ msgid ""
 "the node is collated. This is useful for excluding leading articles such as "
 "“an” and “the”."
 msgstr ""
+"Los títulos de ordenamiento le permiten especificar un texto alternativo que "
+"usar al ordenar una página o una sección. Algunos enlaces automáticos de "
+"secciones ordenarán los nodos a los que enlazan. Cuando sucede esto, "
+"proporcionar un título de ordenamiento le permite controlar cómo se coteja "
+"el nodo. Esto es útil para excluir artículos principales como «un/una» y «el/"
+"la»."
 
 #: C/mal_info_title.page:124(p)
 msgid ""
@@ -4413,6 +4419,12 @@ msgid ""
 "arrises, processing tools should select the first informational title that "
 "matches the desired criteria."
 msgstr ""
+"El modelo de contenido del elemento <code xref=\"mal_info\">info</code> "
+"permite cualquier mezcla de títulos de información. Como tal, es posible que "
+"existan varios títulos para alguna combinación de los atributos <code>type</"
+"code> y <code>role</code> especificada. Cuando sucede esta ambigüedad, las "
+"herramientas de procesado seleccionan el primer título de información que "
+"coincide con el criterio deseado."
 
 #: C/mal_info_revision.page:18(desc)
 msgid "Record revision numbers, dates, and statuses."
@@ -4776,6 +4788,16 @@ msgid ""
 "a name are needed for a domain-specific purpose, they can be included using "
 "elements from external namespaces on the parent element."
 msgstr ""
+"El elemento <code>name</code> cumple las mismas funciones que numerosos "
+"elementos de DocBook, incluyendo <link href=\"http://www.docbook.org/tdg/en/"
+"html/collabname.html\">collabname</link>, <link xref=\"http://www.docbook."
+"org/tdg/en/html/personname.html\">personname</link>, y <link xref=\"http://"
+"www.docbook.org/tdg/en/html/publishername.html\">publishername</link>. Tenga "
+"en cuenta que Mallard no intenta modelar el nombre de la persona, ya que las "
+"reglas sobre cómo mostrar los nombres a partir de sus partes varían "
+"notablemente. Si se necesitan las partes de un nombre para un propósito "
+"específico del dominio, se pueden incluir utilizando elementos de espacios "
+"de nombres externos en el elemento padre."
 
 #: C/mal_info_link.page:13(code)
 #, no-wrap
@@ -4900,6 +4922,14 @@ msgid ""
 "legal information, authors should provide that information in the main "
 "content, possibly on a separate page."
 msgstr ""
+"DocBook contiene el elemento <code href=\"http://www.docbook.org/tdg/en/html/"
+"legalnotice.html\">legalnotice</code>, de propósito más general, utilizado "
+"para incluir los términos de licenciamiento. El elemento <code>license</"
+"code> está pensado para términos de redistribución, que no son "
+"inmediatamente relevantes para la mayoría de los lectores. Cuando es "
+"importante que los lectores vean cierta información legal, los autores deben "
+"proporcionar esa información en el contenido principal, posiblemente en una "
+"página separada."
 
 #: C/mal_info_email.page:21(title)
 msgid "Email Addresses"
@@ -5227,6 +5257,11 @@ msgid ""
 "tools, however, may choose to display credits at the bottom of a page, on a "
 "separate information page, or in a dialog."
 msgstr ""
+"No hay una expectativas de procesado específicas para el elemento "
+"<code>credit</code>. Al ser un elemento de información, no se muestra "
+"necesariamente. Sin embargo, algunas herramientas pueden mostrar los "
+"créditos en la parte inferior de la página, en una página de información "
+"separada o en un diálogo."
 
 #: C/mal_info_credit.page:113(p)
 msgid ""
@@ -5249,6 +5284,15 @@ msgid ""
 "publisher.html\">publisher</code> elements in DocBook. DocBook does not have "
 "specific elements for maintainers and translators."
 msgstr ""
+"El elemento <code>credit</code> sirve para lo mismo que los elementos <code "
+"href=\"http://www.docbook.org/tdg/en/html/author.html\">author</code>, <code "
+"href=\"http://www.docbook.org/tdg/en/html/collab.html\">collab</code>, <code "
+"href=\"http://www.docbook.org/tdg/en/html/corpauthor.html\">corpauthor</"
+"code>, <code href=\"http://www.docbook.org/tdg/en/html/editor.html\">editor</"
+"code>, <code href=\"http://www.docbook.org/tdg/en/html/othercredit.html"
+"\">othercredit</code>, y <code href=\"http://www.docbook.org/tdg/en/html/"
+"publisher.html\">publisher</code> de DocBook. DocBook no tiene elementos "
+"específicos para mantenedores y traductores."
 
 #: C/mal_info_credit.page:134(p)
 msgid ""
@@ -5258,6 +5302,12 @@ msgid ""
 "everything that can be recorded in DocBook, elements from external "
 "namespaces may be used for any additional information that is needed."
 msgstr ""
+"En DocBook, algunos elementos «credit» tienen un contenido altamente "
+"estructurado, mientras que otros sólo permiten contenido en línea. En "
+"Mallard, todos los créditos usan contenido estructurado. Mientras que "
+"Mallard no proporciona elementos hijo para todo lo que se puede grabar en "
+"DocBook, se pueden usar los elementos de espacios de nombres externos para "
+"cualquier información adicional que se necesite."
 
 #: C/mal_info_credit.page:140(p)
 msgid ""
@@ -5317,6 +5367,11 @@ msgid ""
 "provide additional information to processing tools, or to embed richer "
 "semantic data in a document."
 msgstr ""
+"Todos los elementos en Mallard puede tener atributos de espacios de nombres "
+"externos. Esto se puede usar para aclarar el significado de un elemento en "
+"un contexto determinado, para proporcionar información adicional a las "
+"herramientas de procesado o para empotrar datos semánticos más ricos en un "
+"documento."
 
 #: C/mal_external.page:51(p)
 msgid ""
@@ -5328,6 +5383,14 @@ msgid ""
 "<code>its:translate</code> attribute from the <link href=\"http://www.w3.org/"
 "TR/its/\">Internationalization Tag Set</link>, as in the following:"
 msgstr ""
+"Por ejemplo, una herramienta de traducción puede copiar <link xref="
+"\"mal_block_code\">bloques de código</link> directamente en el documento "
+"traducido sin presentarlo a los traductores. Sin embargo, algunos bloques de "
+"código pueden contener comentarios legibles que se deben traducir. Para "
+"forzar a las herramientas de traducción a mostrar estos bloques de código "
+"para traducirlos, los autores puede usar el atributo <code>its:translate</"
+"code> del <link href=\"http://www.w3.org/TR/its/\">conjunto de etiquetas de "
+"internacionalización</link>."
 
 #: C/mal_external.page:68(p)
 msgid ""
@@ -5391,6 +5454,10 @@ msgid ""
 "elements, trees offer a simple way to display common heirarchies such as "
 "class inheritance or directory layouts."
 msgstr ""
+"Use el elemento <code>tree</code> para crear un árbol jerárquico. Aunque "
+"conceptualmente es similar los elementos de una <code xref=\"mal_block_list"
+"\">list</code> anidada, los árboles ofrecen una manera sencilla de mostrar "
+"jerarquías comunes como herencia de clases o distribuciones de carpetas."
 
 #: C/mal_block_tree.page:48(p)
 msgid ""
@@ -5400,6 +5467,11 @@ msgid ""
 "of text and any <link xref=\"mal_inline\">general inline elements</link>, "
 "followed by zero or more nested <code>item</code> elements."
 msgstr ""
+"El elemento <code>tree</code> puede contener un elemento <code xref="
+"\"mal_block_title\">title</code> opcional, seguido de uno o más elementos "
+"<code>item</code>. Cada elemento <code>item</code> hijo puede contener una "
+"mezcla de texto y cualquier<link xref=\"mal_inline\">elemento general en "
+"línea</link>, seguido de cero o más elementos <code>item</code> anidados."
 
 #: C/mal_block_tree.page:55(p)
 msgid ""
@@ -5408,11 +5480,15 @@ msgid ""
 "\"mal_section\">sections</link>, and certain <link xref=\"mal_block\">block "
 "elements</link>."
 msgstr ""
+"El elemento <code>tree</code> puede encontrarse en cualquier contexto "
+"general en bloque, incluyendo dentro de <link xref=\"mal_page\">páginas</"
+"link>, <link xref=\"mal_section\">secciones</link> y algunos <link xref="
+"\"mal_block\">elementos de bloque</link>."
 
 #: C/mal_block_tree.page:65(p) C/mal_block_quote.page:57(p)
 #: C/mal_block_note.page:57(p)
 msgid "The following style hints are recommended:"
-msgstr ""
+msgstr "Se recomiendan las siguientes sugerencias de estilo:"
 
 #: C/mal_block_tree.page:68(code)
 #, no-wrap
@@ -5429,6 +5505,9 @@ msgid ""
 "See <link xref=\"mal_external\"/> for more information on external-namespace "
 "attributes."
 msgstr ""
+"El elemento <code>tree</code> puede tener atributos de espacios de nombres "
+"externos. Para obtener más información acerca de atributos de espacios de "
+"nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_block_tree.page:86(p)
 msgid ""
@@ -5482,6 +5561,8 @@ msgstr "GtkScaleButton"
 msgid ""
 "Use the <code>lines</code> style hint to visually show the tree structure:"
 msgstr ""
+"Use la sugerencia de estilo <code>lines</code> para mostrar visualmente la "
+"estructura de árbol:"
 
 #: C/mal_block_tree.page:153(item)
 msgid "Baikal Teal"
@@ -5507,8 +5588,8 @@ msgstr "Speculanas"
 msgid ""
 "Anatinae (dabbling ducks) <placeholder-1/><placeholder-2/><placeholder-3/>"
 msgstr ""
-"Anatinae (patos chapoteadores) <placeholder-1/><placeholder-2/><placeholder-"
-"3/>"
+"Anatinae (patos chapoteadores) <placeholder-1/><placeholder-2/"
+"><placeholder-3/>"
 
 #: C/mal_block_tree.page:162(item)
 msgid "Aythya"
@@ -5603,6 +5684,9 @@ msgid ""
 "definitions or descriptions. This type of list is often called a definition "
 "list or a variable list."
 msgstr ""
+"El elemento <code>terms</code> crea una lista de términos y definiciones o "
+"descripciones asociadas. Generalmente, este tipo de lista se denomina «lista "
+"de definiciones» o «lista variable»."
 
 #: C/mal_block_terms.page:46(p)
 msgid ""
@@ -5612,6 +5696,12 @@ msgid ""
 "<code xref=\"mal_block_title\">title</code> elements followed by a mixture "
 "of text and any <link xref=\"mal_inline\">general inline elements</link>."
 msgstr ""
+"El elemento <code>terms</code> puede contener un elemento <code xref="
+"\"mal_block_title\">title</code> opcional seguido de uno o más elementos "
+"<code>item</code>. Cada elemento <code>item</code> hijo puede contener uno o "
+"más elementos <code xref=\"mal_block_title\">title</code> seguido de una "
+"mezcla de texto y cualquier <link xref=\"mal_inline\">elemento general en "
+"línea</link>."
 
 #: C/mal_block_terms.page:53(p)
 msgid ""
@@ -5620,6 +5710,10 @@ msgid ""
 "\"mal_section\">sections</link>, and certain <link xref=\"mal_block\">block "
 "elements</link>."
 msgstr ""
+"El elemento <code>ters</code> puede encontrarse en cualquier contexto "
+"general en bloque, incluyendo dentro de <link xref=\"mal_page\">páginas</"
+"link>, <link xref=\"mal_section\">secciones</link> y algunos <link xref="
+"\"mal_block\">elementos de bloque</link>."
 
 #: C/mal_block_terms.page:62(p)
 msgid ""
@@ -5627,14 +5721,17 @@ msgid ""
 "See <link xref=\"mal_external\"/> for more information on external-namespace "
 "attributes."
 msgstr ""
+"El elemento <code>terms</code> puede tener atributos de espacios de nombres "
+"externos. Para obtener más información acerca de atributos de espacios de "
+"nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_block_terms.page:74(p)
 msgid "Create a simple definition list with a title:"
-msgstr ""
+msgstr "Crear una lista de definiciones sencilla con un título:"
 
 #: C/mal_block_terms.page:94(title)
 msgid "Selected Basic Block Elements"
-msgstr ""
+msgstr "Elementos de bloque básicos seleccionados"
 
 #: C/mal_block_terms.page:96(code) C/docbook.page:286(code)
 #, no-wrap
@@ -5653,6 +5750,7 @@ msgstr "ejemplo"
 #: C/mal_block_terms.page:101(p)
 msgid "Mark up a group of block elements as being part of a single example."
 msgstr ""
+"Marcar un grupo de elementos de bloque como parte de un único elemento."
 
 #: C/mal_block_terms.page:104(code)
 #, no-wrap
@@ -5662,10 +5760,11 @@ msgstr "pantalla"
 #: C/mal_block_terms.page:105(p) C/mal_block_screen.page:18(desc)
 msgid "Mark up a textual user interface or an interactive shell session."
 msgstr ""
+"Marcar una interfaz textual de usuario en una sesión de consola interactiva."
 
 #: C/mal_block_terms.page:110(p)
 msgid "Create a definition list with multiple terms per entry:"
-msgstr ""
+msgstr "Crear una lista de definición con varios términos por cada entrada:"
 
 #: C/mal_block_terms.page:133(code)
 #, no-wrap
@@ -5707,7 +5806,7 @@ msgstr "note"
 
 #: C/mal_block_terms.page:145(p)
 msgid "Formal elements which only allow a <code>title</code> element."
-msgstr ""
+msgstr "Elementos formales que sólo permiten un elemento <code>title</code>."
 
 #: C/mal_block_terms.page:157(p)
 msgid ""
@@ -5771,6 +5870,11 @@ msgid ""
 "listing of functions, commands, or options in reference material, or for "
 "enumerating the items in a menu or other graphical control element."
 msgstr ""
+"El elemento <code>synopsis</code> le permite marcar un bloque para "
+"proporcionar una vista general del material presentado. Es útil para "
+"proporcionar una lista de funciones, comandos u opciones como material de "
+"referencia, o para enumerar los elementos en un menú u otro elemento gráfico "
+"de control."
 
 #: C/mal_block_synopsis.page:42(p)
 msgid "Add explanation, examples"
@@ -5783,6 +5887,10 @@ msgid ""
 "\"mal_block_desc\">desc</link> element, and any <link xref=\"mal_block"
 "\">general block content</link>."
 msgstr ""
+"El elemento <code>synopsis</code> contiene un elemento opcional <link xref="
+"\"mal_block_title\">title</link>, un elemento opcional <link xref="
+"\"mal_block_desc\">desc</link> y cualquier <link xref=\"mal_block\">bloque "
+"de contenido general</link>."
 
 #: C/mal_block_synopsis.page:55(p)
 msgid ""
@@ -5802,6 +5910,9 @@ msgid ""
 "namespaces. See <link xref=\"mal_external\"/> for more information on "
 "external-namespace attributes."
 msgstr ""
+"El elemento <code>synopsis</code> puede tener atributos de espacios de "
+"nombres externos. Para obtener más información acerca de los atributos de "
+"espacios de nombres externos, consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_block_synopsis.page:76(p)
 msgid "Use <code>synopsis</code> to create an overview of functions:"
@@ -5813,7 +5924,7 @@ msgstr "Funciones de la charla de las judías"
 
 #: C/mal_block_synopsis.page:90(desc)
 msgid "Use these methods on a <code>beanstalk</code> object."
-msgstr ""
+msgstr "Use estos métodos sobre un objeto <code>beanstalk</code>."
 
 #: C/mal_block_synopsis.page:91(code)
 #, no-wrap
@@ -5840,6 +5951,8 @@ msgid ""
 "When present, the title and description should be displayed in a way that "
 "makes their respective roles clear."
 msgstr ""
+"Cuando estén presentes, se deberían mostrar el título y la descripción de "
+"forma que sus respectivos roles estén claros."
 
 #: C/mal_block_synopsis.page:122(p)
 msgid ""
