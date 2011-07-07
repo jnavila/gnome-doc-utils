@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-doc-utils.mallard.master\n"
-"POT-Creation-Date: 2011-07-02 06:48+0000\n"
-"PO-Revision-Date: 2011-07-07 07:00+0200\n"
+"POT-Creation-Date: 2011-07-07 05:05+0000\n"
+"PO-Revision-Date: 2011-07-07 22:23+0200\n"
 "Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -5313,7 +5313,7 @@ msgstr ""
 "En DocBook, algunos elementos «credit» tienen un contenido altamente "
 "estructurado, mientras que otros sólo permiten contenido en línea. En "
 "Mallard, todos los créditos usan contenido estructurado. Mientras que "
-"Mallard no proporciona elementos hijo para todo lo que se puede grabar en "
+"Mallard no proporciona elementos hijos para todo lo que se puede grabar en "
 "DocBook, se pueden usar los elementos de espacios de nombres externos para "
 "cualquier información adicional que se necesite."
 
@@ -6611,6 +6611,13 @@ msgid ""
 "formatting of quotes, including watermark images, are appropriate for the "
 "document's language."
 msgstr ""
+"Los bloques de citas se muestran como elementos de bloque, donde cada uno de "
+"sus elementos hijos se interpretan como elementos de bloque. Cuando existen, "
+"el título y la atribución deberían mostrarse de manera que dejan claros sus "
+"respectivos roles. Los bloques de citas se adornan frecuentemente con una "
+"marca de agua de comillas. Las herramientas de procesado deben asegurar que "
+"las comillas usadas para formatear las citas, incluyendo las imágenes de "
+"marca de agua, son apropiadas para el idioma del documento."
 
 #: C/mal_block_quote.page:147(p)
 msgid ""
@@ -6701,6 +6708,11 @@ msgid ""
 "block content. In print media, the first line of each paragraph has "
 "traditionally been indented."
 msgstr ""
+"Los párrafos se muestran como elementos de bloque, donde los elementos hijos "
+"se interpretan como elementos en línea. En la pantalla de los dispositivos, "
+"los párrafos tienen generalmente relleno por arriba y por abajo para "
+"separarlos del bloque que rodea al contenido. En dispositivos de impresión, "
+"la primera línea de cada párrafo aparece generalmente sangrada."
 
 #: C/mal_block_p.page:93(p)
 msgid ""
@@ -6880,6 +6892,13 @@ msgid ""
 "<code>item</code> element, though the content model for <code>item</code> "
 "varies. See the list element pages for details."
 msgstr ""
+"Mallard proporciona elementos de lista para la mayoría de las necesidades, "
+"incluyendo las definiciones comunes, listas ordenadas y listas sin ordenar. "
+"Mallard también proporciona árboles simples, útiles para representar "
+"jerarquías tales como herencia de clases o distribuciones de carpetas. Cada "
+"uno de los elementos de lista usa el elemento <code>item</code>, aunque el "
+"modelo del contenido de <code>item</code> varía. Consulte las páginas de los "
+"elementos de lista para obtener más detalles."
 
 #: C/mal_block.page:138(p)
 msgid ""
@@ -6917,6 +6936,12 @@ msgid ""
 "element may introduce certain styling effects, and each of the child "
 "elements is rendered as normal."
 msgstr ""
+"Todos los elementos de bloque empiezan en una línea nueva en la salida "
+"renderizada. Las páginas se pueden visualizar como una secuencia de "
+"elementos de bloque apilados verticalmente. Algunos elementos de bloque "
+"contienen otros elementos de bloque. En estos casos, el elemento contenido "
+"puede introducir ciertos efectos de estilo, y cada uno de sus elementos "
+"hijos se renderiza de manera normal."
 
 #: C/mal_block.page:174(p)
 msgid ""
@@ -6926,6 +6951,12 @@ msgid ""
 "content, may use a border, background color, or other styling effects. See "
 "each block element's specification for more details."
 msgstr ""
+"Cada elemento de bloque debe distinguirse claramente de los elementos de "
+"bloque que tenga alrededor. Habitualmente, el relleno vertical se sitúa "
+"entre elementos de bloque para separarlos. Ciertos elementos de bloque, "
+"especialmente aquellos que tienen contenido de bloque, pueden usar un borde, "
+"un color de fondo u otros efectos de estilo. Consulte la especificación de "
+"cada elemento de bloque para obtener más detalles."
 
 #: C/mal_block_note.page:16(desc)
 msgid "Include notes, tips, warnings, and other parenthetical information."
@@ -7260,6 +7291,11 @@ msgid ""
 "attributes. Display tools may need to add controls for audio and video "
 "objects."
 msgstr ""
+"Cuando aparece un elemento <code>media</code> en un contexto de bloque, se "
+"debe mostrar como un elemento de bloque. El renderizado exacto de un "
+"elemento <code>media</code> dependerá de los atributos <code>type</code> y "
+"<code>mime</code>. Las herramientas de visualización puede necesitar añadir "
+"controles para objetos de sonido y de vídeo."
 
 #: C/mal_block_media.page:116(p)
 msgid ""
@@ -7499,6 +7535,12 @@ msgid ""
 "interpreted in the same way as <code>li</code> elements in HTML, except that "
 "the <code>item</code> element only allows block-level child content."
 msgstr ""
+"Las listas se muestran como elementos de bloque, donde cada elemento "
+"<code>item</code> hijo se muestra como un elemento de la lista. Cuando "
+"existe, el título se debe mostrar de manera que quede claro que es el título "
+"de la lista. Los elementos de la lista se interpretan de la misma manera que "
+"los elementos <code>li</code> en HTML, excepto que el elemento <code>item</"
+"code> sólo permite contenido hijo a nivel de bloque."
 
 #: C/mal_block_list.page:180(p)
 msgid ""
@@ -7510,6 +7552,13 @@ msgid ""
 "page. The default numeric marker type per language may vary between "
 "implementations."
 msgstr ""
+"Los marcadores de elementos se toman del atributo <code>type</code> que es, "
+"o bien un valor válido de la <link href=\"http://www.w3.org/TR/css3-lists/"
+"\">propiedad <code>list-style-type</code> de CSS</link>, o el valor especial "
+"<code>\"numbered\"</code>. Cuando se usa el tipo <code>\"numbered\"</code>, "
+"se elige un tipo de marcador numérico apropiado para el idioma de la página. "
+"El tipo de marcador numérico predeterminado para cada idioma puede variar "
+"entre implementaciones."
 
 #: C/mal_block_list.page:195(p)
 msgid ""
@@ -8371,6 +8420,13 @@ msgid ""
 "Display tools should only strip a leading line break in an initial text "
 "node. They are not expected to strip line breaks from child elements."
 msgstr ""
+"Los bloques de código se deben mostrar tal cual, reproduciendo todos los "
+"espacios y líneas en blanco en la salida renderizada. La única excepción es "
+"una línea con un salto de línea al principio, que las herramientas de "
+"visualización deben eliminar si existe. Las herramientas de visualización "
+"sólo deben eliminar una línea con un salto de línea al principio en un nodo "
+"de texto inicial. No se espera que eliminen líneas con un salto de línea al "
+"principio en los elementos hijos."
 
 #: C/mal_block_code.page:113(p)
 msgid ""
@@ -8393,6 +8449,15 @@ msgid ""
 "href=\"http://www.docbook.org/tdg/en/html/funcsynopsis.html\">funcsynopsis</"
 "code> elements. Mallard does not attempt to model any programming languages."
 msgstr ""
+"El elemento <code>code</code> es similar al elemento <code href=\"http://www."
+"docbook.org/tdg/en/html/programlisting.html\">programlisting</code> de "
+"DocBook. DocBook también contiene numerosos elementos para modelar código en "
+"lenguajes de programación procedimentales y orientados a objetos. Muchos de "
+"estos elementos se puede ven explorando los modelos de contenido de los "
+"elementos <code href=\"http://www.docbook.org/tdg/en/html/classsynopsis.html"
+"\">classsynopsis</code> y <code href=\"http://www.docbook.org/tdg/en/html/"
+"funcsynopsis.html\">funcsynopsis</code>. Mallard no intenta modelar ningún "
+"lenguaje de programación."
 
 #: C/mal_block_code.page:133(p)
 msgid ""
@@ -8601,7 +8666,7 @@ msgstr ""
 
 #: C/its.page:52(title)
 msgid "R004: Unique Identifier"
-msgstr "R004: Identificador único"
+msgstr "R004: identificador único"
 
 #: C/its.page:57(p)
 msgid ""
@@ -8625,10 +8690,18 @@ msgid ""
 "IDs, but it may be used on any element to provide a unique identifier for "
 "translation or any other purposes."
 msgstr ""
+"Aunque el atributo <code>id</code> sólo está permitido en los elementos "
+"<code xref=\"mal_page\">page</code> y <code xref=\"mal_section\">section</"
+"code>, Mallard permite que se usen atributos de espacios de nombres externos "
+"en todos los elementos. Si es necesario por motivos de traducción, se puede "
+"usar cualquier atributo de un espacio de nombres externos como identificador "
+"único. En particular, Mallard no usa el habitual <code>xml:id</code> para ID "
+"de secciones y páginas, pero se puede usar sobre cualquier elemento para "
+"proporcionar un identificador único para traducción o para otros propósitos."
 
 #: C/its.page:73(title)
 msgid "R006: Identifying Language/Locale"
-msgstr "R006: Identificar idioma o configuración regional"
+msgstr "R006: identificar el idioma o configuración regional"
 
 #: C/its.page:78(p)
 msgid ""
@@ -8640,14 +8713,23 @@ msgid ""
 "should allow any elements to have a language/locale specifying attribute. "
 "The language/locale declaration should use industry standard approaches."
 msgstr ""
+"[R006]: cualquier documento debe especificar en su comienzo qué idioma/"
+"configuración regional se aplica tanto para el contenido principal como para "
+"el contenido almacenado de forma separada. Aunque el idioma/configuración "
+"regional se deben declarar para el documento completo, cuando un elemento o "
+"un fragmento de texto difiere en el idioma/configuración regional respecto "
+"al idioma del documento, se debe etiquetar adecuadamente. Por lo tanto, el "
+"DTD/Esquema deben permitir que cualquier elemento especifique un atributo de "
+"idioma/configuración regional. La declaración de idioma/configuración "
+"regional debe usar métodos industriales estándar."
 
 #: C/its.page:88(p)
 msgid ""
 "Mallard allows the standard <code>xml:lang</code> attribute to be used on "
 "all elements."
 msgstr ""
-"Mallar permite el atributo estándar <code>xml:lang</code> para usarlo en "
-"todos los elementos."
+"Mallard permite usar el atributo estándar <code>xml:lang</code> en todos los "
+"elementos."
 
 #: C/its.page:91(p)
 msgid ""
@@ -8660,10 +8742,20 @@ msgid ""
 "more convenient. This is a potentially serious interchange issue, and this "
 "document currently offers no solutions to this problem."
 msgstr ""
+"Tenga en cuenta que hay dos métodos diferentes de identificar el idioma y la "
+"información de configuración regional que quienes trabajan con Mallard se "
+"pueden encontrar. Dado que Mallard es un formato XML, se espera que los "
+"identificadores de idioma sean conformes al <link href=\"http://tools.ietf."
+"org/html/rfc3066\">IETF RFC 3066</link>. Puesto que Mallard está diseñado "
+"para usarse en un sistema de ayuda del escritorio, los <link href=\"http://"
+"en.wikipedia.org/wiki/Locale\">identificadores de configuración regional de "
+"POSIX</link> son más convenientes. Esto supone un problema serio de "
+"intercambio y, actualmente, este documento no ofrece una solución a este "
+"problema."
 
 #: C/its.page:102(title)
 msgid "R007: Identifying Terms"
-msgstr "R007: Identificar términos"
+msgstr "R007: identificar términos"
 
 #: C/its.page:107(p)
 msgid ""
@@ -8672,6 +8764,11 @@ msgid ""
 "should be either associated with attributes for related term information or "
 "linked to external terminology data."
 msgstr ""
+"[R007]: debe ser posible identificar términos dentro de un elemento o un "
+"fragmento para proporcionar datos sobre la gestión de la terminología y la "
+"generación de índices. Los términos deben estar, o bien asociados a "
+"atributos de términos de información relativos o enlazados a datos de "
+"terminología externos."
 
 #: C/its.page:113(p)
 msgid ""
@@ -8689,7 +8786,7 @@ msgstr ""
 
 #: C/its.page:121(title)
 msgid "R008: Purpose Specification/Mapping"
-msgstr "R008: Intención de la especificación y/o mapeado"
+msgstr "R008: intención de la especificación y/o mapeado"
 
 #: C/its.page:126(p)
 msgid ""
@@ -8713,14 +8810,14 @@ msgstr ""
 
 #: C/its.page:143(title)
 msgid "R011: Bidirectional Text Support"
-msgstr "R011: Soporte para texto bidireccional"
+msgstr "R011: soporte para texto bidireccional"
 
 #: C/its.page:148(p)
 msgid ""
 "[R011] Markup should be available to support the needs of bidirectional "
 "scripts."
 msgstr ""
-"[R011] Debería estar disponible el marcado para soportar las necesidades de "
+"[R011]: debería estar disponible el marcado para soportar las necesidades de "
 "«scripts» bidireccionales."
 
 #: C/its.page:152(p)
@@ -8737,14 +8834,14 @@ msgstr ""
 
 #: C/its.page:159(title)
 msgid "R012: Indicator of Translatability"
-msgstr "R012: Indicador de traducción"
+msgstr "R012: indicador de traducibilidad"
 
 #: C/its.page:164(p)
 msgid ""
 "[R012] Methods must exist to allow to specify the parts of a document that "
 "are to be translated or not."
 msgstr ""
-"[R012] Deben existir métodos para permitir especificar las partes de un "
+"[R012]: deben existir métodos para permitir especificar las partes de un "
 "documento que se deben traducir y las que no."
 
 #: C/its.page:168(p)
@@ -8773,7 +8870,7 @@ msgstr ""
 
 #: C/its.page:181(title)
 msgid "R014: Limited Impact"
-msgstr "R014: Impacto limitado"
+msgstr "R014: impacto limitado"
 
 #: C/its.page:186(p)
 msgid ""
@@ -8781,7 +8878,7 @@ msgid ""
 "possible on the tree structure of the original document and on the content "
 "models in the original schema."
 msgstr ""
-"[R01] Todas las soluciones propuestas deben diseñarse para tener el menor "
+"[R01]: todas las soluciones propuestas deben diseñarse para tener el menor "
 "impacto posible en la estructura en árbol del documento original y en los "
 "modelos de contenido del esquema original."
 
@@ -8795,8 +8892,8 @@ msgid ""
 "issues that can arise from extensions, including those for translation "
 "purposes."
 msgstr ""
-"Mallar permite extensibilidad de herramientas específicas usando atributos y "
-"elementos de espacios de nombres externos. Mallard tiene <link xref="
+"Mallard permite extensibilidad de herramientas específicas usando atributos "
+"y elementos de espacios de nombres externos. Mallard tiene <link xref="
 "\"mal_external\">reglas definidas claramente</link> acerca de cómo se deben "
 "procesar los atributos y elementos de espacios de nombres externos en varios "
 "contextos. Se espera los programadores de herramientas sean conscientes de "
@@ -8818,7 +8915,7 @@ msgstr ""
 
 #: C/its.page:206(title)
 msgid "R015: Attributes and Translatable Text"
-msgstr "R015: Atributos y texto traducible"
+msgstr "R015: atributos y texto traducible"
 
 #: C/its.page:211(p)
 msgid ""
@@ -8834,14 +8931,14 @@ msgstr "Mallard nunca ubica texto traducible en valores de atributos."
 
 #: C/its.page:219(title)
 msgid "R017: Localization Notes"
-msgstr "R017: Notas de localización"
+msgstr "R017: notas de localización"
 
 #: C/its.page:224(p)
 msgid ""
 "[R017] A method must exist for authors to communicate information to "
 "localizers about a particular item of content."
 msgstr ""
-"[R017] Debe existir un método para que los autores comuniquen información a "
+"[R017]: debe existir un método para que los autores comuniquen información a "
 "los traductores acerca del contenido en particular de un elemento."
 
 #: C/its.page:228(p)
@@ -8869,14 +8966,14 @@ msgstr ""
 
 #: C/its.page:242(title)
 msgid "R020: Annotation Markup"
-msgstr "R020: Marcado de anotaciones"
+msgstr "R020: marcado de anotaciones"
 
 #: C/its.page:247(p)
 msgid ""
 "[R020] There must be a way to support markup up of text annotations of the "
 "'ruby' type."
 msgstr ""
-"[R020] Debe existir una forma para soportar marcado de anotaciones de texto "
+"[R020]: debe existir una forma para soportar marcado de anotaciones de texto "
 "de tipo «ruby»."
 
 #: C/its.page:251(p)
@@ -8902,14 +8999,14 @@ msgstr ""
 
 #: C/its.page:268(title)
 msgid "R022: Nested Elements"
-msgstr "R022: Elementos encadenados"
+msgstr "R022: elementos anidados"
 
 #: C/its.page:273(p)
 msgid ""
 "[R022] Great care must be taken when defining or using nested translatable "
 "elements."
 msgstr ""
-"[R022] Se debe tener mucho cuidado al definir o usar elementos traducibles "
+"[R022]: se debe tener mucho cuidado al definir o usar elementos traducibles "
 "anidados."
 
 #: C/its.page:277(p)
@@ -8935,7 +9032,7 @@ msgstr ""
 
 #: C/its.page:296(title)
 msgid "R025: Elements and Segmentation"
-msgstr "R025: Elementos y segmentación"
+msgstr "R025: elementos y segmentación"
 
 #: C/its.page:301(p)
 msgid ""
@@ -8943,7 +9040,7 @@ msgid ""
 "provide hints on how to break down document content into meaningful runs of "
 "text."
 msgstr ""
-"[R025] Los métodos de los elementos, independientemente de la semántica, "
+"[R025]: los métodos de los elementos, independientemente de la semántica, "
 "deben existir para proporcionar sugerencias acerca de cómo partir el "
 "contenido del documento en partes de texto con sentido completo"
 
@@ -8954,6 +9051,11 @@ msgid ""
 "implementation difficulty. The following notes will be relevant to most tool "
 "implementors."
 msgstr ""
+"Hacer distinciones significativas es en última instancia, el trabajo de una "
+"herramienta de procesamiento, aunque el diseño de un vocabulario XML puede "
+"tener un impacto significativo en la dificultad de implementación. Las "
+"siguientes notas serán de interés para la mayoría de los implementadores de "
+"la herramienta."
 
 #: C/its.page:313(p)
 msgid ""
@@ -9009,7 +9111,7 @@ msgid ""
 "in context. Thus, it is important that tools always process elements in "
 "context to handle them correctly."
 msgstr ""
-"Es importante marcar que Mallard usa algunos nombres de elementos tanto en "
+"Es importante resaltar que Mallard usa algunos nombres de elementos tanto en "
 "el contexto en bloque como en línea. Los elementos <code xref="
 "\"mal_block_code\">code</code> y <code xref=\"mal_block_media\">media</code> "
 "son dos ejemplos de ello. Ya que Mallard nunca permite que un bloque de "
