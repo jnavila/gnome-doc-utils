@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: as\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "doc-utils&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-07-09 12:20+0000\n"
+"POT-Creation-Date: 2011-03-21 06:11+0000\n"
 "PO-Revision-Date: 2011-03-14 14:46+0000\n"
 "Last-Translator: Nilamdyuti Goswami <ngoswami@redhat.com>\n"
 "Language-Team: Assamese <kde-i18n-doc@kde.org>\n"
@@ -224,8 +224,8 @@ msgid ""
 "<msgid>biblioentry.tooltip</msgid> <msgstr>View the bibliography entry "
 "<label/>.</msgstr>"
 msgstr ""
-"<msgid>biblioentry.tooltip</msgid> <msgstr>গ্ৰন্থপঞ্জিৰ প্ৰবিষ্টি চাওক<label/>। </"
-"msgstr>"
+"<msgid>biblioentry.tooltip</msgid> <msgstr>গ্ৰন্থপঞ্জিৰ প্ৰবিষ্টি চাওক"
+"<label/>। </msgstr>"
 
 #
 #.
@@ -420,8 +420,8 @@ msgid ""
 "<number/></msgstr>"
 msgstr ""
 "<msgid>chapter.label</msgid> <msgstr role='header'><number/>.&#x2003;</"
-"msgstr> <msgstr role='li'><number/>.&#x2002;</msgstr> <msgstr>পাঠ <number/></"
-"msgstr>"
+"msgstr> <msgstr role='li'><number/>.&#x2002;</msgstr> <msgstr>পাঠ "
+"<number/></msgstr>"
 
 #
 #.
@@ -495,7 +495,8 @@ msgstr "<msgid>chapter.number</msgid> <msgstr><parent/>.<digit/></msgstr>"
 #: ../xslt/gettext/l10n.xml.in.h:394
 msgid ""
 "<msgid>chapter.xref</msgid> <msgstr>Chapter <number/> ― <title/></msgstr>"
-msgstr "<msgid>chapter.xref</msgid> <msgstr>পাঠ <number/> ― <title/></msgstr>"
+msgstr ""
+"<msgid>chapter.xref</msgid> <msgstr>পাঠ <number/> ― <title/></msgstr>"
 
 #
 #.
@@ -973,8 +974,8 @@ msgid ""
 "<msgid>glossentry.tooltip</msgid> <msgstr>Read the definition for "
 "‘<glossterm/>’.</msgstr>"
 msgstr ""
-"<msgid>glossentry.tooltip</msgid> <msgstr>‘<glossterm/>’'ৰ সংজ্ঞা পঢ়ক।</"
-"msgstr>"
+"<msgid>glossentry.tooltip</msgid> <msgstr>‘<glossterm/>’'ৰ সংজ্ঞা পঢ়ক।"
+"</msgstr>"
 
 #
 #.
@@ -1971,7 +1972,8 @@ msgstr "<msgstr form='0'>লেখক</msgstr> <msgstr form='1'>লেখক</ms
 msgid ""
 "<msgstr form='0'>Collaborator</msgstr> <msgstr form='1'>Collaborators</"
 "msgstr>"
-msgstr "<msgstr form='0'>সহযোগী</msgstr> <msgstr form='1'>সহযোগী</msgstr>"
+msgstr ""
+"<msgstr form='0'>সহযোগী</msgstr> <msgstr form='1'>সহযোগী</msgstr>"
 
 #
 #. Used as a header before a list of copyrights.
@@ -1994,8 +1996,8 @@ msgid ""
 "<msgstr form='0'>Other Contributor</msgstr> <msgstr form='1'>Other "
 "Contributors</msgstr>"
 msgstr ""
-"<msgstr form='0'>অন্য অৱদানকাৰী</msgstr> <msgstr form='1'>অন্য অৱদানকাৰীসমূহ</"
-"msgstr>"
+"<msgstr form='0'>অন্য অৱদানকাৰী</msgstr> <msgstr form='1'>অন্য "
+"অৱদানকাৰীসমূহ</msgstr>"
 
 #
 #. Used as a header before a list of publishers.
