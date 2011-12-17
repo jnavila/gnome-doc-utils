@@ -580,7 +580,11 @@ class Main(object):
             except Exception, e:
                 print >> sys.stderr, "Unable to parse XML file '%s': %s" % (xmlfile, str(e))
                 sys.exit(1)
-            self.current_mode.preProcessXml(doc.doc, self.msg)
+            try:
+                self.current_mode.preProcessXml(doc.doc, self.msg)
+            except Exception, e:
+                print >> sys.stderr, "Unable to preprocess XML file '%s': %s" % (xmlfile, str(e))
+                sys.exit(1)
             doc.generate_messages()
         self.output_po()
 
@@ -600,8 +604,8 @@ class Main(object):
             print >> sys.stderr, "Can't open MO file '%s'." % (mofile)
         self.gt = gettext.GNUTranslations(mfile)
         self.gt.add_fallback(NoneTranslations())
-        # Has preProcessXml use cases for merge?
-        #self.current_mode.preProcessXml(doc.doc, self.msg)
+        # preProcessXml use cases for merge for svg
+        self.current_mode.preProcessXml(doc.doc, self.msg)
 
         doc.doSerialize(doc.doc)
         tcmsg = self.current_mode.getStringForTranslators()
